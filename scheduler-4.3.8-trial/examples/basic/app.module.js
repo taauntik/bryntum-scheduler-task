@@ -109,7 +109,6 @@ scheduler.on("eventDrop", async ({ targetEventRecord, draggedRecords }) => {
   let { duration } = draggedRecords[0];
 
   if (targetEventRecord) {
-    console.log(targetEventRecord);
     targetEventRecord.duration += duration;
     await targetEventRecord.project.commitAsync();
     draggedRecords[0].remove();
