@@ -1,0 +1,4 @@
+{
+  "title": "Event layouts demo",
+  "description": "The Scheduler can layout events in 3 different ways: `stack` (the default), `pack` or `none` (overlapping). Order of overlapping events is configurable."
+}

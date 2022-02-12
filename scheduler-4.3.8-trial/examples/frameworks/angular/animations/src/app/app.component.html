@@ -1,0 +1,50 @@
+<bryntum-demo-header
+    link = "../../../../../#example-frameworks-angular-animations"
+>
+</bryntum-demo-header>
+
+<div class = "demo-toolbar">
+    <bryntum-button
+        text = "Max 1hr"
+        (onClick) = "onMaxHour()"
+    ></bryntum-button>
+    <bryntum-button
+        text = "After lunch"
+        (onClick) = "onAfterLunch()"
+    ></bryntum-button>
+    <bryntum-button
+        text = "Random update"
+        (onClick) = "onRandomUpdate()"
+    ></bryntum-button>
+    <bryntum-button
+        text = "Initial animation"
+        icon = "b-fa b-fa-sliders-h"
+        toggleable = "true"
+        (onClick) = "onInitialAnimation($event)"
+    ></bryntum-button>
+    <div class = "spacer"></div>
+    <bryntum-slider
+        text = "Animation duration"
+        [max] = 3000
+        [min] = 0
+        [step] = 200
+        [value] = 600
+        (onChange) = "onDurationChange($event)"
+    ></bryntum-slider>
+</div>
+
+<bryntum-scheduler
+    #scheduler
+    [barMargin] = "schedulerConfig.barMargin"
+    [columns] = "schedulerConfig.columns"
+    [crudManager] = "schedulerConfig.crudManager"
+    [endDate] = "schedulerConfig.endDate"
+    [eventColor] = "schedulerConfig.eventColor"
+    [resourceImagePath] = "schedulerConfig.resourceImagePath"
+    [rowHeight] = "schedulerConfig.rowHeight"
+    [startDate] = "schedulerConfig.startDate"
+    [timeRangesFeature] = "schedulerConfig.timeRangesFeature"
+    [useInitialAnimation] = "schedulerConfig.useInitialAnimation"
+    [viewPreset] = "schedulerConfig.viewPreset"
+></bryntum-scheduler>
+

@@ -1,0 +1,4 @@
+{
+  "title": "React Scheduler + Redux Toolkit demo",
+  "description": "Demo of using the Bryntum React Scheduler component in a React application using Redux Toolkit, loading data with Redux Toolkit Query."
+}

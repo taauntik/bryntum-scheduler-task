@@ -1,0 +1,27 @@
+div.b-sch-event-wrap.b-milestone-wrap {
+    &.r2 {
+        .b-sch-event-content {
+            background-color : transparent !important;
+        }
+
+        .b-sch-event-content::before {
+            content    : none;
+        }
+    }
+
+    .b-sch-event .b-fa {
+        color       : #3bc9db;
+    }
+}
+
+.b-ie .b-sch-event {
+    &.r1:before {
+        background-color : #ff8787;
+    }
+
+    label {
+        position  : absolute;
+        transform : translateY(-50%);
+        top       : 50%;
+    }
+}

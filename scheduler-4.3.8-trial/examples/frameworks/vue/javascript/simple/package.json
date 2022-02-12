@@ -1,0 +1,72 @@
+{
+  "name": "simple",
+  "description": "Simple Vue Scheduler demo",
+  "version": "4.3.8",
+  "author": {
+    "name": "Bryntum",
+    "url": "https://bryntum.com",
+    "email": "info@bryntum.com"
+  },
+  "license": "commercial",
+  "homepage": "https://bryntum.com",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "cross-env NODE_OPTIONS='--max-old-space-size=8192' NODE_ENV=development vue-cli-service serve",
+    "build": "cross-env NODE_OPTIONS='--max-old-space-size=8192' NODE_ENV=production vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "postinstall": "postinstall"
+  },
+  "postinstall": {
+    "node_modules/@bryntum/demo-resources/images/users/*": "copy public/users/",
+    "node_modules/@bryntum/demo-resources/images/favicon.png": "copy public/favicon.png"
+  },
+  "dependencies": {
+    "@bryntum/demo-resources": "1.1.0",
+    "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@4.3.8",
+    "@bryntum/scheduler-vue": "4.3.8",
+    "cache-loader": "~4.1.0",
+    "vue": "~2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~3.5.0",
+    "@vue/cli-plugin-eslint": "~3.5.0",
+    "@vue/cli-service": "~3.5.0",
+    "babel-eslint": "~10.0.1",
+    "cross-env": "~6.0.3",
+    "eslint": "~5.8.0",
+    "eslint-config-standard": "~12.0.0",
+    "eslint-plugin-import": "~2.17.3",
+    "eslint-plugin-node": "~9.1.0",
+    "eslint-plugin-promise": "~4.1.1",
+    "eslint-plugin-standard": "~4.0.0",
+    "eslint-plugin-vue": "~5.0.0",
+    "postinstall": "~0.7.0",
+    "sass": "~1.42.0",
+    "sass-loader": "~7.1.0",
+    "vue-template-compiler": "~2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/no-parsing-error": 1
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  }
+}

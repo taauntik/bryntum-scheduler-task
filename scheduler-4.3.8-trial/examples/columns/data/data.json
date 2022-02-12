@@ -1,0 +1,211 @@
+{
+    "success"   : true,
+    "resources" : {
+        "rows" : [
+            {
+                "id"          : "r1",
+                "name"        : "Balder",
+                "capacity"    : 24,
+                "color"       : "red",
+                "condition"   : 3,
+                "redecorated" : "2017-01-10",
+                "floor"       : "Second",
+                "accessible"  : true
+            },
+            {
+                "id"          : "r2",
+                "name"        : "Bragi",
+                "capacity"    : 16,
+                "color"       : "pink",
+                "condition"   : 5,
+                "redecorated" : "2019-02-19",
+                "floor"       : "Second",
+                "accessible"  : true
+            },
+            {
+                "id"          : "r3",
+                "name"        : "Freyja",
+                "capacity"    : 100,
+                "color"       : "purple",
+                "condition"   : 4,
+                "redecorated" : "2018-10-19",
+                "floor"       : "Second",
+                "accessible"  : true
+            },
+            {
+                "id"          : "r4",
+                "name"        : "Frigga",
+                "capacity"    : 250,
+                "color"       : "violet",
+                "condition"   : 5,
+                "redecorated" : "2018-05-12",
+                "floor"       : "First",
+                "accessible"  : true
+            },
+            {
+                "id"          : "r5",
+                "name"        : "Heimdall",
+                "capacity"    : 50,
+                "color"       : "indigo",
+                "condition"   : 4,
+                "redecorated" : "2018-06-01",
+                "floor"       : "Second",
+                "accessible"  : true
+            },
+            {
+                "id"          : "r6",
+                "name"        : "Hel",
+                "capacity"    : 1000,
+                "color"       : "blue",
+                "condition"   : 3,
+                "redecorated" : "2018-06-30",
+                "floor"       : "First",
+                "accessible"  : true
+            },
+            {
+                "id"          : "r7",
+                "name"        : "Idun",
+                "capacity"    : 100,
+                "color"       : "cyan",
+                "condition"   : 5,
+                "redecorated" : "2019-01-10",
+                "floor"       : "Second",
+                "accessible"  : true
+            },
+            {
+                "id"          : "r8",
+                "name"        : "Loki",
+                "capacity"    : 200,
+                "color"       : "teal",
+                "condition"   : 4,
+                "redecorated" : "2017-12-13",
+                "floor"       : "Second",
+                "accessible"  : true
+            },
+            {
+                "id"          : "r9",
+                "name"        : "Odin",
+                "capacity"    : 10,
+                "color"       : "green",
+                "condition"   : 5,
+                "redecorated" : "2019-02-01",
+                "floor"       : "Third",
+                "accessible"  : false
+            },
+            {
+                "id"          : "r10",
+                "name"        : "Sif",
+                "capacity"    : 32,
+                "color"       : "red",
+                "condition"   : 4,
+                "redecorated" : "2018-09-01",
+                "floor"       : "Third",
+                "accessible"  : false
+            },
+            {
+                "id"          : "r11",
+                "name"        : "Skadi",
+                "capacity"    : 100,
+                "color"       : "lime",
+                "condition"   : 5,
+                "redecorated" : "2018-11-05",
+                "floor"       : "Second",
+                "accessible"  : true
+            },
+            {
+                "id"          : "r12",
+                "name"        : "Thor",
+                "capacity"    : 64,
+                "color"       : "yellow",
+                "condition"   : 4,
+                "redecorated" : "2017-09-30",
+                "floor"       : "Third",
+                "accessible"  : false
+            },
+            {
+                "id"          : "r13",
+                "name"        : "Tyr",
+                "capacity"    : 90,
+                "color"       : "orange",
+                "condition"   : 2,
+                "redecorated" : "2015-10-10",
+                "floor"       : "Third",
+                "accessible"  : false
+            }
+        ]
+    },
+    "events"    : {
+        "rows" : [
+            {
+                "startDate": "2019-02-19T07:00:00.000",
+                "endDate": "2019-02-19T10:00:00.000",
+                "id": "e1",
+                "name": "Bryntum AB",
+                "resourceId": "r1"
+            },
+            {
+                "startDate": "2019-02-19T06:00:00.000",
+                "endDate": "2019-02-19T17:00:00.000",
+                "id": "e2",
+                "name": "Startup Conference",
+                "resourceId": "r3"
+            },
+            {
+                "startDate": "2019-02-19T07:00:00.000",
+                "endDate": "2019-02-19T14:00:00.000",
+                "id": "e3",
+                "name": "Handicraft Workshop",
+                "resourceId": "r4"
+            },
+            {
+                "startDate": "2019-02-19T07:00:00.000",
+                "endDate": "2019-02-19T18:00:00.000",
+                "id": "e4",
+                "name": "Epic JS Conference",
+                "resourceId": "r6"
+            },
+            {
+                "startDate": "2019-02-19T07:00:00.000",
+                "endDate": "2019-02-19T09:00:00.000",
+                "id": "e5",
+                "name": "Random Company 1",
+                "resourceId": "r10"
+            },
+            {
+                "startDate": "2019-02-19T10:00:00.000",
+                "endDate": "2019-02-19T12:00:00.000",
+                "id": "e6",
+                "name": "Random Company 2",
+                "resourceId": "r10"
+            },
+            {
+                "startDate": "2019-02-19T13:00:00.000",
+                "endDate": "2019-02-19T15:00:00.000",
+                "id": "e7",
+                "name": "Random Company 3",
+                "resourceId": "r10"
+            },
+            {
+                "startDate": "2019-02-19T12:00:00.000",
+                "endDate": "2019-02-19T15:00:00.000",
+                "id": "e8",
+                "name": "Anonymous Astronauts",
+                "resourceId": "r1"
+            },
+            {
+                "startDate": "2019-02-19T07:00:00.000",
+                "endDate": "2019-02-19T13:00:00.000",
+                "id": "e9",
+                "name": "Poodles United",
+                "resourceId": "r13"
+            },
+            {
+                "startDate": "2019-02-19T14:00:00.000",
+                "endDate": "2019-02-19T18:00:00.000",
+                "id": "e10",
+                "name": "Tricking Battle",
+                "resourceId": "r8"
+            }
+        ]
+    }
+}

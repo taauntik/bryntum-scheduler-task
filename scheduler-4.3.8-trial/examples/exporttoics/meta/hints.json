@@ -1,0 +1,6 @@
+{
+    ".b-sch-event-wrap[data-event-id='4']"        : {
+        "title"   : "Export to .ics",
+        "content" : "Right click to show a menu option to export or double click to show an editor with an export button."
+    }
+}

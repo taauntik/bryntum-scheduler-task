@@ -1,0 +1,46 @@
+<bryntum-demo-header
+    link = "../../../../../#example-frameworks-angular-drag-between-schedulers"
+></bryntum-demo-header>
+
+<div class = "demo-toolbar">
+    <bryntum-button
+        icon = "b-icon b-icon-search-plus"
+        text = "Zoom in"
+        (onClick) = "onZoomIn()"
+    ></bryntum-button>
+    <bryntum-button
+        icon = "b-icon b-icon-search-minus"
+        text = "Zoom out"
+        (onClick) = "onZoomOut()"
+    ></bryntum-button>
+</div>
+
+<div class = "container">
+    <bryntum-scheduler
+        #scheduler1
+        [barMargin] = "scheduler1Config.barMargin"
+        [columns] = "scheduler1Config.columns"
+        [endDate] = "scheduler1Config.endDate"
+        [events] = "scheduler1Config.events"
+        [resources] = "scheduler1Config.resources"
+        [startDate] = "scheduler1Config.startDate"
+        [viewPreset] = "scheduler1Config.viewPreset"
+        [eventDragFeature] = "scheduler1Config.eventDragFeature"
+        [sortFeature] = "scheduler1Config.sortFeature"
+        [stripeFeature] = "scheduler1Config.stripeFeature"
+        [resourceImagePath] = "scheduler1Config.resourceImagePath"
+    ></bryntum-scheduler>
+
+    <bryntum-scheduler
+        #scheduler2
+        [barMargin] = "scheduler2Config.barMargin"
+        [columns] = "scheduler2Config.columns"
+        [events] = "scheduler2Config.events"
+        [resources] = "scheduler2Config.resources"
+        [eventDragFeature] = "scheduler2Config.eventDragFeature"
+        [sortFeature] = "scheduler2Config.sortFeature"
+        [stripeFeature] = "scheduler2Config.stripeFeature"
+        [resourceImagePath] = "scheduler2Config.resourceImagePath"
+    ></bryntum-scheduler>
+</div>
+

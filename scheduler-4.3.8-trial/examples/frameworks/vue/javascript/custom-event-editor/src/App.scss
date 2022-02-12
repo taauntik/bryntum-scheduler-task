@@ -1,0 +1,20 @@
+/**
+ * Application global styles
+ */
+@import "~@bryntum/scheduler/scheduler.stockholm.css";
+@import "~@bryntum/demo-resources/scss/example.scss";
+
+#app {
+    display        : flex;
+    flex           : 1;
+    flex-direction : column;
+}
+
+.v-application--wrap {
+    height : 100vh;
+}
+
+// Remove conflicting Vuetify rule (would hide dependencies).
+.b-sch-foreground-canvas svg:not(:root) {
+    overflow : initial;
+}

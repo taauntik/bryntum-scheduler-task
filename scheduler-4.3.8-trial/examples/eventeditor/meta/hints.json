@@ -1,0 +1,15 @@
+{
+    ".b-sch-event-wrap[data-event-id=\"5\"]" : {
+        "align"   : "l0-r0",
+        "title"   : "Double click to edit",
+        "content" : "Or use the context menu, which on touch screens is displayed using a long press"
+    },
+    ".b-sch-header-timeaxis-cell[data-tick-index=\"1\"]" : {
+        "title"   : "Header Zoom",
+        "content" : "Use a drag gesture across the header to zoom into a desired time range"
+    },
+    "[data-ref=\"resourceCombo\"]" : {
+        "align"   : "l-r",
+        "content" : "Choose resource. <b>New names my be typed, ENTER creates the new resource</b>"
+    }
+}

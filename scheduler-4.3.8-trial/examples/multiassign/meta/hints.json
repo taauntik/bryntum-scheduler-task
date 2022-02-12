@@ -1,0 +1,6 @@
+{
+    "[data-event-id='1']": {
+        "title": "Multi assigned",
+        "content": "This event is assigned to multiple resources. Move it and all instances will be updated"
+    }
+}

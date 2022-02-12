@@ -1,0 +1,4 @@
+{
+  "title": "Time resolution demo",
+  "description": "<p>The scheduler has support for snapping to the set time resolution. In the view below, you can snap in any increment between 5-60 minutes. </p><p>Note how drag, resize and create operations are affected by having Snap checked or not.</p>"
+}

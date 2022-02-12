@@ -1,0 +1,4 @@
+{
+  "title": "Multi assignment demo",
+  "description": "Shows a basic scheduler using an AssignmentStore to support multi assignment"
+}

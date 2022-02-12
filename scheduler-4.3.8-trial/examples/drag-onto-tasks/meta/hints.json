@@ -1,0 +1,6 @@
+{
+    "[data-ref=equipment] .b-grid-cell": {
+        "title": "Equipment",
+        "content": "Drag this onto a scheduled task to assign equipment. Please note this is using the Bryntum Grid, licensed separately."
+    }
+}

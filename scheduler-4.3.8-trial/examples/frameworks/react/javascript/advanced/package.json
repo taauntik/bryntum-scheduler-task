@@ -1,0 +1,53 @@
+{
+  "name": "advanced",
+  "description": "React Scheduler + Redux Toolkit demo",
+  "version": "4.3.8",
+  "author": {
+    "name": "Bryntum",
+    "url": "https://bryntum.com",
+    "email": "info@bryntum.com"
+  },
+  "license": "commercial",
+  "homepage": "./",
+  "scripts": {
+    "start": "cross-env NODE_OPTIONS='--max-old-space-size=8192' react-scripts start",
+    "build": "cross-env NODE_OPTIONS='--max-old-space-size=8192' react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "postinstall"
+  },
+  "postinstall": {
+    "node_modules/@bryntum/demo-resources/images/users/*": "copy public/users/",
+    "node_modules/@bryntum/demo-resources/images/favicon.png": "copy public/",
+    "node_modules/@bryntum/scheduler/*.css": "copy public/themes/",
+    "node_modules/@bryntum/scheduler/fonts/*": "copy public/themes/fonts/"
+  },
+  "dependencies": {
+    "@bryntum/demo-resources": "1.1.0",
+    "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@4.3.8",
+    "@bryntum/scheduler-react": "4.3.8",
+    "@reduxjs/toolkit": "~1.6.1",
+    "axios": "~0.22.0",
+    "cross-env": "~7.0.3",
+    "i18next": "~21.2.4",
+    "i18next-browser-languagedetector": "~6.1.2",
+    "i18next-xhr-backend": "~3.2.2",
+    "react": "~17.0.2",
+    "react-dom": "~17.0.2",
+    "react-i18next": "~11.12.0",
+    "react-redux": "~7.2.5",
+    "react-scripts": "~4.0.3"
+  },
+  "devDependencies": {
+    "postinstall": "~0.7.3",
+    "sass": "~1.42.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}

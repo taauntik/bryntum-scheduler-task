@@ -1,0 +1,421 @@
+{
+    "success"     : true,
+    "resources"   : {
+        "rows" : [
+            {
+                "id"   : "brynas",
+                "name" : "Brynas",
+                "arena" : "Monitor ERP Arena"
+            },
+            {
+                "id"   : "leksand",
+                "name" : "Leksand",
+                "arena" : "Tegera Arena"
+            },
+            {
+                "id"   : "frolunda",
+                "name" : "Frolunda",
+                "arena" : "Scandinavium"
+            },
+            {
+                "id"   : "hv71",
+                "name" : "HV71",
+                "arena" : "Kinnarps Arena"
+            },
+            {
+                "id"   : "malmo",
+                "name" : "Malmo",
+                "arena" : "Malmo Arena"
+            },
+            {
+                "id"   : "skelleftea",
+                "name" : "Skelleftea",
+                "arena" : "Skelleftea Kraft Arena"
+            },
+            {
+                "id"   : "orebro",
+                "name" : "Orebro",
+                "arena" : "Behrn Arena"
+            },
+            {
+                "id"   : "djurgarden",
+                "name" : "Djurgarden",
+                "arena" : "Hovet"
+            },
+            {
+                "id"   : "vaxjo",
+                "name" : "Vaxjo",
+                "arena" : "Vida Arena"
+            },
+            {
+                "id"   : "oskarshamn",
+                "name" : "Oskarshamn",
+                "arena" : "Be-Ge Hockey Center"
+            },
+            {
+                "id"   : "lulea",
+                "name" : "Lulea",
+                "arena" : "Coop Norrbotten Arena"
+            },
+            {
+                "id"   : "farjestad",
+                "name" : "Farjestad",
+                "arena" : "Lofbergs Arena"
+            },
+            {
+                "id"   : "rogle",
+                "name" : "Rogle",
+                "arena" : "Catena Arena"
+            },
+            {
+                "id"   : "linkoping",
+                "name" : "Linkoping",
+                "arena" : "Saab Arena"
+            }
+        ]
+    },
+    "events"      : {
+        "rows" : [
+            {
+                "id"           : "leksand-skelleftea",
+                "startDate"    : "2020-09-19 15:15",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "brynas-malmo",
+                "startDate"    : "2020-09-19 15:15",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "frolunda-hv71",
+                "startDate"    : "2020-09-19 15:15",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "orebro-djurgarden",
+                "startDate"    : "2020-09-19 18:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "vaxjo-oskarshamn",
+                "startDate"    : "2020-09-19 18:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "lulea-farjestad",
+                "startDate"    : "2020-09-19 18:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "rogle-linkoping",
+                "startDate"    : "2020-09-19 18:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "malmo-leksand",
+                "startDate"    : "2020-09-22 19:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "frolunda-linkoping",
+                "startDate"    : "2020-09-24 19:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "lulea-skelleftea",
+                "startDate"    : "2020-09-24 19:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "rogle-malmo",
+                "startDate"    : "2020-09-24 19:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "vaxjo-farjestad",
+                "startDate"    : "2020-09-24 19:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "orebro-hv71",
+                "startDate"    : "2020-09-24 19:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "leksand-djurgarden",
+                "startDate"    : "2020-09-24 19:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "brynas-oskarshamn",
+                "startDate"    : "2020-09-24 19:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "linkoping-vaxjo",
+                "startDate"    : "2020-09-26 15:15",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "oskarshamn-lulea",
+                "startDate"    : "2020-09-26 15:15",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "skelleftea-orebro",
+                "startDate"    : "2020-09-26 18:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "farjestad-brynas",
+                "startDate"    : "2020-09-26 18:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "hv71-rogle",
+                "startDate"    : "2020-09-26 18:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            },
+            {
+                "id"           : "djurgarden-frolunda",
+                "startDate"    : "2020-09-27 15:00",
+                "duration"     : 3,
+                "durationUnit" : "h"
+            }
+        ]
+    },
+    "assignments" : {
+        "rows" : [
+            {
+                "id"       : 1,
+                "event"    : "leksand-skelleftea",
+                "resource" : "leksand"
+            },
+            {
+                "id"       : 2,
+                "event"    : "leksand-skelleftea",
+                "resource" : "skelleftea"
+            },
+            {
+                "id"       : 3,
+                "event"    : "brynas-malmo",
+                "resource" : "brynas"
+            },
+            {
+                "id"       : 4,
+                "event"    : "brynas-malmo",
+                "resource" : "malmo"
+            },
+            {
+                "id"       : 5,
+                "event"    : "frolunda-hv71",
+                "resource" : "frolunda"
+            },
+            {
+                "id"       : 6,
+                "event"    : "frolunda-hv71",
+                "resource" : "hv71"
+            },
+            {
+                "id"       : 7,
+                "event"    : "orebro-djurgarden",
+                "resource" : "orebro"
+            },
+            {
+                "id"       : 8,
+                "event"    : "orebro-djurgarden",
+                "resource" : "djurgarden"
+            },
+            {
+                "id"       : 9,
+                "event"    : "vaxjo-oskarshamn",
+                "resource" : "vaxjo"
+            },
+            {
+                "id"       : 10,
+                "event"    : "vaxjo-oskarshamn",
+                "resource" : "oskarshamn"
+            },
+            {
+                "id"       : 11,
+                "event"    : "lulea-farjestad",
+                "resource" : "lulea"
+            },
+            {
+                "id"       : 12,
+                "event"    : "lulea-farjestad",
+                "resource" : "farjestad"
+            },
+            {
+                "id"       : 13,
+                "event"    : "rogle-linkoping",
+                "resource" : "rogle"
+            },
+            {
+                "id"       : 14,
+                "event"    : "rogle-linkoping",
+                "resource" : "linkoping"
+            },
+            {
+                "id"       : 15,
+                "event"    : "malmo-leksand",
+                "resource" : "malmo"
+            },
+            {
+                "id"       : 16,
+                "event"    : "malmo-leksand",
+                "resource" : "leksand"
+            },
+            {
+                "id"       : 17,
+                "event"    : "frolunda-linkoping",
+                "resource" : "frolunda"
+            },
+            {
+                "id"       : 18,
+                "event"    : "frolunda-linkoping",
+                "resource" : "linkoping"
+            },
+            {
+                "id"       : 19,
+                "event"    : "lulea-skelleftea",
+                "resource" : "lulea"
+            },
+            {
+                "id"       : 20,
+                "event"    : "lulea-skelleftea",
+                "resource" : "skelleftea"
+            },
+            {
+                "id"       : 21,
+                "event"    : "rogle-malmo",
+                "resource" : "rogle"
+            },
+            {
+                "id"       : 22,
+                "event"    : "rogle-malmo",
+                "resource" : "malmo"
+            },
+            {
+                "id"       : 23,
+                "event"    : "vaxjo-farjestad",
+                "resource" : "vaxjo"
+            },
+            {
+                "id"       : 24,
+                "event"    : "vaxjo-farjestad",
+                "resource" : "farjestad"
+            },
+            {
+                "id"       : 25,
+                "event"    : "orebro-hv71",
+                "resource" : "orebro"
+            },
+            {
+                "id"       : 26,
+                "event"    : "orebro-hv71",
+                "resource" : "hv71"
+            },
+            {
+                "id"       : 27,
+                "event"    : "leksand-djurgarden",
+                "resource" : "leksand"
+            },
+            {
+                "id"       : 28,
+                "event"    : "leksand-djurgarden",
+                "resource" : "djurgarden"
+            },
+            {
+                "id"       : 29,
+                "event"    : "brynas-oskarshamn",
+                "resource" : "brynas"
+            },
+            {
+                "id"       : 30,
+                "event"    : "brynas-oskarshamn",
+                "resource" : "oskarshamn"
+            },
+            {
+                "id"       : 31,
+                "event"    : "linkoping-vaxjo",
+                "resource" : "linkoping"
+            },
+            {
+                "id"       : 32,
+                "event"    : "linkoping-vaxjo",
+                "resource" : "vaxjo"
+            },
+            {
+                "id"       : 33,
+                "event"    : "oskarshamn-lulea",
+                "resource" : "oskarshamn"
+            },
+            {
+                "id"       : 34,
+                "event"    : "oskarshamn-lulea",
+                "resource" : "lulea"
+            },
+            {
+                "id"       : 35,
+                "event"    : "skelleftea-orebro",
+                "resource" : "skelleftea"
+            },
+            {
+                "id"       : 36,
+                "event"    : "skelleftea-orebro",
+                "resource" : "orebro"
+            },
+            {
+                "id"       : 37,
+                "event"    : "farjestad-brynas",
+                "resource" : "farjestad"
+            },
+            {
+                "id"       : 38,
+                "event"    : "farjestad-brynas",
+                "resource" : "brynas"
+            },
+            {
+                "id"       : 39,
+                "event"    : "hv71-rogle",
+                "resource" : "hv71"
+            },
+            {
+                "id"       : 40,
+                "event"    : "hv71-rogle",
+                "resource" : "rogle"
+            },
+            {
+                "id"       : 41,
+                "event"    : "djurgarden-frolunda",
+                "resource" : "djurgarden"
+            },
+            {
+                "id"       : 42,
+                "event"    : "djurgarden-frolunda",
+                "resource" : "frolunda"
+            }
+        ]
+    }
+}

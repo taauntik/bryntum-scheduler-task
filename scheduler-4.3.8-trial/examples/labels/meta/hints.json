@@ -1,0 +1,20 @@
+{
+  ".b-sch-event-wrap:not(:first-of-type) .b-sch-label-bottom": {
+    "title": "Labels",
+    "content": "Can be displayed on all sides of an event",
+    "anchorOffsetY": 10
+  },
+  ".custom": {
+    "title": "Styling",
+    "content": "This label has custom styling using a css class",
+    "anchorOffsetY": 10
+  },
+  "[data-event-id=\"8\"] [data-side=\"left\"]": {
+    "title": "Label editing",
+    "content": "This label is editable using double click",
+    "align": {
+      "align": "t-b",
+      "offset": 10
+    }
+  }
+}

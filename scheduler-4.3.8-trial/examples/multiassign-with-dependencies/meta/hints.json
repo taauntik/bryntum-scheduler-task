@@ -1,0 +1,6 @@
+{
+    "[data-event-id='1']": {
+        "title": "Multi assigned",
+        "content": "This event is assigned to multiple resources. It has a dependency to Multi assigned B, lines are drawn between all assignments for both events"
+    }
+}

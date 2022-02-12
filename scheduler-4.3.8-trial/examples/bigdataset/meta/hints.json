@@ -1,0 +1,10 @@
+{
+    "[data-ref=resourceCountField] input": {
+        "title": "1000 resources...",
+        "content": "This scheduler initially has 1000 rows, but you can enter another number here and press [ENTER] to generate more rows."
+    },
+    "[data-ref=eventCountField] input": {
+        "title": "... with 5 events each",
+        "content": "Each row contains 5 events, but you can enter another number here and press [ENTER] to generate more events."
+    }
+}

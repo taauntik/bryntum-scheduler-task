@@ -1,0 +1,8 @@
+.b-sch-label.custom {
+  font-weight: bold;
+}
+body:not(.b-theme-classic-dark) .b-sch-label.custom {
+  color: #000;
+}
+
+/*# sourceMappingURL=app.css.map */

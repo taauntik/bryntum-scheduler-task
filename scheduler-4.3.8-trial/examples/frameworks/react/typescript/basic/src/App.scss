@@ -1,0 +1,51 @@
+/**
+ * Application styles
+ */
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.striped {
+    background: repeating-linear-gradient(
+        -45deg,
+        rgba(230, 230, 230, 0.3),
+        rgba(230, 230, 230, 0.3) 10px,
+        rgba(240, 240, 240, 0.3) 5px,
+        rgba(240, 240, 240, 0.3) 20px
+    );
+}
+
+.selected-event {
+    margin-right: 1em;
+    label {
+        opacity: 0.7;
+    }
+    span {
+        font-weight: 400;
+    }
+}
+
+.b-theme-stockholm {
+    .selected-event {
+        text-transform: uppercase;
+    }
+}
+
+// fixes styling bug
+.b-theme-stockholm .b-has-label label {
+    color: #4f5964;
+}
+
+.b-theme-classic .b-has-label label {
+    color: #e6e6e6;
+}
+
+.b-theme-classic-light .b-has-label label {
+    color: #616161;
+}
+
+.b-theme-classic-dark .b-has-label label {
+    color: #c0c1c2;
+}
+
+.b-theme-classic-material .b-has-label label {
+    color: #616161;
+}

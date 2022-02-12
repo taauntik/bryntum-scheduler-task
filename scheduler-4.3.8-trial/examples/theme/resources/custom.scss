@@ -1,0 +1,69 @@
+// Redefine the colors used for events
+$event-color-red : #D50000;
+$event-color-pink : #C51162;
+$event-color-purple : #AA00FF;
+$event-color-violet : #6200EA;
+$event-color-indigo : #304FFE;
+$event-color-blue : #2962FF;
+$event-color-cyan : #00B8D4;
+$event-color-teal : #00BFA5;
+$event-color-green : #00C853;
+$event-color-lime : #AEEA00;
+$event-color-yellow : #FFD600;
+$event-color-orange : #FF6D00;
+
+// Customize events a bit more
+$event-font-weight : 400;
+$event-font-size : 13px;
+
+// Customize headers etc
+$grid-header-border-color : #666;
+$grid-cell-border-color : #AAA;
+$grid-header-background-color : #474849;
+$grid-header-text-color : #fff;
+$grid-header-font-weight : 400;
+
+$icon-font : 'Font Awesome 5 Free';
+$icon-font-weight : 900;
+
+// Widget styling
+
+// Buttons in the demo header are hardcoded to be blue, change it
+$blue : #474849;
+
+// This path will need to be adjusted if your project structure is different
+$fa-font-path : '../../../build/fonts';
+
+// Extend the classic theme
+@import '../../../resources/sass/themes/classic.scss';
+
+// Override the theme-info rule with our theme info
+.b-theme-info:before {
+    content : '{"name":"Custom"}';
+}
+
+// Customization by overriding CSS rules
+.b-sch-event {
+    border-radius : 40px;
+    padding-left  : 1em;
+}
+
+// DEMO SPECIFIC, NOT PART OF THE GRIDS THEME
+
+// Font, grid and widgets inherits whatever is used
+body {
+    font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
+    visibility  : visible;
+}
+
+// Give demo header in another color
+.demo-header {
+    background-color : #00B8D4;
+}
+
+// Hide irrelevant combos in info popup
+#size-combo,
+#hintButton,
+#hintCheck {
+    display : none !important;
+}

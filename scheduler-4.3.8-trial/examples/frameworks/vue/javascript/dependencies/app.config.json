@@ -1,0 +1,4 @@
+{
+  "title": "Vue Scheduler + Dependencies demo",
+  "description": "Shows how to use the Vue Scheduler dependencies features to connect tasks using drag and drop."
+}

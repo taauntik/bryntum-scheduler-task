@@ -1,0 +1,190 @@
+{
+    "success"   : true,
+    "events"    : {
+        "rows" : [
+            {
+                "id"         : "e1",
+                "name"       : "Client meetings",
+                "resourceId" : "r1",
+                "startDate"  : "2017-01-01",
+                "endDate"    : "2017-01-03",
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "id"         : "e2",
+                "name"       : "Performance review",
+                "resourceId" : "r12",
+                "startDate"  : "2017-01-03",
+                "endDate"    : "2017-01-04",
+                "iconCls"    : "b-fa b-fa-search"
+            },
+            {
+                "id"         : "e3",
+                "name"       : "Business trip",
+                "resourceId" : "r13",
+                "startDate"  : "2017-01-05",
+                "endDate"    : "2017-01-06",
+                "iconCls"    : "b-fa b-fa-plane"
+            },
+            {
+                "id"         : "e6",
+                "name"       : "Sick leave",
+                "resourceId" : "r4",
+                "startDate"  : "2017-01-07",
+                "endDate"    : "2017-01-08",
+                "iconCls"    : "b-fa b-fa-pills",
+                "eventColor" : "red"
+            },
+            {
+                "id"         : "e23",
+                "name"       : "Out of office",
+                "resourceId" : "r17",
+                "startDate"  : "2017-01-02",
+                "endDate"    : "2017-01-03",
+                "iconCls"    : "b-fa b-fa-tree"
+            },
+            {
+                "id"         : "ee1",
+                "name"       : "Internal meetings",
+                "resourceId" : "r1",
+                "startDate"  : "2017-01-05",
+                "endDate"    : "2017-01-07",
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "id"         : "ee2",
+                "name"       : "Milestone release",
+                "resourceId" : "r2",
+                "startDate"  : "2017-01-06",
+                "endDate"    : "2017-01-07",
+                "iconCls"    : "b-fa b-fa-exclamation-triangle"
+            },
+            {
+                "id"         : "ee3",
+                "name"       : "Sales meetings",
+                "resourceId" : "r3",
+                "startDate"  : "2017-01-02",
+                "endDate"    : "2017-01-07",
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "id"         : "ee4",
+                "name"       : "Interviews",
+                "resourceId" : "r4",
+                "startDate"  : "2017-01-04",
+                "endDate"    : "2017-01-07",
+                "iconCls"    : "b-fa b-fa-users"
+            }
+        ]
+    },
+    "resources" : {
+        "rows" : [
+            {
+                "id"       : "r1",
+                "name"     : "Mike Anderson",
+                "category" : "Consultants",
+                "type"     : "Full time",
+                "image"    : "mike"
+            },
+            {
+                "id"       : "r2",
+                "name"     : "Kevin Larson",
+                "category" : "Consultants",
+                "type"     : "Full time",
+                "image"    : "amit"
+            },
+            {
+                "id"       : "r3",
+                "name"     : "Brett Hornbach",
+                "category" : "Consultants",
+                "type"     : "Full time",
+                "image"    : "angelo"
+            },
+            {
+                "id"       : "r4",
+                "name"     : "Lars Holt",
+                "category" : "Consultants",
+                "type"     : "Full time",
+                "image"    : "arcady"
+            },
+            {
+                "id"       : "r5",
+                "name"     : "Fred Arnold",
+                "category" : "Consultants",
+                "type"     : "Part time",
+                "image"    : "arnold"
+            },
+            {
+                "id"       : "r10",
+                "name"     : "Matt Demon",
+                "category" : "Sales",
+                "type"     : "Full time",
+                "image"    : "dan"
+            },
+            {
+                "id"       : "r11",
+                "name"     : "Karl Lager",
+                "category" : "Testers",
+                "type"     : "Part time",
+                "image"    : "henrik"
+            },
+            {
+                "id"       : "r12",
+                "name"     : "Pete Wilson",
+                "category" : "Testers",
+                "type"     : "Full time",
+                "image"    : "malik"
+            },
+            {
+                "id"       : "r13",
+                "name"     : "Derek Ronburg",
+                "category" : "Testers",
+                "type"     : "Full time",
+                "image"    : "jong"
+            },
+            {
+                "id"       : "r14",
+                "name"     : "Alyssa Patterson",
+                "category" : "Testers",
+                "type"     : "Full time",
+                "image"    : "lola"
+            },
+            {
+                "id"       : "r15",
+                "name"     : "Will Pherrel",
+                "category" : "Testers",
+                "type"     : "Part time",
+                "image"    : "lee"
+            },
+            {
+                "id"       : "r16",
+                "name"     : "Ofelia Larson",
+                "category" : "Research",
+                "type"     : "Full time",
+                "image"    : "emilia"
+            },
+            {
+                "id"       : "r17",
+                "name"     : "David Mantorp",
+                "category" : "Research",
+                "type"     : "Part time",
+                "image"    : "mark"
+            },
+            {
+                "id"       : "r18",
+                "name"     : "Ann Withersby",
+                "category" : "Research",
+                "type"     : "Full time",
+                "image"    : "gloria"
+            },
+            {
+                "id"       : "r20",
+                "name"     : "John Dough",
+                "category" : "Research",
+                "type"     : "Full time",
+                "image"    : "rob"
+            }
+        ]
+    }
+}
+

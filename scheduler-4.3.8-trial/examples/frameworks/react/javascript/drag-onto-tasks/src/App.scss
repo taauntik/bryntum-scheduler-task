@@ -1,0 +1,112 @@
+/**
+ * Application global sass file
+ */
+
+// import bryntum theme and example styles
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.b-sch-event-wrap .b-sch-event {
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#content {
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+    // > * {
+    //     height : auto;
+    // }
+
+    .b-grid.equipment {
+        flex: 0 0 140px;
+        border-left: 2px solid #aaa;
+
+        .b-grid-cell {
+            cursor: pointer;
+        }
+    }
+}
+
+.b-equipment {
+    flex-direction: column;
+    justify-content: center;
+
+    i {
+        margin-right: 10px;
+        color: #4887e5;
+        font-size: 2em;
+        margin-bottom: 0.3em;
+    }
+
+    &.b-dragging {
+        justify-content: center;
+        background: green;
+        color: #fff;
+
+        i {
+            color: #fff;
+        }
+    }
+
+    &.b-drag-invalid {
+        background: red;
+    }
+}
+.b-sch-event-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.b-sch-event-header,
+.b-sch-event-footer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.b-sch-event-footer {
+    padding: 0;
+    margin: 0;
+}
+
+.equipment {
+    .b-grid-header-text {
+        display: none;
+    }
+}
+
+.b-grid-header {
+    height: 57px;
+    flex: 1;
+}
+
+.b-filter-bar-field {
+    margin: 0;
+}
+
+.b-aborting.b-grid-cell {
+    transition: transform 0.3s !important;
+
+    background: red;
+    position: absolute !important;
+    z-index: 10000;
+    pointer-events: none;
+    opacity: 0.8;
+    box-sizing: border-box;
+}
+
+.b-resource-info {
+    font-size: 110%;
+    .b-resource-avatar {
+        width: 3.5em;
+        height: 3.5em;
+    }
+}

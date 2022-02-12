@@ -1,0 +1,14 @@
+/**
+ * Main application sass file that contains all the application styling
+ */
+
+// import bryntum theme and example styles
+@import "~@bryntum/demo-resources/scss/example.scss";
+
+.b-sch-event:not(.b-sch-event-milestone) {
+  border-radius : 2px;
+}
+
+.b-sch-event.b-sch-event-milestone label {
+  margin-left: 2.2em;
+}

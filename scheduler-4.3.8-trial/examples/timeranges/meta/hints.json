@@ -1,0 +1,14 @@
+{
+    ".lunch .b-resize-handle": {
+        "title"    : "Time ranges",
+        "content"  : "Drag to change duration of the time ranges. SHIFT+drag to move it"
+    },
+    ".b-sch-line .b-resize-handle": {
+        "title"    : "Lines",
+        "content"  : "Drag to change move the line"
+    },
+    "[data-ref=todayButton]": {
+        "title"    : "Go to today",
+        "content"  : "To see the current time line"
+    }
+}

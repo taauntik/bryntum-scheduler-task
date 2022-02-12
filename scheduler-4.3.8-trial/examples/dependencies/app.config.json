@@ -1,0 +1,4 @@
+{
+  "title": "Dependencies demo",
+  "description": "This example shows how you can have dependencies visualized between tasks by loading data using the CrudManager."
+}

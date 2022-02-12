@@ -1,0 +1,4 @@
+{
+  "title": "Custom theme demo",
+  "description": "This demo has a custom theme, to showcase how you can create your own. Check <a href=\"resources/custom.scss\">custom.scss</a> in resources/ to see how it is done."
+}

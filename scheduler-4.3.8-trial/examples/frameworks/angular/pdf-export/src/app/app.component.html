@@ -1,0 +1,30 @@
+<bryntum-demo-header
+    link = "../../../../../#example-frameworks-angular-pdf-export"
+></bryntum-demo-header>
+
+<div class = "demo-toolbar align-right">
+    <bryntum-button
+        cls = "b-skip-test b-deep-orange b-raised"
+        text = "Export"
+        (onClick) = "onExportClick()"
+    ></bryntum-button>
+</div>
+
+<bryntum-scheduler
+    #scheduler
+    [barMargin] = "schedulerConfig.barMargin"
+    [columns] = "schedulerConfig.columns"
+    [crudManager] = "schedulerConfig.crudManager"
+    [dependenciesFeature] = "schedulerConfig.dependenciesFeature"
+    [endDate] = "schedulerConfig.endDate"
+    [eventColor] = "schedulerConfig.eventColor"
+    [eventDragFeature] = "schedulerConfig.eventDragFeature"
+    [eventRenderer] = "schedulerConfig.eventRenderer"
+    [eventStyle] = "schedulerConfig.eventStyle"
+    [pdfExportFeature] = "schedulerConfig.pdfExportFeature"
+    [rowHeight] = "schedulerConfig.rowHeight"
+    [startDate] = "schedulerConfig.startDate"
+    [stripeFeature] = "schedulerConfig.stripeFeature"
+    [timeRangesFeature] = "schedulerConfig.timeRangesFeature"
+    [viewPreset] = "schedulerConfig.viewPreset"
+></bryntum-scheduler>

@@ -1,0 +1,52 @@
+/**
+ * Main application sass file that contains all the application styling
+ */
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.b-sch-event:not(.b-sch-event-milestone) {
+    border-radius: 2px;
+}
+
+.selected-event {
+    margin-right: 1em;
+    text-transform: uppercase;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.selected-event span {
+    font-weight: 800;
+}
+
+.small-text {
+    font-size: 0.7em;
+}
+
+.yes-button,
+.no-button {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+// fixes styling bug
+.b-theme-stockholm .b-has-label label {
+    color: #4f5964;
+}
+
+.b-theme-classic .b-has-label label {
+    color: #e6e6e6;
+}
+
+.b-theme-classic-light .b-has-label label {
+    color: #616161;
+}
+
+.b-theme-classic-dark .b-has-label label {
+    color: #c0c1c2;
+}
+
+.b-theme-classic-material .b-has-label label {
+    color: #616161;
+}

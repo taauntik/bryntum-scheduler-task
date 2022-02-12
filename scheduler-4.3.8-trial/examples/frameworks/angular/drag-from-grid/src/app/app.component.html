@@ -1,0 +1,41 @@
+<bryntum-demo-header
+    link = "../../../../../#example-frameworks-angular-drag-from-grid"
+></bryntum-demo-header>
+
+<div class = "demo-toolbar">
+  <bryntum-button
+      text = 'Automatic reschedule'
+      tooltip = 'Toggles whether to automatically reschedule overlapping tasks'
+      icon = 'b-fa b-fa-calendar'
+      toggleable = true
+      (onToggle) = "onToggle($event)"
+  ></bryntum-button>
+</div>
+
+<div id = "content">
+    <bryntum-scheduler
+        #scheduler
+        [barMargin] = "schedulerConfig.barMargin"
+        [columns] = "schedulerConfig.columns"
+        [crudManager] = "schedulerConfig.crudManager"
+        [eventColor] = "schedulerConfig.eventColor"
+        [rowHeight] = "schedulerConfig.rowHeight"
+        [startDate] = "schedulerConfig.startDate"
+        [endDate] = "schedulerConfig.endDate"
+        [viewPreset] = "schedulerConfig.viewPreset"
+        [eventMenuFeature] = "schedulerConfig.eventMenuFeature"
+        [stripeFeature] = "schedulerConfig.stripeFeature"
+        [timeRangesFeature] = "schedulerConfig.timeRangesFeature"
+        [resourceImagePath] = "schedulerConfig.resourceImagePath"
+    ></bryntum-scheduler>
+    <div class = "grid-ct">
+        <bryntum-grid
+            #grid
+            [columns] = "gridConfig.columns"
+            [rowHeight] = "gridConfig.rowHeight"
+            [sortFeature] = "gridConfig.sortFeature"
+            [store] = "gridConfig.store"
+            [stripeFeature] = "gridConfig.stripeFeature"
+        ></bryntum-grid>
+    </div>
+</div>

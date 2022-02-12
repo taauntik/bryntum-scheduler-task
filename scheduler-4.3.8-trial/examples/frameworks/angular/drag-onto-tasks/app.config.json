@@ -1,0 +1,4 @@
+{
+  "title": "Angular Scheduler: Drag equipment onto tasks",
+  "description": "This example lets you drag external DOM nodes and drop them onto tasks to update some aspect of them, such as scheduling the use of equipment."
+}

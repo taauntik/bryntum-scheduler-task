@@ -1,0 +1,6 @@
+{
+    ".b-buttongroup[data-ref=\"nonWorkingDays\"] .b-button[data-item-index=\"1\"]" : {
+        "title"        : "Non-working days picker",
+        "content"      : "Toggle the button to change the non-working days"
+    }
+}

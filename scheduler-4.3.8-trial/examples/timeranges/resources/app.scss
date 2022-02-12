@@ -1,0 +1,91 @@
+.b-sch-event-content {
+    flex-direction:column;
+}
+
+.b-sch-event-header {
+    font-size : .7em;
+}
+
+.b-sch-event-footer {
+    font-weight : 400;
+    margin-top  : 0.2em;
+}
+
+.b-grid-subgrid {
+    .lunch {
+        background-image : linear-gradient(-45deg, rgba(0, 0, 0, 0) 46%, #e03218 49%, #e03218 51%, rgba(0, 0, 0, 0) 55%);
+        background-size  : 6px 6px !important;
+        color            : red;
+        font-weight      : 400;
+
+        label {
+            background  : #fff;
+            white-space : nowrap;
+            padding     : 4px;
+            font-weight : 500;
+        }
+    }
+
+    .coffee {
+        background : repeating-linear-gradient(-55deg, #ddd, #ddd 10px, #eee 5px, #eee 20px);
+        opacity    : 0.7;
+        color      : #926b36;
+
+        label {
+            background  : #fff;
+            font-weight : 500;
+        }
+    }
+
+    .fika {
+        background : rgba(217, 231, 246, 0.6);
+        color      : #926b36;
+
+        label:before {
+            font-family             : "Font Awesome 5 Free";
+            font-weight             : 900;
+            -moz-osx-font-smoothing : grayscale;
+            -webkit-font-smoothing  : antialiased;
+            display                 : inline-block;
+            font-style              : normal;
+            font-variant            : normal;
+            text-rendering          : auto;
+            line-height             : 1;
+            content                 : "\F0F4";
+            margin-right            : 5px;
+        }
+    }
+}
+
+.b-grid-headers .b-sch-timerange.lunch .b-resize-handle:before {
+    border-color : #e03218;
+}
+
+.b-theme-classic-dark .b-grid-subgrid {
+    .lunch {
+        background-image : linear-gradient(-45deg, rgba(0, 0, 0, 0) 46%, #e03218 49%, #e03218 51%, rgba(0, 0, 0, 0) 55%);
+
+        label {
+            background : #111;
+            color      : #999;
+        }
+    }
+
+    .coffee {
+        background : repeating-linear-gradient(-55deg, #333, #333 10px, #444 5px, #444 20px);
+        color      : #999;
+    }
+
+    .fika {
+        background : rgba(117, 131, 146, 0.6);
+        color      : #999;
+    }
+}
+
+.b-theme-classic-light .b-grid-subgrid {
+    .lunch,
+    .coffe,
+    .fike {
+        opacity : 0.6;
+    }
+}

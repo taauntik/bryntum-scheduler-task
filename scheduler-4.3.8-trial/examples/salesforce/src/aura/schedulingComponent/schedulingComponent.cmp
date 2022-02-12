@@ -1,0 +1,9 @@
+<aura:component controller="SchedulingComponentController">
+    <ltng:require styles="{!$Resource.scheduler + '/scheduler.stockholm.css'}"
+                  scripts="{!$Resource.scheduler + '/scheduler.umd.js'}"
+             	  afterScriptsLoaded="{!c.jsLoaded}" />
+
+    <aura:attribute name="jsLoaded" type="boolean" default="false"/>
+
+    <div aura:id="scheduler_container"></div>
+</aura:component>

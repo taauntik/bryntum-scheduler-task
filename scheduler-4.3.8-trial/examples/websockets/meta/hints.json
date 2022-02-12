@@ -1,0 +1,10 @@
+{
+  "[data-ref=ws-host]": {
+    "title": "Websockets server address:port",
+    "content": "For example:<br>Secure server: wss://example.com:8080<br>Non-secure server: ws://example.com:8080"
+  },
+  "[data-ref=ws-login]": {
+    "title": "Login to server",
+    "content": "Click to connect to WebSockets Server"
+  }
+}

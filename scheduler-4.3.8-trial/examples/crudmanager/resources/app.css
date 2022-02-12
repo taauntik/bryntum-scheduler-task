@@ -1,0 +1,29 @@
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.b-fa-spinner {
+  animation: spinner 2s linear infinite;
+}
+
+.b-fa-check-circle {
+  color: green;
+}
+
+.b-fa-times-circle {
+  color: red;
+}
+
+.b-fa-user-edit {
+  color: orange;
+}
+
+.b-widget[data-ref=crudStatus] .b-fa {
+  margin-left: 0.5em;
+}
+
+/*# sourceMappingURL=app.css.map */

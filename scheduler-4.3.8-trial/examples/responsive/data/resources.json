@@ -1,0 +1,9 @@
+{
+    "success" : true,
+    "data" : [
+        { "id" : 1, "name" : "Celia", "role" : "Marketing" },
+        { "id" : 2, "name" : "Dan", "role" : "HR" },
+        { "id" : 3, "name" : "George", "role" : "HR" },
+        { "id" : 4, "name" : "Kate", "role" : "Management" }
+    ]
+}

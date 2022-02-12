@@ -1,0 +1,30 @@
+.b-sch-event {
+    border-radius : 3px;
+    padding       : 0;
+
+    .value {
+        background-color : rgba(0, 0, 0, 0.1);
+        height           : 100%;
+        display          : flex;
+        justify-content  : flex-end;
+        align-items      : center;
+    }
+
+    .value:not(:empty) {
+        padding-right : 6px;
+        padding-left  : 6px;
+    }
+}
+
+.b-fa-moon:before,
+.b-fa-sun:before {
+    margin-right:0.3em;
+}
+
+.b-fa-moon:before {
+    color:navy;
+}
+
+.b-fa-sun:before {
+    color:yellow;
+}

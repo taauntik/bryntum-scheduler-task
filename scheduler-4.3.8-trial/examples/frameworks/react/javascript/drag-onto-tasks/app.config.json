@@ -1,0 +1,4 @@
+{
+  "title": "React Scheduler - Drag onto Tasks demo",
+  "description": "This demo contains a React Scheduler component and you can drag and drop external DOM nodes onto the tasks to add equipment."
+}

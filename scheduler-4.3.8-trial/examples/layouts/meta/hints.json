@@ -1,0 +1,22 @@
+{
+    ".b-sch-event-wrap[data-event-id=\"3\"]"           : {
+        "title"   : "Stacked by default",
+        "content" : "Overlapping events are stacked on top of each other, making the resource row grow in height to fit all events"
+    },
+    "[data-ref=packButton]"                            : {
+        "title"   : "Pack",
+        "content" : "Try packing, which makes overlapping events shrink to fit into a fixed row height",
+        "width"   : 200,
+        "align"   : "t55-b10"
+    },
+    "[data-ref=noneButton]"                            : {
+        "title"   : "Overlap",
+        "content" : "Try overlap, which lets events overlap and thus does not affect their height or the rows",
+        "width"   : 200,
+        "align"   : "t40-b95"
+    },
+    ".b-grid-row[data-index=\"3\"] .layoutCellContent" : {
+        "title"   : "Resource layout",
+        "content" : "Click and choose between 'Stack', 'Pack', 'Overlap' layouts to set it for specific resource, or select 'Inherit' to use Scheduler's config."
+    }
+}

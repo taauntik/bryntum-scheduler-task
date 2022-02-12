@@ -1,0 +1,4 @@
+{
+  "title": "Multi assignment + dependencies demo",
+  "description": "Shows a basic scheduler using an multi assignment with dependencies, drawing dependency lines to all assignments of an event"
+}

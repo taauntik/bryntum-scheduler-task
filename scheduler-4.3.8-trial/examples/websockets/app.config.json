@@ -1,0 +1,4 @@
+{
+  "title": "WebSockets demo",
+  "description": "A demo that comes with a WebSocket server for multi-user realtime' interaction with the Schedule, see README.md for details on how to get it started"
+}

@@ -1,0 +1,35 @@
+/**
+ * Main App scss file
+ */
+
+// import bryntum theme and example styles
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+
+.color-box {
+    width         : 1em;
+    height        : 1em;
+    margin-right  : .5em;
+    border-radius : 2px;
+}
+
+// fixes styling bug
+.b-theme-stockholm .b-has-label label {
+    color: #4f5964;
+}
+
+.b-theme-classic .b-has-label label {
+    color: #e6e6e6;
+}
+
+.b-theme-classic-light .b-has-label label {
+    color: #616161;
+}
+
+.b-theme-classic-dark .b-has-label label {
+    color: #c0c1c2;
+}
+
+.b-theme-classic-material .b-has-label label {
+    color: #616161;
+}

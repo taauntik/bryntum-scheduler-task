@@ -1,0 +1,10 @@
+{
+    ".b-grid-footer-scroller-locked": {
+        "title": "Column summaries",
+        "content": "Supports basic calculations such as sum and average"
+    },
+    ".b-grid-footer-scroller-normal" : {
+        "title" : "Event summaries",
+        "content" : "Calculated and displayed using summary renderers"
+    }
+}

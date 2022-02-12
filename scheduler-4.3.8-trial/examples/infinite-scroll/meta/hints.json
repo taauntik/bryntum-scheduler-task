@@ -1,0 +1,6 @@
+{
+    "[data-ref=\"forward\"]" : {
+        "align" : "l-r",
+        "html" : "Scroll forward or backward to view the full, year-long dataset"
+    }
+}

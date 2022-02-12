@@ -1,0 +1,71 @@
+/**
+ * App global styles
+ */
+@import "@bryntum/scheduler/scheduler.material.css";
+@import "@bryntum/demo-resources/scss/example.scss";
+
+app-root {
+    flex           : 1;
+    display        : flex;
+    flex-direction : column;
+    height         : 100vh;
+}
+
+bryntum-scheduler {
+    flex : 1;
+}
+
+.b-sch-event {
+    border-radius : 3px;
+    font-weight   : 300;
+    box-shadow    : 0 1px 1px 0 rgba(0, 0, 0, .25);
+
+    &.lubrication {
+        background   : repeating-linear-gradient(-45deg, #01baef, #01baef 7px, white 7px, white 14px);
+        border-color : #01baef;
+    }
+}
+
+.b-sch-line-start,
+.b-sch-line {
+    border-color : #f33;
+
+    &.special {
+        border-color : #000;
+    }
+}
+
+.b-sch-event-wrap.b-milestone-wrap {
+    .b-sch-event.b-sch-event-withicon .b-sch-event-content {
+        border-radius : 100%;
+        font-size     : 50%;
+        width         : 2em;
+        height        : 2em;
+        box-shadow    : 0 1px 1px 0 rgba(0, 0, 0, .25);
+
+        .b-fa, .b-icon {
+            color : inherit;;
+        }
+    }
+
+    label {
+        color : #777;
+    }
+}
+
+.b-sch-dependency {
+    &.special-dependency {
+        stroke-dasharray : 5, 5;
+        stroke-width     : 2;
+    }
+
+    &.extra-special-dependency {
+        stroke-dasharray : 6;
+    }
+}
+
+@keyframes draw {
+    50% {
+        stroke-dashoffset : 0;
+    }
+}

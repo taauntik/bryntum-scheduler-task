@@ -1,0 +1,139 @@
+.b-sch-event-wrap {
+    height : .5em;
+}
+
+.b-milestone-wrap {
+    top    : .6em;
+
+    &.b-sch-event-wrap {
+        .b-sch-event.b-milestone {
+            font-size : 36%;
+
+            label {
+                padding-left : 0.9em;
+            }
+        }
+    }
+}
+
+.b-grid-subgrid-locked {
+    background-color : #f7f7f7;
+
+    .b-grid-row {
+        border-bottom-color : #f7f7f7;
+
+        dl {
+            flex : 1;
+        }
+
+        img {
+            width            : 3em;
+            height           : 3em;
+            background-color : #fff;
+            padding          : 3px;
+            box-shadow       : 0 .1em .5em 0 #CCC;
+            order            : 1;
+            transform        : scale(1.0);
+            transition       : all .2s;
+        }
+
+        &.b-hover,
+        &.b-selected {
+            img {
+                transform  : scale(1.2);
+                transition : all .2s;
+                box-shadow : 0 .2em 1em 0 #BBB;
+            }
+        }
+    }
+}
+
+.b-theme-classic-dark {
+    .b-grid-subgrid-locked {
+        background-color : #2b2b2f;
+
+        .b-grid-row {
+            border-bottom-color : #2b2b2f;
+
+            img {
+                box-shadow : 0 .1em .5em 0 #111;
+            }
+
+            &.b-hover,
+            &.b-selected {
+                img {
+                    box-shadow : 0 .2em 1em 0 #000;
+                }
+            }
+        }
+    }
+}
+
+.b-theme-classic-light {
+    .b-grid-subgrid-locked {
+        background-color : #fcfcfc;
+
+        .b-grid-row {
+            border-bottom-color : #fcfcfc;
+
+            dd {
+                color : #bbb;
+            }
+
+            img {
+                box-shadow : 0 .1em .25em 0 #BBB;
+            }
+
+            &.b-hover,
+            &.b-selected {
+                img {
+                    box-shadow : 0 .2em .5em 0 #AAA;
+                }
+            }
+        }
+    }
+}
+
+.b-grid-row {
+    border-bottom-style : dashed;
+}
+
+.b-column-line {
+    border-left-style : dashed;
+}
+
+.b-column-line-major {
+    border-left-style : dotted;
+}
+
+.b-sch-event {
+    overflow : visible;
+    padding  : 0 0.2em;
+
+    .b-fa-square:before {
+        display   : block;
+        transform : rotate(45deg);
+    }
+
+    .b-start-marker,
+    .b-end-marker {
+        position  : absolute;
+        color     : #bbb;
+        top       : 50%;
+        margin    : 0 !important;
+        transform : translateY(-50%);
+        font-size : 1.2em;
+    }
+
+    .b-start-marker {
+        left : -0.4em;
+    }
+
+    .b-end-marker {
+        right : -0.4em;
+    }
+}
+
+.b-sch-header-text {
+    text-align: center;
+}

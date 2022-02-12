@@ -1,0 +1,184 @@
+{
+    "success"   : true,
+    "resources" : {
+        "rows" : [
+            {
+                "id"   : "a",
+                "name" : "Rob",
+                "type" : "Sales"
+            },
+            {
+                "id"          : "b",
+                "name"        : "Mike",
+                "type"        : "Sales",
+                "eventLayout" : "none"
+            },
+            {
+                "id"          : "c",
+                "name"        : "Kate",
+                "type"        : "Sales",
+                "eventLayout" : "none"
+            },
+            {
+                "id"          : "d",
+                "name"        : "Lisa",
+                "type"        : "Developer",
+                "eventLayout" : "none"
+            },
+            {
+                "id"          : "e",
+                "name"        : "Dave",
+                "type"        : "Developer",
+                "eventLayout" : "none"
+            },
+            {
+                "id"          : "f",
+                "name"        : "Arnold",
+                "type"        : "Developer",
+                "eventLayout" : "none"
+            },
+            {
+                "id"          : "g",
+                "name"        : "Lee",
+                "type"        : "Marketing",
+                "eventLayout" : "none"
+            },
+            {
+                "id"          : "h",
+                "name"        : "Jong",
+                "type"        : "Marketing",
+                "eventLayout" : "none"
+            }
+        ]
+    },
+    "events"    : {
+        "rows" : [
+            {
+                "id"         : 1,
+                "resourceId" : "a",
+                "name"       : "Meeting #1",
+                "startDate"  : "2021-06-03 11:00",
+                "endDate"    : "2021-06-03 14:00"
+            },
+            {
+                "id"         : 2,
+                "resourceId" : "a",
+                "name"       : "Meeting #2",
+                "startDate"  : "2021-06-03 12:00",
+                "endDate"    : "2021-06-03 15:00"
+            },
+            {
+                "id"         : 3,
+                "resourceId" : "a",
+                "name"       : "Meeting #3",
+                "startDate"  : "2021-06-03 13:00",
+                "endDate"    : "2021-06-03 16:00"
+            },
+            {
+                "id"         : 4,
+                "resourceId" : "b",
+                "name"       : "Meeting #4",
+                "startDate"  : "2021-06-03 09:00",
+                "endDate"    : "2021-06-03 11:00"
+            },
+            {
+                "id"         : 5,
+                "resourceId" : "b",
+                "name"       : "Appointment #1",
+                "startDate"  : "2021-06-03 10:00",
+                "endDate"    : "2021-06-03 12:00"
+            },
+            {
+                "id"         : 6,
+                "resourceId" : "b",
+                "name"       : "Appointment #2",
+                "startDate"  : "2021-06-03 11:00",
+                "endDate"    : "2021-06-03 13:00"
+            },
+            {
+                "id"         : 7,
+                "resourceId" : "c",
+                "name"       : "Appointment #3",
+                "startDate"  : "2021-06-03 14:00",
+                "endDate"    : "2021-06-03 17:00"
+            },
+            {
+                "id"         : 8,
+                "resourceId" : "c",
+                "name"       : "Appointment #4",
+                "startDate"  : "2021-06-03 15:00",
+                "endDate"    : "2021-06-03 18:00"
+            },
+            {
+                "id"         : 9,
+                "resourceId" : "c",
+                "name"       : "Appointment #5",
+                "startDate"  : "2021-06-03 15:00",
+                "endDate"    : "2021-06-03 18:00"
+            },
+            {
+                "id"         : 10,
+                "resourceId" : "d",
+                "name"       : "Meeting #1",
+                "startDate"  : "2021-06-03 11:00",
+                "endDate"    : "2021-06-03 14:00"
+            },
+            {
+                "id"         : 11,
+                "resourceId" : "d",
+                "name"       : "Meeting #2",
+                "startDate"  : "2021-06-03 12:00",
+                "endDate"    : "2021-06-03 15:00"
+            },
+            {
+                "id"         : 12,
+                "resourceId" : "d",
+                "name"       : "Meeting #3",
+                "startDate"  : "2021-06-03 13:00",
+                "endDate"    : "2021-06-03 16:00"
+            },
+            {
+                "id"         : 13,
+                "resourceId" : "e",
+                "name"       : "Meeting #4",
+                "startDate"  : "2021-06-03 09:00",
+                "endDate"    : "2021-06-03 11:00"
+            },
+            {
+                "id"         : 14,
+                "resourceId" : "e",
+                "name"       : "Appointment #1",
+                "startDate"  : "2021-06-03 10:00",
+                "endDate"    : "2021-06-03 12:00"
+            },
+            {
+                "id"         : 15,
+                "resourceId" : "e",
+                "name"       : "Appointment #2",
+                "startDate"  : "2021-06-03 11:00",
+                "endDate"    : "2021-06-03 13:00"
+            },
+            {
+                "id"         : 16,
+                "resourceId" : "f",
+                "name"       : "Appointment #3",
+                "startDate"  : "2021-06-03 14:00",
+                "endDate"    : "2021-06-03 17:00"
+            },
+            {
+                "id"         : 17,
+                "resourceId" : "f",
+                "name"       : "Appointment #4",
+                "startDate"  : "2021-06-03 15:00",
+                "endDate"    : "2021-06-03 18:00"
+            },
+            {
+                "id"         : 18,
+                "resourceId" : "f",
+                "name"       : "Appointment #5",
+                "startDate"  : "2021-06-03 15:00",
+                "endDate"    : "2021-06-03 18:00"
+            }
+        ]
+    }
+}

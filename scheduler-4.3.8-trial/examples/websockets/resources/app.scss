@@ -1,0 +1,135 @@
+.demo-header,
+.ws-online-users {
+    transition : 0.3s;
+}
+
+@media (max-width : 860px) and (min-height : 500px) {
+    .demo-header,
+    #ws-online {
+        font-size : 12px;
+    }
+
+    .demo-header {
+        padding : 0.5em 0;
+    }
+}
+
+@media (max-height : 500px) {
+    .demo-header,
+    #ws-online {
+        font-size : 10px;
+    }
+
+    .demo-header {
+        padding : 0.3em 0;
+    }
+}
+
+@media (max-width : 750px) {
+    .demo-header #title-container {
+        display : none;
+    }
+
+    #tools {
+        margin-left : auto;
+    }
+}
+
+.b-remote-drag:after,
+.b-remote-resize-left:after,
+.b-remote-resize-right:after {
+    display     : block;
+    font-size   : 0.8em;
+    content     : attr(data-user-name);
+    position    : absolute;
+    text-shadow : 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight : bold;
+}
+
+.b-remote-drag:after {
+    left      : 50%;
+    top       : 60%;
+    transform : translateX(-50%);
+}
+
+.b-remote-resize-right:after {
+    right     : 1.8em;
+    transform : translateY(-50%);
+    top       : 50%;
+}
+
+.b-remote-resize-left:after {
+    left      : 1.8em;
+    transform : translateY(-50%);
+    top       : 50%;
+}
+
+.b-remote-drag:before,
+.b-remote-resize-left:before,
+.b-remote-resize-right:before {
+    font-family : 'Font Awesome 5 Free';
+    font-weight : 900;
+    display     : block;
+    width       : 1em;
+    height      : 1em;
+    position    : absolute;
+    color       : #fff;
+    transform   : translateX(-50%);
+    text-shadow : 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.b-remote-drag:before {
+    content : '\f25a';
+    left    : 50%;
+    top     : 20%;
+}
+
+.b-remote-resize-left:before {
+    content   : '\f07e';
+    left      : 2px;
+    transform : translateY(-50%);
+    top       : 50%;
+}
+
+.b-remote-resize-right:before {
+    content   : '\f07e';
+    right     : 2px;
+    transform : translateY(-50%);
+    top       : 50%;
+}
+
+.b-remote-resize-left,
+.b-remote-resize-right,
+.b-remote-drag {
+    outline        : 2px solid rgba(135, 206, 235, 0.4);
+    outline-offset : 3px;
+}
+
+.b-login-name {
+    font-size : 1.2em;
+}
+
+.ws-online-users {
+    display          : flex !important;
+    align-items      : center;
+    padding-left     : 0.5em;
+    padding-bottom: 0.3em;
+    height           : 3em;
+    background-color : #1e88e5;
+    color            : white;
+    font-size        : 1.1em;
+
+    .ws-online-user {
+        margin-left   : 0.5em;
+        padding       : 0.1em 0.5em;
+        background    : white;
+        color         : #1e88e5;
+        border-radius : 0.2em;
+    }
+}
+
+.b-text-content {
+    &.b-content-element {
+        flex-flow : row nowrap;
+    }
+}

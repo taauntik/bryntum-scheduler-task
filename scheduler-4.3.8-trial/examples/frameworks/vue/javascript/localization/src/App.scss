@@ -1,0 +1,140 @@
+/**
+ * Application global styles (compiled from existing files)
+ */
+
+@import '~@bryntum/scheduler/scheduler.stockholm.css';
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.b-field {
+    height: 2.7em;
+    margin-right: 8px;
+}
+
+.b-sch-event {
+    border-radius: 3px;
+    font-weight: 300;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+
+    &.lubrication {
+        background: repeating-linear-gradient(
+            -45deg,
+            #01baef,
+            #01baef 7px,
+            white 7px,
+            white 14px
+        );
+        border-color: #01baef;
+    }
+}
+
+.b-sch-line-start,
+.b-sch-line {
+    border-color: #f33;
+
+    &.special {
+        border-color: #000;
+    }
+}
+
+.b-sch-event-wrap.b-milestone-wrap {
+    .b-sch-event {
+        border-radius: 100%;
+        font-size: 50%;
+        width: 2em;
+        color: inherit;
+
+        .b-fa,
+        .b-icon {
+            color: inherit;
+        }
+    }
+
+    // The app styles the inner element, but the :before is what
+    // carries the focus outline, so keep that sized right
+    &:before {
+        background: inherit;
+        margin: 0 auto;
+        padding: 0.4em;
+        background-color: inherit;
+        transform: none;
+        left: 0;
+        height: 1em;
+        width: 1em;
+    }
+
+    label {
+        padding-left: 2.6em;
+        color: #777;
+    }
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    > * {
+        height: auto;
+    }
+
+    .b-scheduler-container {
+        flex: 1 1 0%;
+        overflow: hidden;
+    }
+
+    .grid-container {
+        width: 140px;
+        border-left: 1px solid #aaa;
+        flex: 0 0 140px;
+
+        .b-grid-cell {
+            cursor: pointer;
+        }
+
+        i {
+            margin-right: 10px;
+            color: #4887e5;
+        }
+    }
+
+    .b-grid-header-text {
+        display: none;
+    }
+}
+
+// this cancels top and bottom margin on dl
+// introduced by bootstrap css
+.b-resource-info dl {
+    margin : {
+        top: 0;
+        bottom: 0;
+    }
+}
+
+.b-sch-event:not(.b-sch-event-milestone) {
+    border-radius: 2px;
+}
+
+.color-box {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    border-radius: 2px;
+}
+
+.b-sch-timerange,
+.b-sch-nonworkingtime {
+    color: #999;
+    font-size: 1.1em;
+    background: repeating-linear-gradient(
+        -55deg,
+        rgba(200, 200, 200, 0.3),
+        rgba(200, 200, 200, 0.3) 10px,
+        rgba(240, 240, 240, 0.3) 5px,
+        rgba(240, 240, 240, 0.3) 20px
+    );
+}
+
+.b-milestone label {
+    margin-left: -3em;
+}

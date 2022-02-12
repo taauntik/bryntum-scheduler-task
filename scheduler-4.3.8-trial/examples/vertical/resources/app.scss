@@ -1,0 +1,34 @@
+// Hide empty text element in vertical timeaxis header, to give filtering field more space
+.b-grid-headers-locked .b-grid-header {
+    .b-grid-header-text {
+        display : none;
+    }
+
+    .b-filter-bar-field {
+        margin-top : .5em;
+    }
+}
+
+.b-sch-event {
+    flex-wrap     : wrap;
+    align-content : flex-start;
+
+    i {
+        margin-bottom : .4em;
+    }
+
+    .time {
+        font-size   : .9em;
+        white-space : nowrap;
+    }
+
+    .name {
+        margin-top  : .4em;
+        width       : 100%;
+        font-weight : 600;
+    }
+}
+
+.b-grid > .b-toolbar > .b-content-element > .b-button.b-text {
+    width : 7em;
+}

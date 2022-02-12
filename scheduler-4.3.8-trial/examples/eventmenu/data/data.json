@@ -1,0 +1,147 @@
+{
+    "resources" : [
+        {
+            "id"   : "r1",
+            "name" : "Angelo"
+        },
+        {
+            "id"   : "r2",
+            "name" : "Celia"
+        },
+        {
+            "id"   : "r3",
+            "name" : "Dave"
+        },
+        {
+            "id"   : "r4",
+            "name" : "George"
+        },
+        {
+            "id"   : "r5",
+            "name" : "Gloria"
+        },
+        {
+            "id"   : "r6",
+            "name" : "Kate"
+        },
+        {
+            "id"   : "r7",
+            "name" : "Lisa"
+        },
+        {
+            "id"   : "r8",
+            "name" : "Mark"
+        },
+        {
+            "id"   : "r9",
+            "name" : "Maxim"
+        },
+        {
+            "id"   : "r10",
+            "name" : "Steve"
+        }
+    ],
+    "events"    : [
+        {
+            "id"         : 1,
+            "resourceId" : "r1",
+            "startDate"  : "2019-01-01T09:00",
+            "endDate"    : "2019-01-01T12:00",
+            "name"       : "Meeting",
+            "eventType"  : "meeting",
+            "canceled"   : true
+        },
+        {
+            "id"         : 2,
+            "resourceId" : "r2",
+            "startDate"  : "2019-01-01T11:00",
+            "endDate"    : "2019-01-01T13:30",
+            "name"       : "Meeting",
+            "eventType"  : "meeting"
+        },
+        {
+            "id"         : 3,
+            "resourceId" : "r3",
+            "startDate"  : "2019-01-01T10:00",
+            "endDate"    : "2019-01-01T14:00",
+            "name"       : "Activity",
+            "eventType"  : "activity"
+        },
+        {
+            "id"         : 4,
+            "resourceId" : "r4",
+            "startDate"  : "2019-01-01T09:00",
+            "endDate"    : "2019-01-01T12:00",
+            "name"       : "Activity",
+            "eventType"  : "activity",
+            "done"       : true
+        },
+        {
+            "id"         : 5,
+            "resourceId" : "r5",
+            "startDate"  : "2019-01-01T14:00",
+            "endDate"    : "2019-01-01T16:00",
+            "name"       : "Activity",
+            "eventType"  : "activity"
+        },
+        {
+            "id"         : 6,
+            "resourceId" : "r6",
+            "startDate"  : "2019-01-01T16:00",
+            "endDate"    : "2019-01-01T19:00",
+            "name"       : "Meeting",
+            "eventType"  : "meeting"
+        },
+        {
+            "id"         : 7,
+            "resourceId" : "r6",
+            "startDate"  : "2019-01-01T07:00",
+            "endDate"    : "2019-01-01T09:00",
+            "name"       : "Meeting",
+            "eventType"  : "meeting"
+        },
+        {
+            "id"         : 8,
+            "resourceId" : "r7",
+            "startDate"  : "2019-01-01T09:00",
+            "endDate"    : "2019-01-01T11:00",
+            "name"       : "Meeting",
+            "eventType"  : "meeting"
+        },
+        {
+            "id"         : 9,
+            "resourceId" : "r8",
+            "startDate"  : "2019-01-01T08:00",
+            "endDate"    : "2019-01-01T11:00",
+            "name"       : "Important meeting",
+            "locked"     : "true",
+            "draggable"  : false,
+            "resizable"  : false
+        },
+        {
+            "id"         : 10,
+            "resourceId" : "r9",
+            "startDate"  : "2019-01-01T08:00",
+            "endDate"    : "2019-01-01T15:00",
+            "name"       : "Conference",
+            "eventType"  : "meeting"
+        },
+        {
+            "id"         : 11,
+            "resourceId" : "r10",
+            "startDate"  : "2019-01-01T12:00",
+            "endDate"    : "2019-01-01T14:00",
+            "name"       : "Meeting",
+            "eventType"  : "meeting"
+        },
+        {
+            "id"         : 12,
+            "resourceId" : "r10",
+            "startDate"  : "2019-01-01T09:00",
+            "endDate"    : "2019-01-01T11:00",
+            "name"       : "Activity",
+            "eventType"  : "activity",
+            "done"       : true
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+{
+  "title": "Recurring events",
+  "description": "Shows recurring events. All update/delete operations on recurring events required to be confirmed. You can change recurrence configuration using the default event editor."
+}

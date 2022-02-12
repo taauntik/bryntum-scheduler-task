@@ -1,0 +1,67 @@
+.b-tabpanel {
+    flex : 1;
+}
+
+.b-tabpanel-tabs {
+    background-color : #1E88E5;
+    transition       : background-color .5s;
+}
+
+.b-tabpanel-body.b-card-container {
+    padding       : 0;
+    border-radius : 0;
+}
+
+.b-tabpanel-item .b-panel-content {
+    padding : 0;
+}
+
+.b-theme-classic-light .b-tabpanel-tabs {
+    background-color : #42A5F5;
+}
+
+.b-theme-classic-dark .b-tabpanel-tabs {
+    background-color : #0D47A1;
+}
+
+.b-theme-material .b-tabpanel-tabs {
+    .b-tabpanel-tab:not(.b-active):not(:hover) {
+        color : #fff;
+    }
+
+    .b-tabpanel-tab.b-active {
+        background-color : #fff;
+        border-color     : #fff;
+    }
+}
+
+.b-theme-stockholm .b-tabpanel-tabs {
+    background-color : #2667c8;
+
+    .b-tabpanel-tab:not(.b-active):not(:hover) {
+        color : #fff;
+    }
+}
+
+body:not(.b-theme-classic-dark) .b-scheduler {
+    background-color : #fff;
+}
+
+.b-toolbar > .b-content-element > .b-button {
+    margin-right : .5em;
+}
+
+.sch-hdr-startend .b-sch-header-text {
+    display : inline-flex;
+    flex    : 1;
+
+    span {
+        flex       : 1;
+        padding    : 0 1em;
+        text-align : left;
+
+        &:last-child {
+            text-align : right;
+        }
+    }
+}

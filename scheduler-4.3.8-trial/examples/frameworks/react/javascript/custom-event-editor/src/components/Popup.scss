@@ -1,0 +1,54 @@
+/**
+ * Styles for React Event Editor popup
+ */
+.popup-mask {
+    position         : fixed;
+    z-index          : 5;
+    width            : 100%;
+    height           : 100%;
+    top              : 0;
+    left             : 0;
+    right            : 0;
+    bottom           : 0;
+    margin           : auto;
+    background-color : rgba(0,0,0, 0.5);
+}
+.popup {
+    position      : absolute;
+    left          : 25%;
+    right         : 25%;
+    top           : 25%;
+    bottom        : 25%;
+    margin        : auto;
+    height        : 26em;
+    width         : 40em;
+    background    : rgb(248, 249, 250);;
+    box-shadow: 0 3px 6px rgba(0,0,0,.12), 0 3px 6px rgba(0,0,0,.24);
+
+    display        : flex;
+    flex-direction : column;
+
+    header {
+        font-size     : 2em;
+        font-weight   : 700;
+        background    : rgb(255, 245, 230);
+        padding       : 0.5em;
+        border-bottom : solid 1px rgb(254, 172, 49);
+    }
+
+    article {
+        flex : 1;
+        padding : 1em;
+    }
+
+    footer {
+        text-align : center;
+        padding-bottom : 1em;
+        button {
+            width         : 7em;
+        }
+        button:first-child {
+            margin-right : 1em;
+        }
+    }
+}

@@ -1,0 +1,4 @@
+{
+  "title": "Resource time ranges demo",
+  "description": "Displays resource time ranges, similar to events in that they have a start and end date but different in that they do not take part in the layout. They always occupy full row height and are displayed behind events."
+}

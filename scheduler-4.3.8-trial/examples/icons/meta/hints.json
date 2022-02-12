@@ -1,0 +1,14 @@
+{
+    ".div.hint": {
+        "title": "Default styling",
+        "content": "By default milestones are rendered as a diamond using a rotated div"
+    },
+    ".svg.hint": {
+        "title": "Using SVG",
+        "content": "This demo adds SVG support for milestones"
+    },
+    ".fa-badge-check": {
+        "title": "Using icons",
+        "content": "If you specify <code>iconCls</code> on a milestone it is rendered like this"
+    }
+}

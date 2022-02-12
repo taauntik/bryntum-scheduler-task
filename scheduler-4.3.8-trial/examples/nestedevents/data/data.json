@@ -1,0 +1,150 @@
+{
+    "success"   : true,
+    "resources" : {
+        "rows" : [
+            {
+                "id"   : 1,
+                "name" : "Celia"
+            },
+            {
+                "id"   : 2,
+                "name" : "Macy"
+            },
+            {
+                "id"   : 3,
+                "name" : "Gloria"
+            },
+            {
+                "id"   : 4,
+                "name" : "Madison"
+            },
+            {
+                "id"   : 5,
+                "name" : "Linda"
+            },
+            {
+                "id"   : 6,
+                "name" : "Lisa"
+            }
+        ]
+    },
+    "events"    : {
+        "rows" : [
+            {
+                "id"         : 1,
+                "resourceId" : 1,
+                "startDate"  : "2018-09-24T10:00:00",
+                "endDate"    : "2018-09-24T17:00:00",
+                "name"       : "Meeting",
+                "eventColor" : "blue",
+                "agenda"     : [
+                    {
+                        "name"      : "Agenda",
+                        "startDate" : "2018-09-24T10:00:00",
+                        "endDate"   : "2018-09-24T12:00:00"
+                    },
+                    {
+                        "name"      : "Outro",
+                        "startDate" : "2018-09-24T15:00:00",
+                        "endDate"   : "2018-09-24T17:00:00"
+                    }
+                ]
+            },
+            {
+                "id"         : 2,
+                "resourceId" : 2,
+                "startDate"  : "2018-09-24T10:00:00",
+                "endDate"    : "2018-09-24T17:00:00",
+                "name"       : "Meeting",
+                "eventColor" : "blue",
+                "agenda"     : [
+                    {
+                        "name"      : "Agend + intro",
+                        "startDate" : "2018-09-24T10:00:00",
+                        "endDate"   : "2018-09-24T13:00:00"
+                    }
+                ]
+            },
+            {
+                "id"         : 3,
+                "resourceId" : 3,
+                "startDate"  : "2018-09-24T09:00:00",
+                "endDate"    : "2018-09-24T18:00:00",
+                "name"       : "Conference",
+                "eventColor" : "purple",
+                "agenda"     : [
+                    {
+                        "name"      : "Session: What´s new",
+                        "startDate" : "2018-09-24T09:00:00",
+                        "endDate"   : "2018-09-24T16:00:00"
+                    }
+                ]
+            },
+            {
+                "id"         : 4,
+                "resourceId" : 4,
+                "startDate"  : "2018-09-24T10:00:00",
+                "endDate"    : "2018-09-24T17:00:00",
+                "name"       : "Meeting",
+                "eventColor" : "blue",
+                "agenda"     : [
+                    {
+                        "name"      : "Agenda",
+                        "startDate" : "2018-09-24T10:00:00",
+                        "endDate"   : "2018-09-24T11:00:00"
+                    },
+                    {
+                        "name"      : "Conclusion",
+                        "startDate" : "2018-09-24T15:00:00",
+                        "endDate"   : "2018-09-24T16:00:00"
+                    }
+                ]
+            },
+            {
+                "id"         : 5,
+                "resourceId" : 5,
+                "startDate"  : "2018-09-24T09:00:00",
+                "endDate"    : "2018-09-24T18:00:00",
+                "name"       : "Conference",
+                "eventColor" : "purple",
+                "agenda"     : [
+                    {
+                        "name"      : "Session: Recap",
+                        "startDate" : "2018-09-24T09:00:00",
+                        "endDate"   : "2018-09-24T11:00:00"
+                    },
+                    {
+                        "name"      : "Session: What´s next",
+                        "startDate" : "2018-09-24T13:00:00",
+                        "endDate"   : "2018-09-24T18:00:00"
+                    }
+                ]
+            },
+            {
+                "id"         : 6,
+                "resourceId" : 6,
+                "startDate"  : "2018-09-24T09:00:00",
+                "endDate"    : "2018-09-24T18:00:00",
+                "name"       : "Conference",
+                "eventColor" : "purple",
+                "agenda"     : [
+                    {
+                        "name"      : "Welcome",
+                        "startDate" : "2018-09-24T09:00:00",
+                        "endDate"   : "2018-09-24T10:00:00"
+                    },
+                    {
+                        "name"      : "Session: Mingle",
+                        "startDate" : "2018-09-24T12:00:00",
+                        "endDate"   : "2018-09-24T14:00:00"
+                    },
+                    {
+                        "name"      : "Adios",
+                        "startDate" : "2018-09-24T17:00:00",
+                        "endDate"   : "2018-09-24T18:00:00"
+                    }
+                ]
+            }
+        ]
+    }
+}

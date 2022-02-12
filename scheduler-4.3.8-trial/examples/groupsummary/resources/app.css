@@ -1,0 +1,43 @@
+.b-sch-event {
+  border-radius: 2px;
+}
+.b-sch-event.part {
+  opacity: 0.6;
+}
+
+.b-timeaxis-group-summary .b-timeaxis-summary-value {
+  position: relative;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.b-timeaxis-group-summary .b-timeaxis-summary-value:last-child {
+  flex: 2;
+  align-items: stretch;
+}
+.b-timeaxis-group-summary .bar-outer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  border-top: 1px solid #e0e0e7;
+}
+.b-timeaxis-group-summary .bar-inner {
+  position: relative;
+  width: 100%;
+  background-color: #FBC02D;
+  transition: height 0.3s;
+  min-height: 1px;
+}
+.b-timeaxis-group-summary .bar-inner label {
+  position: absolute;
+  top: -13px;
+  font-size: 0.7em;
+}
+.b-timeaxis-group-summary .bar-inner label.b-summarybar-label-inside {
+  top: 3px;
+}
+
+/*# sourceMappingURL=app.css.map */

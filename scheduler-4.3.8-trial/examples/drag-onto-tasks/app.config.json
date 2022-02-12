@@ -1,0 +1,4 @@
+{
+  "title": "Drag equipment onto tasks",
+  "description": "This example shows how to drag any DOM node and drop it onto a task to update some aspect of it."
+}

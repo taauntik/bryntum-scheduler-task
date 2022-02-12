@@ -1,0 +1,141 @@
+{
+    "success"    : true,
+    "resources"  : {
+        "rows" : [
+            {
+                "id"   : 1,
+                "name" : "Arcady",
+                "role" : "Field Agent"
+            },
+            {
+                "id"   : 2,
+                "name" : "Dave",
+                "role" : "Undercover operations"
+            },
+            {
+                "id"   : 3,
+                "name" : "Henrik",
+                "role" : "Field Agent"
+            },
+            {
+                "id"   : 4,
+                "name" : "Linda",
+                "role" : "Field Agent"
+            },
+            {
+                "id"   : 5,
+                "name" : "Maxim",
+                "role" : "Captain"
+            },
+            {
+                "id"   : 6,
+                "name" : "Mike",
+                "role" : "Lieutenant"
+            },
+            {
+                "id"   : 7,
+                "name" : "Lee",
+                "role" : "Chief Donut Officer"
+            }
+        ]
+    },
+    "events"     : {
+        "rows" : [
+            {
+                "id"           : "r1",
+                "resourceId"   : 1,
+                "name"         : "Spy on suspected bank robber",
+                "startDate"    : "2017-12-01T09:00:00",
+                "duration"     : 3,
+                "durationUnit" : "h",
+                "draggable"    : true,
+                "resizable"    : true,
+                "equipment"    : [
+                    3,
+                    4
+                ]
+            },
+            {
+                "id"           : "r2",
+                "resourceId"   : 1,
+                "name"         : "Witness interview",
+                "startDate"    : "2017-12-01T15:00:00",
+                "cls"          : "",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "draggable"    : true,
+                "resizable"    : true,
+                "equipment"    : [
+                    2
+                ]
+            },
+            {
+                "id"           : "r3",
+                "resourceId"   : 2,
+                "name"         : "CLASSIFIED",
+                "startDate"    : "2017-12-01T10:00:00",
+                "cls"          : "",
+                "duration"     : 3,
+                "durationUnit" : "h",
+                "draggable"    : true,
+                "resizable"    : true,
+                "eventColor"   : "red",
+                "equipment"    : [
+                    5
+                ]
+            },
+            {
+                "id"           : "r4",
+                "resourceId"   : 3,
+                "name"         : "Press conference",
+                "startDate"    : "2017-12-01T10:00:00",
+                "cls"          : "",
+                "duration"     : 3,
+                "durationUnit" : "h",
+                "draggable"    : true,
+                "resizable"    : true,
+                "equipment"    : [
+                ]
+            },
+            {
+                "id"           : "r5",
+                "resourceId"   : 7,
+                "name"         : "Get some coffee and donuts",
+                "startDate"    : "2017-12-01T12:00:00",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "draggable"    : true,
+                "resizable"    : true,
+                "equipment"    : [
+                ]
+            },
+            {
+                "id"           : "r6",
+                "resourceId"   : 4,
+                "name"         : "Visit crime scene",
+                "startDate"    : "2017-12-01T10:00:00",
+                "cls"          : "Special",
+                "duration"     : 3,
+                "durationUnit" : "h",
+                "draggable"    : true,
+                "resizable"    : true,
+                "equipment"    : [
+                ]
+            }
+        ]
+    },
+    "timeRanges" : {
+        "rows" : [
+            {
+                "startDate" : "2017-12-01T01:00:00",
+                "cls"       : "special"
+            },
+            {
+                "startDate" : "2017-12-01T19:00:00"
+            },
+            {
+                "startDate" : "2017-12-02T02:00:00"
+            }
+        ]
+    }
+}

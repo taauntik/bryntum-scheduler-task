@@ -1,0 +1,4 @@
+{
+  "title": "Stress test demo",
+  "description": "This demo lets you test the scheduler when external edits are received, to simulate a real world app with web sockets."
+}

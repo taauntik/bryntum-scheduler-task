@@ -1,0 +1,36 @@
+.nested {
+    position         : absolute;
+    background-color : inherit;
+    top              : 0;
+    bottom           : 0;
+    font-size        : .7em;
+    display          : flex;
+    justify-content  : center;
+    align-items      : center;
+    padding-left     : .5em;
+}
+
+.b-sch-event {
+    padding-left     : 0;
+    background-image : repeating-linear-gradient(45deg, #ddd, #ddd 10px, #eee 10px, #eee 20px);
+    border-radius    : 5px;
+
+    &.b-sch-event-resizing,
+    &.b-sch-event-selected,
+    &:hover {
+        // Needs !important to not have to have a very specific selector here, to keep demo css simple
+        background-image : repeating-linear-gradient(45deg, #ccc, #ccc 10px, #ddd 10px, #ddd 20px) !important;
+    }
+}
+
+.b-sch-event-content {
+    background-color : inherit;
+}
+
+.b-resize-handle {
+    &:before,
+    &:before {
+        // to make resizable handles visible over nested elements
+        z-index : 10;
+    }
+}

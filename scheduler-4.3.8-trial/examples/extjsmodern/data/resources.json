@@ -1,0 +1,73 @@
+[
+    {
+        "id"    : "r1",
+        "name"  : "Mike",
+        "color" : "#FF6F00"
+    },
+    {
+        "id"    : "r2",
+        "name"  : "Linda",
+        "color" : "#00C853"
+    },
+    {
+        "id"    : "r3",
+        "name"  : "Don",
+        "color" : "#FF6F00"
+    },
+    {
+        "id"    : "r4",
+        "name"  : "Karen",
+        "color" : "#FF6F00"
+    },
+    {
+        "id"    : "r5",
+        "name"  : "Doug",
+        "color" : "#00C853"
+    },
+    {
+        "id"    : "r6",
+        "name"  : "Peter",
+        "color" : "#00C853"
+    },
+    {
+        "id"    : "r7",
+        "name"  : "Sam",
+        "color" : "#F50057"
+    },
+    {
+        "id"    : "r8",
+        "name"  : "Melissa",
+        "color" : "#00C853"
+    },
+    {
+        "id"    : "r9",
+        "name"  : "John",
+        "color" : "#F50057"
+    },
+    {
+        "id"    : "r10",
+        "name"  : "Ellen",
+        "color" : "#F50057"
+    },
+    {
+        "id"    : "r11",
+        "name"  : "Steve",
+        "color" : "#F50057"
+    },
+    {
+        "id"    : "r12",
+        "name"  : "Nick",
+        "color" : "#FF6F00"
+    },
+    {
+        "id"    : "r13",
+        "name"  : "Maddy",
+        "color" : "#00C853"
+    },
+    {
+        "id"    : "r14",
+        "name"  : "Max",
+        "color" : "#FF6F00"
+    }
+]
+

@@ -1,0 +1,55 @@
+.b-sch-event:not(.b-milestone) {
+    border-radius : 2px;
+}
+
+.color-box {
+    width         : 1em;
+    height        : 1em;
+    margin-right  : .5em;
+    border-radius : 2px;
+}
+
+.b-sch-timerange, .b-sch-nonworkingtime {
+    color      : #999;
+    font-size  : 1.1em;
+    background : repeating-linear-gradient(-55deg, rgba(200, 200, 200, 0.3), rgba(200, 200, 200, 0.3) 10px, rgba(240, 240, 240, 0.3) 5px, rgba(240, 240, 240, 0.3) 20px);
+}
+
+.b-milestone .b-sch-event label {
+    margin-left: 2.2em;
+}
+
+.b-initial-custom .b-sch-event-wrap {
+    opacity             : 0;
+    animation-name      : initial-custom;
+    animation-duration  : 1.5s;
+    animation-fill-mode : forwards;
+
+    .b-sch-event {
+        animation-name            : initial-event-custom;
+        animation-duration        : 1.5s;
+        animation-fill-mode       : forwards;
+        animation-timing-function : ease-in-out;
+    }
+}
+
+@keyframes initial-custom {
+    0% {
+        opacity : 0;
+    }
+    100% {
+        opacity : 1;
+    }
+}
+
+@keyframes initial-event-custom {
+    0% {
+        transform : scale(.1) rotate(0deg)
+    }
+    50% {
+        transform : scale(2) rotate(360deg);
+    }
+    100% {
+        transform : scale(1) rotate(360deg);
+    }
+}

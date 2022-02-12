@@ -1,0 +1,50 @@
+<!--
+/**
+ * Custom, Angular-based event editor template
+ */
+-->
+<h2 mat-dialog-title>{{name}}&nbsp;</h2>
+
+<mat-dialog-content>
+
+    <mat-form-field class = "field-name">
+        <input
+            matInput
+            [(ngModel)] = "name"
+            placeholder = "Event name"
+        >
+    </mat-form-field>
+
+    <mat-form-field class = "field-desc">
+        <input
+            matInput
+            [(ngModel)] = "desc"
+            placeholder = "Description"
+        >
+    </mat-form-field>
+
+    <date-time-field
+        [(value)] = "startDate"
+        fieldLabel = "Start"
+    ></date-time-field>
+
+    <date-time-field
+        [(value)] = "endDate"
+        fieldLabel = "End"
+    ></date-time-field>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+
+    <button
+        class = "mat-raised-button"
+        (click) = "close()"
+    >Cancel</button>
+
+    <button
+        class = "mat-raised-button mat-primary"
+        (click) = "save()"
+    >Save</button>
+
+</mat-dialog-actions>

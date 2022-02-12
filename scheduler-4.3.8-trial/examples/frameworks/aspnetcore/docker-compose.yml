@@ -1,0 +1,22 @@
+version: "3"
+services:
+    bryntum_scheduler_mysql:
+        build: ./sql
+        image: bryntum_scheduler_mysql
+        container_name: bryntum_scheduler_mysql
+        ports:
+            - "33061:3306"
+    bryntum_scheduler_aspnetcore:
+        build:
+            context: .
+            args:
+                NPM_TOKEN: YOUR_NPM_TOKEN_HERE
+        image: bryntum_scheduler_aspnetcore
+        container_name: bryntum_scheduler_aspnetcore
+        environment:
+            - MySQL__Host=bryntum_scheduler_mysql
+            - MySQL__Port=3306
+        ports:
+            - "8080:80"
+        depends_on:
+            - bryntum_scheduler_mysql

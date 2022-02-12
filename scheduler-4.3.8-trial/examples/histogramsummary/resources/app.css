@@ -1,0 +1,29 @@
+.b-gridbase .b-grid-footer-container {
+  height: 60px;
+}
+.b-gridbase .b-grid-footer.b-sch-timeaxiscolumn {
+  align-items: flex-end;
+}
+.b-gridbase .b-grid-footer.b-sch-timeaxiscolumn .b-timeaxis-tick {
+  position: relative;
+  overflow: visible;
+  background: #FBC02D;
+  align-items: center;
+  transition: height 0.3s;
+  padding: 0;
+}
+.b-gridbase .b-grid-footer.b-sch-timeaxiscolumn .b-timeaxis-tick:not(:last-child) {
+  border-right: none;
+}
+.b-gridbase .b-grid-footer.b-sch-timeaxiscolumn .b-timeaxis-tick label {
+  position: absolute;
+  top: -15px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 0.85em;
+}
+.b-gridbase .b-grid-footer.b-sch-timeaxiscolumn .b-timeaxis-tick.b-summarybar-label-inside label {
+  top: 3px;
+}
+
+/*# sourceMappingURL=app.css.map */

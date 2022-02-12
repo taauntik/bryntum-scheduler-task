@@ -1,0 +1,280 @@
+{
+  "success": true,
+  "events": {
+    "rows": [
+      {
+        "id": 1,
+        "name": "Client meeting",
+        "startDate": "2020-01-08",
+        "endDate": "2020-01-09"
+      },
+      {
+        "id": 2,
+        "name": "Performance review",
+        "startDate": "2020-01-10",
+        "endDate": "2020-01-11"
+      },
+      {
+        "id": 3,
+        "name": "Business trip",
+        "startDate": "2020-01-05",
+        "endDate": "2020-01-06"
+      },
+      {
+        "id": 4,
+        "name": "Sick leave",
+        "startDate": "2020-01-07",
+        "endDate": "2020-01-08"
+      },
+      {
+        "id": 5,
+        "name": "Out of office",
+        "startDate": "2020-01-08",
+        "endDate": "2020-01-09"
+      },
+      {
+        "id": 6,
+        "name": "Internal meeting",
+        "startDate": "2020-01-06",
+        "endDate": "2020-01-07"
+      },
+      {
+        "id": 7,
+        "name": "Milestone release",
+        "startDate": "2020-01-06",
+        "duration": 0
+      },
+      {
+        "id": 8,
+        "name": "Sales meeting",
+        "startDate": "2020-01-06",
+        "endDate": "2020-01-07"
+      },
+      {
+        "id": 9,
+        "name": "Interviews",
+        "startDate": "2020-01-06",
+        "endDate": "2020-01-07"
+      },
+      {
+        "id": 10,
+        "name": "Partner meeteing",
+        "startDate": "2020-01-10",
+        "endDate": "2020-01-11"
+      },
+      {
+        "id": 11,
+        "name": "Sales promotion",
+        "startDate": "2020-01-08",
+        "endDate": "2020-01-11"
+      },
+      {
+        "id": 12,
+        "name": "Test environment",
+        "startDate": "2020-01-06",
+        "duration": 0
+      },
+      {
+        "id": 13,
+        "name": "Test code",
+        "startDate": "2020-01-08",
+        "duration": 0
+      },
+      {
+        "id": 14,
+        "name": "Test application",
+        "startDate": "2020-01-11",
+        "duration": 0
+      }
+    ]
+  },
+  "resources": {
+    "rows": [
+      {
+        "id": "r1",
+        "name": "Kevin Anderson",
+        "category": "Consultants",
+        "type": "Full time",
+        "image": "mike"
+      },
+      {
+        "id": "r2",
+        "name": "Kevin Larson",
+        "category": "Consultants",
+        "type": "Full time",
+        "image": "amit"
+      },
+      {
+        "id": "r3",
+        "name": "Brett Hornbach",
+        "category": "Consultants",
+        "type": "Full time",
+        "image": "angelo"
+      },
+      {
+        "id": "r4",
+        "name": "Andrew Holt",
+        "category": "Consultants",
+        "type": "Full time",
+        "image": "arcady"
+      },
+      {
+        "id": "r5",
+        "name": "Nick Arnold",
+        "category": "Testers",
+        "type": "Part time",
+        "image": "arnold"
+      },
+      {
+        "id": "r10",
+        "name": "Matt Daemon",
+        "category": "Sales",
+        "type": "Full time",
+        "image": "dan"
+      },
+      {
+        "id": "r11",
+        "name": "Karl Lager",
+        "category": "Testers",
+        "type": "Part time",
+        "image": "henrik"
+      },
+      {
+        "id": "r12",
+        "name": "Aaron Wilson",
+        "category": "Testers",
+        "type": "Full time",
+        "image": "malik"
+      },
+      {
+        "id": "r13",
+        "name": "Derek Ronburg",
+        "category": "Testers",
+        "type": "Full time",
+        "image": "jong"
+      },
+      {
+        "id": "r14",
+        "name": "Melinda Patterson",
+        "category": "Testers",
+        "type": "Full time",
+        "image": "lola"
+      },
+      {
+        "id": "r15",
+        "name": "Will Pherrel",
+        "category": "Testers",
+        "type": "Part time",
+        "image": "lee"
+      },
+      {
+        "id": "r16",
+        "name": "Ofelia Larson",
+        "category": "Research",
+        "type": "Full time",
+        "image": "emilia"
+      },
+      {
+        "id": "r17",
+        "name": "David Mantorp",
+        "category": "Research",
+        "type": "Part time",
+        "image": "mark"
+      },
+      {
+        "id": "r18",
+        "name": "Ann Withersby",
+        "category": "Research",
+        "type": "Full time",
+        "image": "gloria"
+      },
+      {
+        "id": "r20",
+        "name": "Xavier Dough",
+        "category": "Research",
+        "type": "Full time",
+        "image": "rob"
+      }
+    ]
+  },
+  "assignments": {
+    "rows": [
+      {
+        "id": 1,
+        "eventId": 1,
+        "resourceId": "r1"
+      },
+      {
+        "id": 2,
+        "eventId": 2,
+        "resourceId": "r12"
+      },
+      {
+        "id": 3,
+        "eventId": 3,
+        "resourceId": "r13"
+      },
+      {
+        "id": 4,
+        "eventId": 4,
+        "resourceId": "r4"
+      },
+      {
+        "id": 5,
+        "eventId": 5,
+        "resourceId": "r17"
+      },
+      {
+        "id": 6,
+        "eventId": 6,
+        "resourceId": "r1"
+      },
+      {
+        "id": 7,
+        "eventId": 7,
+        "resourceId": "r18"
+      },
+      {
+        "id": 8,
+        "eventId": 8,
+        "resourceId": "r3"
+      },
+      {
+        "id": 9,
+        "eventId": 9,
+        "resourceId": "r4"
+      },
+      {
+        "id": 10,
+        "eventId": 5,
+        "resourceId": "r4"
+      },
+      {
+        "id": 11,
+        "eventId": 10,
+        "resourceId": "r2"
+      },
+      {
+        "id": 12,
+        "eventId": 11,
+        "resourceId": "r10"
+      },
+      {
+        "id": 13,
+        "eventId": 12,
+        "resourceId": "r5"
+      },
+      {
+        "id": 14,
+        "eventId": 13,
+        "resourceId": "r5"
+      },
+      {
+        "id": 15,
+        "eventId": 14,
+        "resourceId": "r5"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,6 @@
+{
+    ".b-grid-footer-container .b-timeaxis-tick:nth-child(5)" : {
+        "title"   : "Histogram bars",
+        "content" : "Update the scheduled tasks to see changes updated here automatically"
+    }
+}

@@ -1,0 +1,38 @@
+[data-reference=outer] {
+    display        : flex;
+    flex           : 1;
+    flex-direction : column;
+}
+
+[data-reference=horizontal] {
+    display : flex;
+    flex : 1;
+    flex-direction : row;
+}
+
+[data-reference=container] {
+    flex : 1;
+    overflow : hidden;
+}
+
+[data-reference=info] {
+    padding    : 1em;
+    color      : #fff;
+    opacity    : .8;
+    transition : background-color .2s, color .2s;
+
+    &.not-in-use {
+        background-color : #aaa;
+        color            : #eee;
+    }
+}
+
+[data-reference=tools] {
+    flex          : 0 0 15em;
+    border-left   : 5px solid #e9eaeb;
+    border-radius : 0;
+
+    label {
+        flex : 0 0 7em;
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "success"    : true,
+    "resources"  : {
+        "rows" : [
+            {
+                "id"    : "a",
+                "name"  : "Arcady",
+                "role"  : "Core developer",
+                "eventColor" : "orange"
+            },
+            {
+                "id"    : "b",
+                "name"  : "Dave",
+                "role"  : "Tech Sales",
+                "eventColor" : "orange"
+            },
+            {
+                "id"    : "c",
+                "name"  : "Henrik",
+                "role"  : "Sales",
+                "eventColor" : "orange"
+            },
+            {
+                "id"   : "d",
+                "name" : "Linda",
+                "role" : "Core developer",
+                "eventColor" : "green"
+            },
+            {
+                "id"    : "e",
+                "name"  : "Maxim",
+                "role"  : "Developer & UX",
+                "eventColor" : "blue"
+            },
+            {
+                "id"    : "f",
+                "name"  : "Mike",
+                "role"  : "CEO",
+                "eventColor" : "blue"
+            },
+            {
+                "id"    : "g",
+                "name"  : "Gloria",
+                "role"  : "CTO",
+                "eventColor" : "blue"
+            }
+        ]
+    },
+    "events"     : {
+        "rows" : [
+            {
+                "resourceId" : "a",
+                "name"       : "Make marketing plan",
+                "startDate"  : "2017-02-07 11:00",
+                "endDate"    : "2017-02-07 14:00"
+            },
+            {
+                "resourceId" : "b",
+                "name"       : "Read spec.",
+                "startDate"  : "2017-02-07 12:00",
+                "endDate"    : "2017-02-07 15:00"
+            },
+            {
+                "resourceId" : "c",
+                "name"       : "Sign documents",
+                "startDate"  : "2017-02-07 13:00",
+                "endDate"    : "2017-02-07 16:00"
+            },
+            {
+                "resourceId" : "d",
+                "name"       : "Board meeting",
+                "startDate"  : "2017-02-07 09:00",
+                "endDate"    : "2017-02-07 11:00"
+            },
+            {
+                "resourceId" : "e",
+                "name"       : "Sales call",
+                "startDate"  : "2017-02-07 10:00",
+                "endDate"    : "2017-02-07 12:00"
+            },
+            {
+                "resourceId" : "f",
+                "name"       : "Customer visit",
+                "startDate"  : "2017-02-07 11:00",
+                "endDate"    : "2017-02-07 13:00",
+                "location"   : "Customer office"
+            },
+            {
+                "resourceId" : "g",
+                "name"       : "Prepare happy hour",
+                "startDate"  : "2017-02-07 14:00",
+                "endDate"    : "2017-02-07 17:00"
+            }
+        ]
+    },
+    "timeRanges" : {
+        "rows" : [
+            {
+                "startDate" : "2017-02-07 11:00",
+                "endDate"   : "2017-02-07 12:00"
+            }
+        ]
+    }
+}

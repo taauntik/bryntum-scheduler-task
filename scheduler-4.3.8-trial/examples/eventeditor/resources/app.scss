@@ -1,0 +1,30 @@
+.b-subgrid .b-sch-range {
+    background : repeating-linear-gradient(-55deg, rgba(230,230,230,0.7), rgba(230,230,230,0.7) 10px, rgba(240,240,240,0.7) 5px, rgba(240,240,240,0.7) 20px);
+    opacity    : 0.7;
+}
+
+.b-theme-classic-dark {
+    .b-subgrid .b-sch-range {
+        background : repeating-linear-gradient(-55deg, rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7) 10px, rgba(110, 110, 110, 0.7) 5px, rgba(110, 110, 110, 0.7) 20px);
+    }
+}
+
+.b-sch-event-content {
+    display     : flex;
+    align-items : center;
+}
+
+.b-sch-event-header {
+    font-size   : .8em;
+}
+
+.b-sch-event-footer {
+    font-weight : 400;
+}
+
+.color-box {
+    width         : 1em;
+    height        : 1em;
+    margin-right  : .5em;
+    border-radius : 2px;
+}

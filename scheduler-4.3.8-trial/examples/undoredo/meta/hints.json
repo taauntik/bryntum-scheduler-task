@@ -1,0 +1,8 @@
+{
+
+    "[data-ref=transactionsCombo]": {
+        "title": "Undo/redo",
+        "content": "Perform actions in the schedule, then you can use the controls up here to undo or redo your actions"
+    }
+
+}

@@ -1,0 +1,6 @@
+{
+    ".b-slider" : {
+        "title"   : "Chaos slider",
+        "content" : "This slider lets you control how quickly external changes are generated. Do you dare try the max value for total chaos..?"
+    }
+}

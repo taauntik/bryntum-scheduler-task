@@ -1,0 +1,120 @@
+{
+    "success"    : true,
+    "resources"  : {
+        "rows" : [
+            {
+                "id"         : "a",
+                "name"       : "Rob",
+                "type"       : "Sales",
+                "eventColor" : "green"
+            },
+            {
+                "id"         : "b",
+                "name"       : "Mike",
+                "type"       : "Sales",
+                "eventColor" : "green"
+            },
+            {
+                "id"         : "c",
+                "name"       : "Kate",
+                "type"       : "Sales",
+                "eventColor" : "orange"
+            },
+            {
+                "id"         : "d",
+                "name"       : "Lisa",
+                "type"       : "Developer",
+                "eventColor" : "orange"
+            },
+            {
+                "id"         : "e",
+                "name"       : "Dave",
+                "type"       : "Developer",
+                "eventColor" : "blue"
+            },
+            {
+                "id"         : "f",
+                "name"       : "Arnold",
+                "type"       : "Developer",
+                "eventColor" : "blue"
+            },
+            {
+                "id"         : "g",
+                "name"       : "Lee",
+                "type"       : "Marketing",
+                "eventColor" : "violet"
+            },
+            {
+                "id"         : "h",
+                "name"       : "Jong",
+                "type"       : "Marketing",
+                "eventColor" : "violet"
+            }
+        ]
+    },
+    "events"     : {
+        "rows" : [
+            {
+                "id"         : 1,
+                "resourceId" : "a",
+                "name"       : "Meeting #1",
+                "startDate"  : "2019-02-07 09:00",
+                "endDate"    : "2019-02-07 11:00",
+                "location"   : "Some office",
+                "eventType"  : "Meeting"
+            },
+            {
+                "id"         : 2,
+                "resourceId" : "b",
+                "name"       : "Meeting #2",
+                "startDate"  : "2019-02-07 15:00",
+                "endDate"    : "2019-02-07 16:30",
+                "location"   : "Home office",
+                "eventType"  : "Meeting"
+            }
+        ]
+    },
+    "timeRanges" : {
+        "rows" : [
+            {
+                "id"        : 1,
+                "name"      : "Morning coffee",
+                "cls"       : "coffee",
+                "startDate" : "2019-02-07 08:00",
+                "endDate"   : "2019-02-07 09:00"
+            },
+            {
+                "id"        : 2,
+                "cls"       : "lunch b-fa b-fa-utensils",
+                "name"      : "Lunch o´ clock",
+                "startDate" : "2019-02-07 11:00",
+                "endDate"   : "2019-02-07 12:00"
+            },
+            {
+                "id"        : 3,
+                "name"      : "Important time",
+                "startDate" : "2019-02-07 13:30"
+            },
+            {
+                "id"        : 4,
+                "name"      : "Fika",
+                "cls"       : "fika",
+                "startDate" : "2019-02-07 14:30",
+                "endDate"   : "2019-02-07 15:00"
+            },
+            {
+                "id"        : 5,
+                "cls"       : "b-fa b-fa-flag",
+                "name"      : "v5.0",
+                "startDate" : "2019-02-07 15:45"
+            },
+            {
+                "id"        : 6,
+                "name"      : "Custom style",
+                "startDate" : "2019-02-07 17:00",
+                "endDate"   : "2019-02-07 18:00",
+                "style"     : "background : repeating-linear-gradient(45deg, rgba(155,155,155,0.5), rgba(155,155,155,0.5) 8px, transparent 8px, transparent 16px);color: #666"
+            }
+        ]
+    }
+}

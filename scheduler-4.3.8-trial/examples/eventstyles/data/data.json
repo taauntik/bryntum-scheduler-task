@@ -1,0 +1,263 @@
+{
+    "success"   : true,
+    "resources" : {
+        "rows" : [
+            {
+                "id"   : "r1",
+                "name" : "Red"
+            },
+            {
+                "id"   : "r2",
+                "name" : "Pink"
+            },
+            {
+                "id"   : "r3",
+                "name" : "Purple"
+            },
+            {
+                "id"   : "r4",
+                "name" : "Violet"
+            },
+            {
+                "id"   : "r5",
+                "name" : "Indigo"
+            },
+            {
+                "id"   : "r6",
+                "name" : "Blue"
+            },
+            {
+                "id"   : "r7",
+                "name" : "Cyan"
+            },
+            {
+                "id"   : "r8",
+                "name" : "Teal"
+            },
+            {
+                "id"   : "r9",
+                "name" : "Green"
+            },
+            {
+                "id"   : "r10",
+                "name" : "Lime"
+            },
+            {
+                "id"   : "r11",
+                "name" : "Yellow"
+            },
+            {
+                "id"   : "r12",
+                "name" : "Orange"
+            },
+            {
+                "id"   : "r13",
+                "name" : "Deep-Orange"
+            },
+            {
+                "id"   : "r14",
+                "name" : "Gray"
+            }
+        ]
+    },
+    "events"    : {
+        "rows" : [
+            {
+                "resourceId" : "r1",
+                "startDate"  : "2017-01-01T10:00:00",
+                "endDate"    : "2017-01-01T12:00:00",
+                "eventStyle" : "plain",
+                "eventColor" : "red"
+            },
+            {
+                "resourceId" : "r1",
+                "startDate"  : "2017-01-01T15:00:00",
+                "duration"   : 0,
+                "eventStyle" : "plain",
+                "eventColor" : "red"
+            },
+            {
+                "resourceId" : "r2",
+                "startDate"  : "2017-01-01T12:00:00",
+                "endDate"    : "2017-01-01T13:00:00",
+                "eventStyle" : "border",
+                "eventColor" : "pink"
+            },
+            {
+                "resourceId" : "r2",
+                "startDate"  : "2017-01-01T16:00:00",
+                "duration"   : 0,
+                "eventStyle" : "border",
+                "eventColor" : "pink"
+            },
+            {
+                "resourceId" : "r3",
+                "startDate"  : "2017-01-01T14:00:00",
+                "endDate"    : "2017-01-01T16:00:00",
+                "eventStyle" : "hollow",
+                "eventColor" : "purple"
+            },
+            {
+                "resourceId" : "r3",
+                "startDate"  : "2017-01-01T19:00:00",
+                "duration"   : 0,
+                "eventStyle" : "hollow",
+                "eventColor" : "purple"
+            },
+            {
+                "resourceId" : "r4",
+                "startDate"  : "2017-01-01T08:00:00",
+                "endDate"    : "2017-01-01T11:00:00",
+                "eventStyle" : "colored",
+                "eventColor" : "violet"
+            },
+            {
+                "resourceId" : "r4",
+                "startDate"  : "2017-01-01T13:00:00",
+                "duration"   : 0,
+                "eventStyle" : "colored",
+                "eventColor" : "violet"
+            },
+            {
+                "resourceId" : "r5",
+                "startDate"  : "2017-01-01T15:00:00",
+                "endDate"    : "2017-01-01T17:00:00",
+                "eventStyle" : "line",
+                "eventColor" : "indigo"
+            },
+            {
+                "resourceId" : "r5",
+                "startDate"  : "2017-01-01T12:00:00",
+                "duration"   : 0,
+                "eventStyle" : "line",
+                "eventColor" : "indigo"
+            },
+            {
+                "resourceId" : "r6",
+                "startDate"  : "2017-01-01T16:00:00",
+                "endDate"    : "2017-01-01T18:00:00",
+                "eventStyle" : "dashed",
+                "eventColor" : "blue"
+            },
+            {
+                "resourceId" : "r6",
+                "startDate"  : "2017-01-01T13:00:00",
+                "duration"   : 0,
+                "eventStyle" : "dashed",
+                "eventColor" : "blue"
+            },
+            {
+                "resourceId" : "r7",
+                "startDate"  : "2017-01-01T6:00:00",
+                "endDate"    : "2017-01-01T8:00:00",
+                "eventStyle" : "minimal",
+                "eventColor" : "cyan"
+            },
+            {
+                "resourceId" : "r7",
+                "startDate"  : "2017-01-01T11:00:00",
+                "duration"   : 0,
+                "eventStyle" : "minimal",
+                "eventColor" : "cyan"
+            },
+            {
+                "resourceId" : "r8",
+                "startDate"  : "2017-01-01T9:00:00",
+                "endDate"    : "2017-01-01T11:00:00",
+                "eventStyle" : "rounded",
+                "eventColor" : "teal"
+            },
+            {
+                "resourceId" : "r8",
+                "startDate"  : "2017-01-01T14:00:00",
+                "duration"   : 0,
+                "eventStyle" : "rounded",
+                "eventColor" : "teal"
+            },
+            {
+                "resourceId" : "r9",
+                "startDate"  : "2017-01-01T12:00:00",
+                "endDate"    : "2017-01-01T13:00:00",
+                "eventStyle" : "plain",
+                "eventColor" : "green"
+            },
+            {
+                "resourceId" : "r9",
+                "startDate"  : "2017-01-01T17:00:00",
+                "duration"  : 0,
+                "eventStyle" : "plain",
+                "eventColor" : "green"
+            },
+            {
+                "resourceId" : "r10",
+                "startDate"  : "2017-01-01T14:00:00",
+                "endDate"    : "2017-01-01T16:00:00",
+                "eventStyle" : "border",
+                "eventColor" : "lime"
+            },
+            {
+                "resourceId" : "r10",
+                "startDate"  : "2017-01-01T11:00:00",
+                "duration"  : 0,
+                "eventStyle" : "border",
+                "eventColor" : "lime"
+            },
+            {
+                "resourceId" : "r11",
+                "startDate"  : "2017-01-01T08:00:00",
+                "endDate"    : "2017-01-01T11:00:00",
+                "eventStyle" : "hollow",
+                "eventColor" : "yellow"
+            },
+            {
+                "resourceId" : "r11",
+                "startDate"  : "2017-01-01T15:00:00",
+                "duration"  : 0,
+                "eventStyle" : "hollow",
+                "eventColor" : "yellow"
+            },
+            {
+                "resourceId" : "r12",
+                "startDate"  : "2017-01-01T15:00:00",
+                "endDate"    : "2017-01-01T17:00:00",
+                "eventStyle" : "colored",
+                "eventColor" : "orange"
+            },
+            {
+                "resourceId" : "r12",
+                "startDate"  : "2017-01-01T11:00:00",
+                "duration"  : 0,
+                "eventStyle" : "colored",
+                "eventColor" : "orange"
+            },
+            {
+                "resourceId" : "r13",
+                "startDate"  : "2017-01-01T16:00:00",
+                "endDate"    : "2017-01-01T18:00:00",
+                "eventStyle" : "line",
+                "eventColor" : "deep-orange"
+            },
+            {
+                "resourceId" : "r13",
+                "startDate"  : "2017-01-01T12:00:00",
+                "duration"  : 0,
+                "eventStyle" : "line",
+                "eventColor" : "deep-orange"
+            },
+            {
+                "resourceId" : "r14",
+                "startDate"  : "2017-01-01T13:00:00",
+                "endDate"    : "2017-01-01T14:00:00",
+                "eventStyle" : "dashed",
+                "eventColor" : "gray"
+            },
+            {
+                "resourceId" : "r14",
+                "startDate"  : "2017-01-01T10:00:00",
+                "duration"  : 0,
+                "eventStyle" : "dashed",
+                "eventColor" : "gray"
+            }
+        ]
+    }
+}

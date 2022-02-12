@@ -1,0 +1,7 @@
+.b-sch-label.custom {
+    font-weight : bold;
+
+    body:not(.b-theme-classic-dark) & {
+        color : #000;
+    }
+}

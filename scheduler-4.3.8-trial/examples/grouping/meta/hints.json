@@ -1,0 +1,10 @@
+{
+    ".b-sch-timeaxis-cell"       : {
+        "title"  : "Grouped",
+        "content": "The scheduler is grouped by Category"
+    },
+    "[data-column=type]": {
+        "title"  : "Right click...",
+        "content": "...and select Group ascending to group by Employment type instead"
+    }
+}

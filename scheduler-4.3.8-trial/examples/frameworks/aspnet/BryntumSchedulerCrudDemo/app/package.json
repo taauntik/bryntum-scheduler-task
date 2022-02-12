@@ -1,0 +1,36 @@
+{
+  "name": "aspnet",
+  "description": ".NET demo",
+  "version": "4.3.8",
+  "author": {
+    "name": "Bryntum",
+    "url": "https://bryntum.com",
+    "email": "info@bryntum.com"
+  },
+  "license": "commercial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_OPTIONS='--max-old-space-size=8192' webpack --config webpack.config.js --progress"
+  },
+  "dependencies": {
+    "@bryntum/scheduler": "4.3.8"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.8.6",
+    "@babel/plugin-transform-runtime": "~7.8.3",
+    "@babel/polyfill": "~7.8.3",
+    "@babel/preset-env": "~7.8.6",
+    "@babel/runtime": "~7.8.4",
+    "babel-loader": "~8.0.6",
+    "cross-env": "~7.0.3",
+    "css-loader": "~3.4.2",
+    "file-loader": "~5.1.0",
+    "mini-css-extract-plugin": "~0.9.0",
+    "ncp": "~2.0.0",
+    "sass": "~1.42.0",
+    "sass-loader": "~8.0.2",
+    "webpack": "~4.41.6",
+    "webpack-cli": "~3.3.11"
+  }
+}

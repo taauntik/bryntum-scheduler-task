@@ -1,0 +1,131 @@
+{
+    "success"   : true,
+    "resources" : {
+        "rows" : [
+            {
+                "id"         : 1,
+                "rating"     : 5,
+                "name"       : "Cabin #1",
+                "eventColor" : "red",
+                "iconCls"    : "b-fa b-fa-home",
+                "sleeps"     : 8
+            },
+            {
+                "id"         : 2,
+                "rating"     : 4.5,
+                "name"       : "Cabin #2",
+                "iconCls"    : "b-fa b-fa-home",
+                "eventColor" : "pink",
+                "sleeps"     : 6
+            },
+            {
+                "id"         : 3,
+                "rating"     : 5,
+                "name"       : "The Lodge",
+                "iconCls"    : "b-fa b-fa-home",
+                "eventColor" : "violet",
+                "sleeps"     : 6
+            },
+            {
+                "id"         : 4,
+                "rating"     : 2,
+                "name"       : "The Royal Retreat",
+                "iconCls"    : "b-fa b-fa-hotel",
+                "eventColor" : "purple",
+                "sleeps"     : 4
+            },
+            {
+                "id"         : 5,
+                "rating"     : 3,
+                "name"       : "The Tree Nest",
+                "iconCls"    : "b-fa b-fa-tree",
+                "eventColor" : "blue",
+                "sleeps"     : 2
+            },
+            {
+                "id"         : 6,
+                "rating"     : 4,
+                "iconCls"    : "b-fa b-fa-campground",
+                "name"       : "The Luxury Tent",
+                "eventColor" : "teal",
+                "sleeps"     : 2
+            }
+        ]
+    },
+    "events"    : {
+        "rows" : [
+            {
+                "id"         : "e10",
+                "resourceId" : 1,
+                "name"       : "Mr Woods",
+                "guests"     : 3,
+                "startDate"  : "2017-12-01",
+                "endDate"    : "2017-12-03"
+            },
+            {
+                "id"         : "e101",
+                "resourceId" : 1,
+                "guests"     : 2,
+                "name"       : "Ms Davis",
+                "startDate"  : "2017-12-03",
+                "endDate"    : "2017-12-05"
+            },
+            {
+                "id"         : "e11",
+                "resourceId" : 2,
+                "guests"     : 4,
+                "name"       : "Bonnie and Clyde",
+                "startDate"  : "2017-12-01",
+                "endDate"    : "2017-12-03"
+            },
+            {
+                "id"         : "e21",
+                "resourceId" : 3,
+                "name"       : "Smith Family",
+                "guests"     : 5,
+                "startDate"  : "2017-12-02",
+                "endDate"    : "2017-12-05"
+            },
+            {
+                "id"         : "e22",
+                "resourceId" : 4,
+                "guests"     : 1,
+                "name"       : "K. West",
+                "startDate"  : "2017-12-02",
+                "endDate"    : "2017-12-05"
+            },
+            {
+                "id"         : "e22222",
+                "resourceId" : 5,
+                "guests"     : 2,
+                "name"       : "Larry Bird",
+                "startDate"  : "2017-12-03",
+                "endDate"    : "2017-12-07"
+            },
+            {
+                "id"         : "2",
+                "startDate"  : "2017-12-02",
+                "endDate"    : "2017-12-07",
+                "guests"     : 2,
+                "name"       : "John & Jenny Doe",
+                "resourceId" : 6
+            },
+            {
+                "id"         : "3",
+                "startDate"  : "2017-12-08",
+                "endDate"    : "2017-12-13",
+                "guests"     : 2,
+                "name"       : "The Johnsons",
+                "resourceId" : 6
+            },
+            {
+                "id"         : "4",
+                "startDate"  : "2017-12-14",
+                "endDate"    : "2017-12-19",
+                "guests"     : 2,
+                "name"       : "K. Jackson",
+                "resourceId" : 6
+            }
+        ]
+    }
+}

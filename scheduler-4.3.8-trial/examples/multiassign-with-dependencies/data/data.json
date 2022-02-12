@@ -1,0 +1,172 @@
+{
+    "success"      : true,
+    "resources"    : {
+        "rows" : [
+            {
+                "id"   : "r1",
+                "name" : "Celia",
+                "city" : "Barcelona"
+            },
+            {
+                "id"   : "r2",
+                "name" : "Lee",
+                "city" : "London"
+            },
+            {
+                "id"   : "r3",
+                "name" : "Macy",
+                "city" : "New York"
+            },
+            {
+                "id"   : "r4",
+                "name" : "Madison",
+                "city" : "Barcelona"
+            },
+            {
+                "id"   : "r5",
+                "name" : "Rob",
+                "city" : "Rome"
+            },
+            {
+                "id"   : "r6",
+                "name" : "Dave",
+                "city" : "Barcelona"
+            },
+            {
+                "id"   : "r7",
+                "name" : "Dan",
+                "city" : "London"
+            },
+            {
+                "id"   : "r8",
+                "name" : "George",
+                "city" : "New York"
+            },
+            {
+                "id"   : "r9",
+                "name" : "Gloria",
+                "city" : "Rome"
+            },
+            {
+                "id"   : "r10",
+                "name" : "Henrik",
+                "city" : "London"
+            }
+        ]
+    },
+    "events"       : {
+        "rows" : [
+            {
+                "id"        : 1,
+                "startDate" : "2019-01-01 10:00",
+                "endDate"   : "2019-01-01 12:00",
+                "name"      : "Multi assigned A",
+                "iconCls"   : "b-fa b-fa-users"
+            },
+            {
+                "id"         : 2,
+                "startDate"  : "2019-01-01 13:00",
+                "endDate"    : "2019-01-01 15:00",
+                "name"       : "Single assigned A",
+                "iconCls"    : "b-fa b-fa-user",
+                "eventColor" : "indigo"
+            },
+            {
+                "id"         : 3,
+                "startDate"  : "2019-01-01 08:00",
+                "endDate"    : "2019-01-01 11:00",
+                "name"       : "Single assigned B",
+                "iconCls"    : "b-fa b-fa-user",
+                "eventColor" : "cyan"
+            },
+            {
+                "id"         : 4,
+                "startDate"  : "2019-01-01 10:00",
+                "endDate"    : "2019-01-01 13:00",
+                "name"       : "Single assigned C",
+                "iconCls"    : "b-fa b-fa-user",
+                "eventColor" : "blue"
+            },
+            {
+                "id"         : 5,
+                "startDate"  : "2019-01-01 13:00",
+                "endDate"    : "2019-01-01 15:00",
+                "name"       : "Single assigned D",
+                "iconCls"    : "b-fa b-fa-user",
+                "eventColor" : "violet"
+            },
+            {
+                "id"         : 6,
+                "startDate"  : "2019-01-01 14:00",
+                "endDate"    : "2019-01-01 17:00",
+                "name"       : "Multi assigned B",
+                "iconCls"    : "b-fa b-fa-users",
+                "eventColor" : "lime"
+            }
+        ]
+    },
+    "assignments"  : {
+        "rows" : [
+            {
+                "id"         : 1,
+                "resourceId" : "r3",
+                "eventId"    : 1
+            },
+            {
+                "id"         : 2,
+                "resourceId" : "r2",
+                "eventId"    : 1
+            },
+            {
+                "id"         : 3,
+                "resourceId" : "r8",
+                "eventId"    : 1
+            },
+            {
+                "id"         : 4,
+                "resourceId" : "r7",
+                "eventId"    : 2
+            },
+            {
+                "id"         : 5,
+                "resourceId" : "r4",
+                "eventId"    : 3
+            },
+            {
+                "id"         : 6,
+                "resourceId" : "r5",
+                "eventId"    : 4
+            },
+            {
+                "id"         : 7,
+                "resourceId" : "r6",
+                "eventId"    : 5
+            },
+            {
+                "id"         : 8,
+                "resourceId" : "r1",
+                "eventId"    : 6
+            },
+            {
+                "id"         : 9,
+                "resourceId" : "r9",
+                "eventId"    : 6
+            }
+        ]
+    },
+    "dependencies" : {
+        "rows" : [
+            {
+                "id"   : 1,
+                "from" : 1,
+                "to"   : 6
+            },
+            {
+                "id"     : 2,
+                "from"   : 6,
+                "to"     : 2,
+                "toSide" : "right"
+            }
+        ]
+    }
+}

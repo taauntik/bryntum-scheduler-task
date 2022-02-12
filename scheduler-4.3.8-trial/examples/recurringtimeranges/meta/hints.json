@@ -1,0 +1,6 @@
+{
+    "[data-ref=addCoffeeButton]": {
+        "title"    : "Click to repeat Morning coffee line on Thursdays too",
+        "content"  : ""
+    }
+}

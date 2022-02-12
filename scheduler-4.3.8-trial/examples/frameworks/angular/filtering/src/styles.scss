@@ -1,0 +1,30 @@
+/**
+ * App global styles
+ */
+@import "@bryntum/scheduler/scheduler.material.css";
+@import "@bryntum/demo-resources/scss/example.scss";
+
+app-root {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+bryntum-scheduler{
+    flex: 1;
+
+    .b-sch-event {
+        border-radius: 3px;
+    }
+
+    &.b-highlighting {
+        .b-sch-event {
+            opacity: 0.2;
+            &.b-match {
+                opacity: 1;
+                box-shadow: 0 0 10px red;
+            }
+        }
+    }
+}

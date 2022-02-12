@@ -1,0 +1,4 @@
+{
+  "title": "Event Editor with cascading combos demo",
+  "description": "The Event Editor feature displays a popup where you can edit the fields for your events. The popup has two custom combo fields. The second combo item list depends on the first combo value."
+}

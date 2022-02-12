@@ -1,0 +1,19 @@
+{
+    ".code" : {
+        "title"   : "Resize this",
+        "content" : "This type of task cannot be made shorter",
+        "align"   : "b-t"
+    },
+    ".b-sch-event.golf" : {
+        "title"   : "Drag this",
+        "content" : "This important activity can only be performed by CEO / CTO"
+    },
+    ".b-sch-event.lunch" : {
+        "title"   : "Fixed time",
+        "content" : "This may only be reassigned to other resources<p>Time for this is fixed"
+    },
+    ".b-sch-event.marketing" : {
+        "title"   : "Fixed resource",
+        "content" : "This may only be rescheduled<p>Resource for this is fixed"
+    }
+}

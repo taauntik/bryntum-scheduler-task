@@ -1,0 +1,26 @@
+.b-sch-event-wrap:not(.b-milestone-wrap) {
+    .b-sch-event {
+        color            : #fff;
+        background-color :  #ffa94d;
+        border-radius    : 4px;
+
+        &.group {
+            background-color : #4dadf7;
+            border-radius    : 24px;
+        }
+    }
+}
+
+.b-grid.b-tree .b-grid-tree-expander:before {
+    color: #4dadf7;
+}
+
+.b-tree-leaf-cell .b-icon:before {
+    color : #ffa94d;
+}
+
+.b-timeline-subgrid .b-sch-range.b-fa:before {
+    display:block;
+    font-size: 2em;
+    margin-top: 0.3em;
+}

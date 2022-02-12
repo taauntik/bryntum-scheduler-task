@@ -1,0 +1,61 @@
+{
+  "name": "vue-renderer",
+  "description": "Rendering Vue Components Into Grid Cells",
+  "version": "4.3.8",
+  "author": {
+    "name": "Bryntum",
+    "url": "https://bryntum.com",
+    "email": "info@bryntum.com"
+  },
+  "license": "commercial",
+  "homepage": "https://bryntum.com",
+  "scripts": {
+    "serve": "cross-env NODE_OPTIONS='--max-old-space-size=8192' NODE_ENV=development vue-cli-service serve",
+    "start": "npm run serve",
+    "build": "cross-env NODE_OPTIONS='--max-old-space-size=8192' NODE_ENV=production vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "postinstall": "postinstall"
+  },
+  "postinstall": {
+    "node_modules/@bryntum/demo-resources/images/favicon.png": "copy public/favicon.png",
+    "node_modules/@bryntum/demo-resources/images/users/*": "copy public/users/"
+  },
+  "dependencies": {
+    "@bryntum/demo-resources": "1.1.0",
+    "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@4.3.8",
+    "@bryntum/scheduler-vue": "4.3.8",
+    "vue": "~2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "~10.1.0",
+    "cross-env": "~7.0.3",
+    "eslint": "~6.7.2",
+    "eslint-plugin-vue": "~6.2.2",
+    "postinstall": "~0.7.0",
+    "sass": "~1.42.0",
+    "sass-loader": "~8.0.2",
+    "vue-template-compiler": "~2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}

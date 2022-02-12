@@ -1,0 +1,14 @@
+.b-sch-event-content {
+  font-weight: 500;
+  flex-direction: column;
+}
+.b-sch-event-content :first-child {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.b-sch-style-dashed div {
+  text-align: center;
+}
+
+/*# sourceMappingURL=app.css.map */

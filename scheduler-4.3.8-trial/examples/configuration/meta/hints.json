@@ -1,0 +1,11 @@
+{
+    ".b-combo": {
+        "title": "View presets",
+        "content": "View presets configure the timeaxis and its header. Select one from the list to see it in action"
+    },
+    "[data-ref=zoomOutButton]" : {
+        "title": "Zoom",
+        "content": "Zoom using the buttons at top or by CTRL+scrolling",
+        "align": "t0-b100"
+    }
+}

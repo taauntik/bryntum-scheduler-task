@@ -1,0 +1,55 @@
+/**
+ * Application main SASS file
+ */
+
+// import bryntum theme and example styles
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.b-sch-event:not(.b-sch-event-milestone) {
+    border-radius: 2px;
+}
+
+.color-box {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    border-radius: 2px;
+}
+
+.b-sch-timerange,
+.b-sch-nonworkingtime {
+    color: #999;
+    font-size: 1.1em;
+    background: repeating-linear-gradient(
+        -55deg,
+        rgba(200, 200, 200, 0.3),
+        rgba(200, 200, 200, 0.3) 10px,
+        rgba(240, 240, 240, 0.3) 5px,
+        rgba(240, 240, 240, 0.3) 20px
+    );
+}
+
+.b-sch-event.b-sch-event-milestone label {
+    margin-left: 2.2em;
+}
+
+// fixes styling bug
+.b-theme-stockholm .b-has-label label {
+    color: #4f5964;
+}
+
+.b-theme-classic .b-has-label label {
+    color: #e6e6e6;
+}
+
+.b-theme-classic-light .b-has-label label {
+    color: #616161;
+}
+
+.b-theme-classic-dark .b-has-label label {
+    color: #c0c1c2;
+}
+
+.b-theme-classic-material .b-has-label label {
+    color: #616161;
+}

@@ -1,0 +1,9 @@
+{
+    "title": "React Scheduler + Redux Toolkit demo",
+    "selectLanguage": "Select Language",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "fullscreen": "FullScreen",
+    "reload": "Load other data",
+    "Request failed with status code 404": "Request failed with status code 404"
+}

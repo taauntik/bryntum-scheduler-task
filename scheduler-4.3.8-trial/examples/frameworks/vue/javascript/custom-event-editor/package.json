@@ -1,0 +1,70 @@
+{
+  "name": "custom-event-editor",
+  "description": "Vue Scheduler With Custom Editor",
+  "version": "4.3.8",
+  "author": {
+    "name": "Bryntum",
+    "url": "https://bryntum.com",
+    "email": "info@bryntum.com"
+  },
+  "license": "commercial",
+  "homepage": "https://bryntum.com",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "cross-env NODE_OPTIONS='--max-old-space-size=8192' NODE_ENV=development vue-cli-service serve",
+    "build": "cross-env NODE_OPTIONS='--max-old-space-size=8192' NODE_ENV=production vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "postinstall": "postinstall"
+  },
+  "postinstall": {
+    "node_modules/@bryntum/demo-resources/images/users/*": "copy public/users/",
+    "node_modules/@bryntum/demo-resources/images/favicon.png": "copy public/favicon.png"
+  },
+  "dependencies": {
+    "@bryntum/demo-resources": "1.1.0",
+    "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@4.3.8",
+    "@bryntum/scheduler-vue": "4.3.8",
+    "date-fns": "~2.1.0",
+    "vue": "~2.6.10",
+    "vuetify": "~2.2.26"
+  },
+  "devDependencies": {
+    "@mdi/font": "~4.3.95",
+    "@vue/babel-preset-app": "~4.1.1",
+    "@vue/cli-plugin-babel": "~3.11.0",
+    "@vue/cli-plugin-eslint": "~3.11.0",
+    "@vue/cli-service": "~3.11.0",
+    "babel-eslint": "~10.0.1",
+    "cross-env": "~6.0.3",
+    "eslint": "~5.16.0",
+    "eslint-plugin-vue": "~5.0.0",
+    "postinstall": "~0.5.1",
+    "sass": "~1.17.4",
+    "sass-loader": "~7.1.0",
+    "vue-cli-plugin-vuetify": "~0.6.3",
+    "vue-template-compiler": "~2.6.10",
+    "vuetify-loader": "~1.4.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  }
+}

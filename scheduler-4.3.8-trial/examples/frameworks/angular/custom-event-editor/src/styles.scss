@@ -1,0 +1,58 @@
+/**
+ * Application global styles
+ */
+@import '@bryntum/scheduler/scheduler.material.css';
+@import '@bryntum/demo-resources/scss/example.scss';
+
+app-root {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+bryntum-scheduler {
+    flex: 1;
+}
+
+.b-sch-event {
+    border-radius: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.container bryntum-scheduler {
+    flex: 1;
+}
+
+.b-has-label label {
+    text-transform: none;
+    font-size: 14px;
+    margin-right: 0.5em;
+}
+
+.b-datefield input {
+    width: 7em;
+}
+
+bryntum-scheduler .b-highlighting .b-sch-event {
+    opacity: 0.2;
+}
+
+bryntum-scheduler .b-highlighting .b-sch-event.b-match {
+    opacity: 1;
+    box-shadow: 0 0 8px red;
+}
+
+.mat-dialog-container {
+    user-select: none;
+}
+
+.b-sch-event-content {
+    display: flex;
+    align-items: center;
+}

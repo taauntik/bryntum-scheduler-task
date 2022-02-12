@@ -1,0 +1,9 @@
+{
+    "title": "Avancerad React + Redux Toolkit demo",
+    "selectLanguage": "Välj språk",
+    "zoomIn": "Zooma in",
+    "zoomOut": "Zooma ut",
+    "fullscreen": "Fullskärm",
+    "reload": "Ladda andra data",
+    "Request failed with status code 404": "Förfrågan misslyckades med statuskod 404"
+}

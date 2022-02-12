@@ -1,0 +1,57 @@
+{
+  "name": "recurring-events",
+  "description": "Angular Scheduler Recurring Events",
+  "version": "4.3.8",
+  "author": {
+    "name": "Bryntum",
+    "url": "https://bryntum.com",
+    "email": "info@bryntum.com"
+  },
+  "license": "commercial",
+  "homepage": "https://bryntum.com",
+  "scripts": {
+    "ng": "ng",
+    "start": "cross-env NODE_OPTIONS='--max-old-space-size=8192' ng serve",
+    "build": "cross-env NODE_OPTIONS='--max-old-space-size=8192' ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint"
+  },
+  "dependencies": {
+    "@angular/animations": "~9.1.13",
+    "@angular/common": "~9.1.13",
+    "@angular/compiler": "~9.1.13",
+    "@angular/core": "~9.1.13",
+    "@angular/forms": "~9.1.13",
+    "@angular/platform-browser": "~9.1.13",
+    "@angular/platform-browser-dynamic": "~9.1.13",
+    "@angular/router": "~9.1.13",
+    "@bryntum/demo-resources": "1.1.0",
+    "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@4.3.8",
+    "@bryntum/scheduler-angular": "4.3.8",
+    "rxjs": "~6.6.7",
+    "tslib": "~1.10.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.15",
+    "@angular/cli": "~9.1.15",
+    "@angular/compiler-cli": "~9.1.13",
+    "@angular/language-service": "~9.1.13",
+    "@types/jasmine": "~3.5.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~12.11.1",
+    "codelyzer": "~5.1.2",
+    "cross-env": "~7.0.3",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "~1.4.2",
+    "protractor": "~5.4.3",
+    "ts-node": "~8.3.0",
+    "tslint": "~5.18.0",
+    "typescript": "~3.7.5"
+  }
+}

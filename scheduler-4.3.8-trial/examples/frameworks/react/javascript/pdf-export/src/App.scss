@@ -1,0 +1,80 @@
+/**
+ * Main application scss file
+ */
+
+// import bryntum theme and example styles
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.b-sch-event {
+    border-radius: 3px;
+    font-weight: 300;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+
+    &.lubrication {
+        background: repeating-linear-gradient(
+            -45deg,
+            #01baef,
+            #01baef 7px,
+            white 7px,
+            white 14px
+        );
+        border-color: #01baef;
+    }
+}
+
+.b-sch-line-start,
+.b-sch-line {
+    border-color: #f33;
+
+    &.special {
+        border-color: #000;
+    }
+}
+
+.b-sch-event-wrap.b-milestone-wrap {
+    .b-sch-event {
+        border-radius: 100%;
+        font-size: 50%;
+        width: 2em;
+        color: inherit;
+
+        .b-fa,
+        .b-icon {
+            color: inherit;
+        }
+    }
+
+    // The app styles the inner element, but the :before is what
+    // carries the focus outline, so keep that sized right
+    &:before {
+        background: inherit;
+        margin: 0 auto;
+        padding: 0.4em;
+        transform: none;
+        left: 0;
+        height: 1em;
+        width: 1em;
+    }
+
+    label {
+        padding-left: 2.6em;
+        color: #777;
+    }
+}
+
+.b-sch-dependency {
+    &.special-dependency {
+        stroke-dasharray: 5, 5;
+        stroke-width: 2;
+    }
+
+    &.extra-special-dependency {
+        stroke-dasharray: 6;
+    }
+}
+
+@keyframes draw {
+    50% {
+        stroke-dashoffset: 0;
+    }
+}

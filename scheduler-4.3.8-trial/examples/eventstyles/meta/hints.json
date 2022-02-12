@@ -1,0 +1,10 @@
+{
+    ".b-sch-event": {
+        "title": "Event color",
+        "content": "The color of events can be determined by assigning to <code>eventColor</code> on either EventModel, ResourceModel or scheduler itself"
+    },
+    ".b-sch-style-line": {
+        "title": "Event style",
+        "content": "The event style works in much the same way as the color, by assigning to <code>eventStyle</code>"
+    }
+}

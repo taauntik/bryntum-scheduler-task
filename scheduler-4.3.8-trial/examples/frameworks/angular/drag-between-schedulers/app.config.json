@@ -1,0 +1,4 @@
+{
+  "title": "Drag between Angular Schedulers",
+  "description": "You can drag drop tasks between different Angular Scheduler component instances on the page."
+}

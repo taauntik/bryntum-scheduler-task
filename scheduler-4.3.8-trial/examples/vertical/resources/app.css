@@ -1,0 +1,29 @@
+.b-grid-headers-locked .b-grid-header .b-grid-header-text {
+  display: none;
+}
+.b-grid-headers-locked .b-grid-header .b-filter-bar-field {
+  margin-top: 0.5em;
+}
+
+.b-sch-event {
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.b-sch-event i {
+  margin-bottom: 0.4em;
+}
+.b-sch-event .time {
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+.b-sch-event .name {
+  margin-top: 0.4em;
+  width: 100%;
+  font-weight: 600;
+}
+
+.b-grid > .b-toolbar > .b-content-element > .b-button.b-text {
+  width: 7em;
+}
+
+/*# sourceMappingURL=app.css.map */

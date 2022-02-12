@@ -1,0 +1,6 @@
+{
+    ".b-sch-event": {
+        "title": "Hover to show terminals",
+        "content": "Then drag from terminals to another event to establish a dependency"
+    }
+}

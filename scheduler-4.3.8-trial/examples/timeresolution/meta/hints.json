@@ -1,0 +1,6 @@
+{
+    ".b-sch-event": {
+        "title": "Snaps",
+        "content": "Drag or resize this event and it will snap in steps as set by the Time resolution slider above"
+    }
+}

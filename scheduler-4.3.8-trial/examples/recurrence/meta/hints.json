@@ -1,0 +1,6 @@
+{
+    ".b-recurring"        : {
+        "title"   : "Double click to edit",
+        "content" : "and change recurrence configuration using the default event editor."
+    }
+}

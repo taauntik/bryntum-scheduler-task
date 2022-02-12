@@ -1,0 +1,160 @@
+{
+    "success"   : true,
+    "resources" : {
+        "rows": [
+            {
+                "id"        : 10001,
+                "name"      : "Rob",
+                "type"      : "Sales",
+                "eventColor": "orange"
+            },
+            {
+                "id"        : 10002,
+                "name"      : "Mike",
+                "type"      : "Sales",
+                "eventColor": "orange"
+            },
+            {
+                "id"        : 10003,
+                "name"      : "Kate",
+                "type"      : "Sales",
+                "eventColor": "orange"
+            },
+            {
+                "id"        : 10004,
+                "name"      : "Lisa",
+                "type"      : "Developer",
+                "eventColor": "blue"
+            },
+            {
+                "id"        : 10005,
+                "name"      : "Dave",
+                "type"      : "Developer",
+                "eventColor": "blue"
+            },
+            {
+                "id"        : 10006,
+                "name"      : "Arnold",
+                "type"      : "Developer",
+                "eventColor": "blue"
+            },
+            {
+                "id"        : 10007,
+                "name"      : "Lee",
+                "type"      : "Marketing",
+                "eventColor": "green"
+            },
+            {
+                "id"        : 10008,
+                "name"      : "Jong",
+                "type"      : "Marketing",
+                "eventColor": "green"
+            }
+        ]
+    },
+    "events"    : {
+        "rows": [
+            {
+                "id"           : 1,
+                "resourceId"   : 10001,
+                "name"         : "Important Meeting",
+                "startDate"    : "2021-03-07 09:00",
+                "endDate"      : "2021-03-07 11:00",
+                "durationUnit" : "h",
+                "eventType"    : "Meeting",
+                "iconCls"      : "b-fa b-fa-exclamation-circle"
+            },
+            {
+                "id"           : 2,
+                "resourceId"   : 10002,
+                "name"         : "Team Meeting",
+                "startDate"    : "2021-03-07 15:00",
+                "endDate"      : "2021-03-07 17:00",
+                "durationUnit" : "h",
+                "eventType"    : "Meeting",
+                "iconCls"      : "b-fa b-fa-calendar"
+
+            },
+            {
+                "id"           : 3,
+                "resourceId"   : 10003,
+                "name"         : "Take cat to vet",
+                "startDate"    : "2021-03-07 10:00",
+                "endDate"      : "2021-03-07 12:00",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment",
+                "iconCls"      : "b-fa b-fa-cat"
+            },
+            {
+                "id"           : 5,
+                "resourceId"   : 10004,
+                "name"         : "Sales demo",
+                "startDate"    : "2021-03-07 15:00",
+                "endDate"      : "2021-03-07 18:00",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment",
+                "iconCls"      : "b-fa b-fa-clock"
+            },
+            {
+                "id"           : 6,
+                "resourceId"   : 10004,
+                "name"         : "Daily Scrum",
+                "startDate"    : "2021-03-07 11:00",
+                "endDate"      : "2021-03-07 12:00",
+                "durationUnit" : "h",
+                "eventType"    : "Meeting",
+                "iconCls"      : "b-fa b-fa-calendar"
+            },
+            {
+                "id"           : 7,
+                "resourceId"   : 10005,
+                "name"         : "Sales Forecast Meeting",
+                "startDate"    : "2021-03-07 13:00",
+                "endDate"      : "2021-03-07 16:00",
+                "durationUnit" : "h",
+                "eventType"    : "Meeting",
+                "iconCls"      : "b-fa b-fa-calendar"
+            },
+            {
+                "id"           : 8,
+                "resourceId"   : 10005,
+                "name"         : "Get car repaired",
+                "startDate"    : "2021-03-07 10:00",
+                "endDate"      : "2021-03-07 12:00",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment",
+                "iconCls"      : "b-fa b-fa-car"
+            },
+            {
+                "id"           : 9,
+                "resourceId"   : 10006,
+                "name"         : "Dentist Appointment",
+                "startDate"    : "2021-03-07 11:00",
+                "endDate"      : "2021-03-07 13:00",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment",
+                "iconCls"      : "b-fa b-fa-clock"
+            },
+            {
+                "id"           : 10,
+                "resourceId"   : 10007,
+                "name"         : "Presentation",
+                "startDate"    : "2021-03-07 14:00",
+                "endDate"      : "2021-03-07 17:00",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment",
+                "iconCls"      : "b-fa b-fa-video"
+            },
+            {
+                "id"           : 11,
+                "resourceId"   : 10007,
+                "name"         : "Customer Meeting",
+                "startDate"    : "2021-03-07 10:00",
+                "endDate"      : "2021-03-07 11:30",
+                "durationUnit" : "h",
+                "eventType"    : "Meeting",
+                "iconCls"      : "b-fa b-fa-calendar-alt"
+            }
+        ]
+    }
+}

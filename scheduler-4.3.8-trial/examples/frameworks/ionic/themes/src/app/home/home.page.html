@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-toolbar>
+        <bryntum-demo-header
+            link = "../../../../#example-frameworks-ionic-themes"
+        ></bryntum-demo-header>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class = "demo-toolbar align-right">
+        <bryntum-combo
+            label = "Select theme"
+            width = "20em"
+            editable = false
+            [value] = "theme"
+            [items] = "themes"
+            (onChange) = "onSetTheme($event)"
+        ></bryntum-combo>
+    </div>
+    <bryntum-scheduler
+        #scheduler
+        [columns] = "schedulerConfig.columns"
+        [crudManager] = "schedulerConfig.crudManager"
+        [endDate] = "schedulerConfig.endDate"
+        [eventEditFeature] = "schedulerConfig.eventEditFeature"
+        [eventRenderer] = "schedulerConfig.eventRenderer"
+        [events] = "schedulerConfig.events"
+        [resourceImagePath] = "schedulerConfig.resourceImagePath"
+        [resources] = "schedulerConfig.resources"
+        [rowHeight] = "schedulerConfig.rowHeight"
+        [startDate] = "schedulerConfig.startDate"
+        [timeRanges] = "schedulerConfig.timeRanges"
+        [timeRangesFeature] = "schedulerConfig.timeRangesFeature"
+        [viewPreset] = "schedulerConfig.viewPreset"
+    ></bryntum-scheduler>
+</ion-content>

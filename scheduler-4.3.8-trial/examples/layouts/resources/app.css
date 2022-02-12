@@ -1,0 +1,11 @@
+.b-eventlayout-pack .b-sch-event {
+  font-size: 0.25em;
+}
+
+.layoutCellContent {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=app.css.map */

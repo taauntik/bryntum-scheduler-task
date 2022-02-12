@@ -1,0 +1,259 @@
+/**
+ * Main App scss file
+ */
+
+@import '~@bryntum/scheduler/scheduler.stockholm.css';
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.b-sch-range {
+    background: repeating-linear-gradient(
+        -55deg,
+        #ddd,
+        #ddd 10px,
+        #eee 5px,
+        #eee 20px
+    );
+    opacity: 0.5;
+}
+
+.info {
+    flex-direction: column;
+}
+
+// COLORS
+.red {
+    background-color: #f44336;
+    border-color: #f44336;
+}
+
+.green {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+}
+
+.orange {
+    background-color: #ffa726;
+    border-color: #ffa726;
+}
+
+.teal {
+    background-color: #26a69a;
+    border-color: #26a69a;
+}
+
+.light-green {
+    background-color: #9ccc65;
+    border-color: #9ccc65;
+}
+
+.lime {
+    background-color: #d4e157;
+    border: #d4e157;
+}
+
+.blue {
+    background-color: #42a5f5;
+    border: #42a5f5;
+}
+
+.purple {
+    background-color: #9575cd;
+    border: #9575cd;
+}
+
+.cyan {
+    background-color: #26c6da;
+    border: #26c6da;
+}
+
+// EMPLOYEE
+
+// Employee row, fill it and put it in front of column lines
+.b-tree-parent-row {
+    background-color: #f9f9f9 !important; // Override complex selector used for selected row styling in timeline view
+    z-index: 1;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.b-theme-classic-dark {
+    .b-tree-parent-row {
+        background-color: #333 !important; // See above;
+        border-bottom: 1px solid #222;
+    }
+}
+
+.b-theme-classic-light {
+    .b-tree-parent-row {
+        background-color: #fefefe;
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+.b-theme-material {
+    .b-tree-parent-row {
+        border-bottom: 1px solid #e0e0e0;
+    }
+}
+
+// Parent cells contains employee info, use flex layout within
+.b-tree-parent-cell .b-tree-cell-value {
+    align-items: center;
+
+    // Employee info : name & title, shown in vertical column
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        flex: 1;
+
+        .name {
+            font-weight: 400;
+        }
+
+        .title {
+            color: #888;
+            font-size: 0.8em;
+        }
+    }
+
+    // Add client button, shown per employee
+    .add {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        background-color: transparent;
+        color: #888;
+
+        border-radius: 50%;
+        width: 1em;
+        height: 1em;
+        margin-right: 1em;
+
+        cursor: pointer;
+
+        transition: all 0.3s;
+
+        &:hover {
+            background-color: #888;
+            color: #fff;
+            width: 2em;
+            height: 2em;
+            margin-right: 0.5em;
+            transition: all 0.3s;
+        }
+    }
+
+    // Employee image, shown as circle
+    .profile-img {
+        border-radius: 50%;
+        width: 3em;
+        height: 3em;
+    }
+}
+
+// Events on employee rows, shown as "--- Event ---"
+.b-sch-event-wrap.b-sch-event-parent {
+    height: 0 !important;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 23px;
+
+    .b-sch-event {
+        justify-content: center;
+        overflow: visible;
+
+        &:hover,
+        &.b-sch-event-selected {
+            background-image: none !important;
+        }
+    }
+
+    .b-sch-event-content {
+        background-color: #f9f9f9;
+        color: #000 !important;
+        padding: 0.5em 1em;
+    }
+}
+
+.b-theme-classic-dark {
+    .b-sch-event-wrap.b-sch-event-parent .b-sch-event-content {
+        background-color: #333;
+        color: #fff !important;
+    }
+}
+
+.b-theme-classic-light {
+    .b-sch-event-wrap.b-sch-event-parent .b-sch-event-content {
+        background-color: #fefefe;
+    }
+}
+
+// CLIENTS
+
+// Circle with clients assigned color
+.client-color {
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 50%;
+    margin-left: 0.3em;
+    margin-right: 0.5em;
+    position: relative;
+}
+
+// Client cell, override padding added by tree to mimic look of groups instead
+.b-tree-leaf-cell .b-tree-cell-inner {
+    padding-left: 0.5em !important;
+}
+
+// Client events
+.b-sch-event-wrap {
+    border-radius: 4px;
+}
+
+// Client events
+.b-sch-event {
+    border-radius: 4px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.2s;
+    color: #fff;
+
+    span {
+        font-weight: 300;
+    }
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+// Make weekends have a very bright slightly red background
+.b-grid-subgrid .b-sch-range {
+    background-color: rgba(250, 240, 240, 0.2);
+}
+
+.b-theme-classic-dark {
+    .b-grid-subgrid .b-sch-range {
+        background-color: rgba(50, 40, 40, 0.2);
+    }
+}
+
+// EVENT EDITOR
+.color-item {
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    position: relative;
+    top: 0.2em;
+}
+
+// CLIENT EDITOR
+.client-editor {
+    .b-popup-content {
+        padding: 1em;
+    }
+}

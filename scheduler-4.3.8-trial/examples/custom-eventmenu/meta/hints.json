@@ -1,0 +1,6 @@
+{
+    ".b-sch-event": {
+        "title"  : "Custom Event menu",
+        "content": "Right click to see custom implementation of event menu"
+    }
+}

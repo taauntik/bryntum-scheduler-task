@@ -1,0 +1,9 @@
+.b-grid-headers .b-sch-nonworkingtime {
+  background-color: rgba(152, 70, 70, 0.15);
+}
+
+.b-grid-subgrid .b-sch-range {
+  background: repeating-linear-gradient(-45deg, rgba(188, 96, 96, 0.05), rgba(188, 96, 96, 0.05) 10px, rgba(152, 70, 70, 0.15) 10px, rgba(152, 70, 70, 0.15) 20px);
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,4 @@
+{
+  "title": "Nested events demo",
+  "description": "Shows a more advanced use of eventBodyTemplate to render \"nested events\"."
+}

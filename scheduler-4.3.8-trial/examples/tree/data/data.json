@@ -1,0 +1,333 @@
+{
+    "success"    : true,
+    "events"     : {
+        "rows" : [
+            {
+                "id"         : 1,
+                "resourceId" : 3,
+                "name"       : "Summary",
+                "startDate"  : "2017-12-02T08:20",
+                "endDate"    : "2017-12-02T11:25"
+            },
+            {
+                "id"         : 2,
+                "resourceId" : 3,
+                "name"       : "Summary",
+                "startDate"  : "2017-12-02T12:10",
+                "endDate"    : "2017-12-02T13:50"
+            },
+            {
+                "id"         : 3,
+                "resourceId" : 3,
+                "name"       : "Summary",
+                "startDate"  : "2017-12-02T14:30",
+                "endDate"    : "2017-12-02T16:10"
+            },
+            {
+                "id"         : 4,
+                "resourceId" : 6,
+                "name"       : "London 895",
+                "startDate"  : "2017-12-02T08:20",
+                "endDate"    : "2017-12-02T09:50"
+            },
+            {
+                "id"         : 5,
+                "resourceId" : 4,
+                "name"       : "Moscow 167",
+                "startDate"  : "2017-12-02T09:10",
+                "endDate"    : "2017-12-02T10:40"
+            },
+            {
+                "id"         : 6,
+                "resourceId" : 5,
+                "name"       : "Berlin 291",
+                "startDate"  : "2017-12-02T09:25",
+                "endDate"    : "2017-12-02T11:25"
+            },
+            {
+                "id"         : 7,
+                "resourceId" : 7,
+                "name"       : "Brussels 107",
+                "startDate"  : "2017-12-02T12:10",
+                "endDate"    : "2017-12-02T13:50"
+            },
+            {
+                "id"         : 8,
+                "resourceId" : 8,
+                "name"       : "Krasnodar 101",
+                "startDate"  : "2017-12-02T14:30",
+                "endDate"    : "2017-12-02T16:10"
+            },
+            {
+                "id"         : 9,
+                "resourceId" : 17,
+                "name"       : "Split 811",
+                "startDate"  : "2017-12-02T16:10",
+                "endDate"    : "2017-12-02T18:30"
+            },
+            {
+                "id"         : 10,
+                "resourceId" : 18,
+                "name"       : "Rome 587",
+                "startDate"  : "2017-12-02T13:15",
+                "endDate"    : "2017-12-02T14:25"
+            },
+            {
+                "id"         : 11,
+                "resourceId" : 24,
+                "name"       : "Prague 978",
+                "startDate"  : "2017-12-02T16:40",
+                "endDate"    : "2017-12-02T18:00"
+            },
+            {
+                "id"         : 12,
+                "resourceId" : 25,
+                "name"       : "Stockholm 581",
+                "startDate"  : "2017-12-02T11:10",
+                "endDate"    : "2017-12-02T12:30"
+            },
+            {
+                "id"         : 13,
+                "resourceId" : 10,
+                "name"       : "Copenhagen 111",
+                "startDate"  : "2017-12-02T16:10",
+                "endDate"    : "2017-12-02T18:30"
+            },
+            {
+                "id"         : 14,
+                "resourceId" : 11,
+                "name"       : "Gothenburg 233",
+                "startDate"  : "2017-12-02T13:15",
+                "endDate"    : "2017-12-02T14:25"
+            },
+            {
+                "id"         : 15,
+                "resourceId" : 12,
+                "name"       : "New York 231",
+                "startDate"  : "2017-12-02T16:40",
+                "endDate"    : "2017-12-02T18:00"
+            },
+            {
+                "id"         : 16,
+                "resourceId" : 13,
+                "name"       : "Paris 321",
+                "startDate"  : "2017-12-02T11:10",
+                "endDate"    : "2017-12-02T12:30"
+            }
+        ]
+    },
+    "resources"  : {
+        "rows" : [
+            {
+                "id"       : 1,
+                "name"     : "Kastrup Airport",
+                "iconCls"  : "b-fa b-fa-plane",
+                "expanded" : true,
+                "children" : [
+                    {
+                        "id"       : 2,
+                        "name"     : "Terminal A",
+                        "iconCls"  : "b-fa b-fa-building",
+                        "expanded" : true,
+                        "children" : [
+                            {
+                                "id"       : 3,
+                                "name"     : "Gates 1 - 5",
+                                "iconCls"  : "b-icon b-icon-circle",
+                                "expanded" : true,
+                                "children" : [
+                                    {
+                                        "id"       : 4,
+                                        "name"     : "Gate 1",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 100
+                                    },
+                                    {
+                                        "id"       : 5,
+                                        "name"     : "Gate 2",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 45
+                                    },
+                                    {
+                                        "id"       : 6,
+                                        "name"     : "Gate 3",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 45
+                                    },
+                                    {
+                                        "id"       : 7,
+                                        "name"     : "Gate 4",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 65
+                                    },
+                                    {
+                                        "id"       : 8,
+                                        "name"     : "Gate 5",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 75
+                                    }
+                                ]
+                            },
+                            {
+                                "id"       : 9,
+                                "name"     : "Gates 6 - 10",
+                                "iconCls"  : "b-icon b-icon-circle",
+                                "expanded" : true,
+                                "children" : [
+                                    {
+                                        "id"       : 10,
+                                        "name"     : "Gate 6",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 77
+                                    },
+                                    {
+                                        "id"       : 11,
+                                        "name"     : "Gate 7",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 85
+                                    },
+                                    {
+                                        "id"       : 12,
+                                        "name"     : "Gate 8",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 95
+                                    },
+                                    {
+                                        "id"       : 13,
+                                        "name"     : "Gate 9",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 55
+                                    },
+                                    {
+                                        "id"       : 14,
+                                        "name"     : "Gate 10",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 15
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id"       : 15,
+                        "name"     : "Terminal B",
+                        "iconCls"  : "b-fa b-fa-building",
+                        "children" : [
+                            {
+                                "id"       : 16,
+                                "name"     : "Gates 1 - 5",
+                                "iconCls"  : "b-icon b-icon-circle",
+                                "children" : [
+                                    {
+                                        "id"       : 17,
+                                        "name"     : "Gate 1",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 15
+                                    },
+                                    {
+                                        "id"       : 18,
+                                        "name"     : "Gate 2",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 45
+                                    },
+                                    {
+                                        "id"       : 19,
+                                        "name"     : "Gate 3",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 45
+                                    },
+                                    {
+                                        "id"       : 20,
+                                        "name"     : "Gate 4",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 65
+                                    },
+                                    {
+                                        "id"       : 21,
+                                        "name"     : "Gate 5",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 70
+                                    }
+                                ]
+                            },
+                            {
+                                "id"       : 22,
+                                "name"     : "Gates 6 - 10",
+                                "iconCls"  : "b-icon b-icon-circle",
+                                "children" : [
+                                    {
+                                        "id"       : 23,
+                                        "name"     : "Gate 6",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 80
+                                    },
+                                    {
+                                        "id"       : 24,
+                                        "name"     : "Gate 7",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 120
+                                    },
+                                    {
+                                        "id"       : 25,
+                                        "name"     : "Gate 8",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 125
+                                    },
+                                    {
+                                        "id"       : 26,
+                                        "name"     : "Gate 9",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 100
+                                    },
+                                    {
+                                        "id"       : 27,
+                                        "name"     : "Gate 10",
+                                        "leaf"     : true,
+                                        "iconCls"  : "b-icon b-icon-circle",
+                                        "capacity" : 100
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "timeRanges" : {
+        "rows" : [
+            {
+                "id"        : 1,
+                "startDate" : "2017-12-02T11:00:00",
+                "endDate"   : "2017-12-02T13:00:00",
+                "cls"       : "b-fa b-fa-bolt"
+            },
+            {
+                "id"        : 2,
+                "startDate" : "2017-12-02T15:00:00",
+                "endDate"   : "2017-12-02T18:00:00",
+                "cls"       : "b-fa b-fa-cloud"
+            }
+        ]
+    }
+}
+

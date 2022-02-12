@@ -1,0 +1,24 @@
+<bryntum-demo-header
+    link = "../../../../../#example-frameworks-angular-localization"
+></bryntum-demo-header>
+
+<div class = "demo-toolbar align-right">
+    <bryntum-lang-select
+        [value] = "currentLanguage"
+        (onChange) = "changeLanguage($event)"
+    ></bryntum-lang-select>
+</div>
+
+<bryntum-scheduler
+    #scheduler
+    [barMargin] = "schedulerConfig.barMargin"
+    [columns] = "schedulerConfig.columns"
+    [crudManager] = "schedulerConfig.crudManager"
+    [endDate] = "schedulerConfig.endDate"
+    [eventColor] = "schedulerConfig.eventColor"
+    [resourceImagePath] = "schedulerConfig.resourceImagePath"
+    [rowHeight] = "schedulerConfig.rowHeight"
+    [startDate] = "schedulerConfig.startDate"
+    [timeRangesFeature] = "schedulerConfig.timeRangesFeature"
+    [viewPreset] = "schedulerConfig.viewPreset"
+></bryntum-scheduler>

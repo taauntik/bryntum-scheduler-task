@@ -1,0 +1,137 @@
+{
+    "success"    : true,
+    "resources"  : {
+        "rows" : [
+            {
+                "id"        : "a",
+                "name"      : "Arcady",
+                "role"      : "Core developer",
+                "important" : false
+            },
+            {
+                "id"        : "b",
+                "name"      : "Dave",
+                "role"      : "Tech Sales",
+                "important" : false
+            },
+            {
+                "id"        : "c",
+                "name"      : "Henrik",
+                "role"      : "Sales",
+                "important" : false
+            },
+            {
+                "id"        : "d",
+                "name"      : "Linda",
+                "role"      : "Core developer",
+                "important" : true
+            },
+            {
+                "id"        : "e",
+                "name"      : "Maxim",
+                "role"      : "Developer & UX",
+                "important" : false
+            },
+            {
+                "id"        : "f",
+                "name"      : "Mike",
+                "role"      : "CEO",
+                "important" : false
+            },
+            {
+                "id"        : "g",
+                "name"      : "Lee",
+                "role"      : "CTO",
+                "important" : true
+            }
+        ]
+    },
+    "events"     : {
+        "rows" : [
+            {
+                "resourceId" : "a",
+                "name"       : "Meeting #1",
+                "startDate"  : "2017-02-07 11:00",
+                "endDate"    : "2017-02-07 14:00",
+                "location"   : "Some office",
+                "eventType"  : "Meeting",
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "resourceId" : "b",
+                "name"       : "Meeting #2",
+                "startDate"  : "2017-02-07 12:00",
+                "endDate"    : "2017-02-07 15:00",
+                "location"   : "Home office",
+                "eventType"  : "Meeting",
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "resourceId" : "c",
+                "name"       : "Meeting #3",
+                "startDate"  : "2017-02-07 13:00",
+                "endDate"    : "2017-02-07 16:00",
+                "location"   : "Customer office",
+                "eventType"  : "Meeting",
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "resourceId" : "d",
+                "name"       : "Meeting",
+                "startDate"  : "2017-02-07 09:00",
+                "endDate"    : "2017-02-07 11:00",
+                "location"   : "Some office",
+                "eventType"  : "Meeting",
+                "iconCls"    : "b-fa b-fa-exclamation-triangle"
+            },
+            {
+                "resourceId" : "e",
+                "name"       : "Appointment #1",
+                "startDate"  : "2017-02-07 10:00",
+                "endDate"    : "2017-02-07 12:00",
+                "location"   : "Home office",
+                "type"       : "Dental",
+                "eventType"  : "Appointment",
+                "iconCls"    : "b-fa b-fa-calendar-alt"
+            },
+            {
+                "resourceId" : "f",
+                "name"       : "Appointment #2",
+                "startDate"  : "2017-02-07 11:00",
+                "endDate"    : "2017-02-07 13:00",
+                "location"   : "Customer office",
+                "type"       : "Medical",
+                "eventType"  : "Appointment",
+                "iconCls"    : "b-fa b-fa-calendar-alt"
+            },
+            {
+                "resourceId" : "g",
+                "name"       : "Appointment #3",
+                "startDate"  : "2017-02-07 10:00",
+                "endDate"    : "2017-02-07 12:00",
+                "location"   : "Home office",
+                "type"       : "Medical",
+                "eventType"  : "Appointment",
+                "iconCls"    : "b-fa b-fa-calendar-alt"
+            },
+            {
+                "resourceId" : "g",
+                "name"       : "Appointment",
+                "startDate"  : "2017-02-07 15:00",
+                "endDate"    : "2017-02-07 18:00",
+                "location"   : "Customer office",
+                "type"       : "Dental",
+                "eventType"  : "Appointment",
+                "iconCls"    : "b-fa b-fa-exclamation-triangle"
+            }
+        ]
+    },
+    "timeRanges" : {
+        "rows" : [
+            {
+                "startDate" : "2017-02-07 11:00",
+                "endDate"   : "2017-02-07 12:00"
+            }
+        ]
+    }
+}

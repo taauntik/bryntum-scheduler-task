@@ -1,0 +1,337 @@
+{
+    "success"    : true,
+    "resources"  : {
+        "rows" : [
+            {
+                "id"    : "r1",
+                "name"  : "Mike Anderson",
+                "role"  : "Consultants",
+                "type"  : "Full time",
+                "image" : "mike"
+            },
+            {
+                "id"    : "r2",
+                "name"  : "Kevin Larson",
+                "role"  : "Consultants",
+                "type"  : "Full time",
+                "image" : "amit"
+            },
+            {
+                "id"    : "r3",
+                "name"  : "Brett Hornbach",
+                "role"  : "Consultants",
+                "type"  : "Full time",
+                "image" : "angelo"
+            },
+            {
+                "id"    : "r4",
+                "name"  : "Lars Holt",
+                "role"  : "Consultants",
+                "type"  : "Full time",
+                "image" : "arcady"
+            },
+            {
+                "id"    : "r5",
+                "name"  : "Fred Arnold",
+                "role"  : "Consultants",
+                "type"  : "Part time",
+                "image" : "arnold"
+            },
+            {
+                "id"    : "r6",
+                "name"  : "Matt Demon",
+                "role"  : "Sales",
+                "type"  : "Full time",
+                "image" : "dan"
+            },
+            {
+                "id"    : "r7",
+                "name"  : "Karl Lager",
+                "role"  : "Testers",
+                "type"  : "Part time",
+                "image" : "henrik"
+            },
+            {
+                "id"    : "r8",
+                "name"  : "Pete Wilson",
+                "role"  : "Testers",
+                "type"  : "Full time",
+                "image" : "malik"
+            },
+            {
+                "id"    : "r9",
+                "name"  : "Derek Ronburg",
+                "role"  : "Testers",
+                "type"  : "Full time",
+                "image" : "jong"
+            },
+            {
+                "id"    : "r10",
+                "name"  : "Alyssa Patterson",
+                "role"  : "Testers",
+                "type"  : "Full time",
+                "image" : "lola"
+            },
+            {
+                "id"    : "r11",
+                "name"  : "Will Pherrel",
+                "role"  : "Testers",
+                "type"  : "Part time",
+                "image" : "lee"
+            },
+            {
+                "id"    : "r12",
+                "name"  : "Ofelia Larson",
+                "role"  : "Research",
+                "type"  : "Full time",
+                "image" : "emilia"
+            },
+            {
+                "id"    : "r13",
+                "name"  : "David Mantorp",
+                "role"  : "Research",
+                "type"  : "Part time",
+                "image" : "mark"
+            },
+            {
+                "id"    : "r14",
+                "name"  : "Ann Withersby",
+                "role"  : "Research",
+                "type"  : "Full time",
+                "image" : "gloria"
+            },
+            {
+                "id"    : "r15",
+                "name"  : "John Dough",
+                "role"  : "Research",
+                "type"  : "Full time",
+                "image" : "rob"
+            }
+        ]
+    },
+    "events"     : {
+        "rows" : [
+            {
+                "id"         : 1,
+                "resourceId" : "r1",
+                "name"       : "Team scrum",
+                "startDate"  : "2019-02-07 11:00",
+                "endDate"    : "2019-02-07 13:00",
+                "eventType"  : "Meeting",
+                "floor"      : 3,
+                "room"       : 303,
+                "iconCls"    : "b-fa b-fa-users"
+            },
+            {
+                "id"         : 2,
+                "resourceId" : "r2",
+                "name"       : "Prepare campaign",
+                "startDate"  : "2019-02-07 12:00",
+                "endDate"    : "2019-02-07 15:00",
+                "eventType"  : "Internal",
+                "iconCls"    : "b-fa b-fa-image"
+            },
+            {
+                "id"         : 3,
+                "resourceId" : "r3",
+                "name"       : "Marketing meeting",
+                "startDate"  : "2019-02-07 13:00",
+                "endDate"    : "2019-02-07 16:00",
+                "eventType"  : "Meeting",
+                "floor"      : 9,
+                "room"       : 901,
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "id"         : 4,
+                "resourceId" : "r4",
+                "name"       : "Coding session",
+                "startDate"  : "2019-02-07 09:00",
+                "endDate"    : "2019-02-07 11:00",
+                "eventType"  : "Internal",
+                "iconCls"    : "b-fa b-fa-code"
+            },
+            {
+                "id"         : 5,
+                "resourceId" : "r5",
+                "name"       : "UX improvements",
+                "startDate"  : "2019-02-07 10:00",
+                "endDate"    : "2019-02-07 13:00",
+                "eventType"  : "Internal",
+                "iconCls"    : "b-fa b-fa-code"
+            },
+            {
+                "id"         : 6,
+                "resourceId" : "r6",
+                "name"       : "Customer meeting",
+                "startDate"  : "2019-02-07 11:00",
+                "endDate"    : "2019-02-07 14:00",
+                "eventType"  : "Meeting",
+                "floor"      : 7,
+                "room"       : 702,
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "id"         : 7,
+                "resourceId" : "r7",
+                "name"       : "Golf",
+                "startDate"  : "2019-02-07 14:00",
+                "endDate"    : "2019-02-07 17:00",
+                "eventType"  : "Appointment",
+                "iconCls"    : "b-fa b-fa-golf-ball"
+            },
+            {
+                "id"         : 8,
+                "resourceId" : "r8",
+                "name"       : "Golf",
+                "startDate"  : "2019-02-07 14:00",
+                "endDate"    : "2019-02-07 17:00",
+                "eventType"  : "Appointment",
+                "iconCls"    : "b-fa b-fa-golf-ball"
+            },
+            {
+                "id"         : 9,
+                "resourceId" : "r9",
+                "name"       : "Team scrum",
+                "startDate"  : "2019-02-07 11:00",
+                "endDate"    : "2019-02-07 13:00",
+                "eventType"  : "Meeting",
+                "floor"      : 3,
+                "room"       : 303,
+                "iconCls"    : "b-fa b-fa-users"
+            },
+            {
+                "id"         : 10,
+                "resourceId" : "r10",
+                "name"       : "Prepare campaign",
+                "startDate"  : "2019-02-07 12:00",
+                "endDate"    : "2019-02-07 15:00",
+                "eventType"  : "Internal",
+                "iconCls"    : "b-fa b-fa-image"
+            },
+            {
+                "id"         : 11,
+                "resourceId" : "r11",
+                "name"       : "Marketing meeting",
+                "startDate"  : "2019-02-07 13:00",
+                "endDate"    : "2019-02-07 16:00",
+                "eventType"  : "Meeting",
+                "floor"      : 9,
+                "room"       : 901,
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "id"         : 12,
+                "resourceId" : "r12",
+                "name"       : "Coding session",
+                "startDate"  : "2019-02-07 09:00",
+                "endDate"    : "2019-02-07 11:00",
+                "eventType"  : "Internal",
+                "iconCls"    : "b-fa b-fa-code"
+            },
+            {
+                "id"         : 13,
+                "resourceId" : "r13",
+                "name"       : "UX improvements",
+                "startDate"  : "2019-02-07 10:00",
+                "endDate"    : "2019-02-07 13:00",
+                "eventType"  : "Internal",
+                "iconCls"    : "b-fa b-fa-code"
+            },
+            {
+                "id"         : 14,
+                "resourceId" : "r14",
+                "name"       : "Customer meeting",
+                "startDate"  : "2019-02-07 11:00",
+                "endDate"    : "2019-02-07 14:00",
+                "eventType"  : "Meeting",
+                "floor"      : 7,
+                "room"       : 702,
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "id"         : 15,
+                "resourceId" : "r15",
+                "name"       : "Golf",
+                "startDate"  : "2019-02-07 14:00",
+                "endDate"    : "2019-02-07 17:00",
+                "eventType"  : "Appointment",
+                "iconCls"    : "b-fa b-fa-golf-ball"
+            }
+        ]
+    },
+    "timeRanges" : {
+        "rows" : [
+            {
+                "id"        : 1,
+                "startDate" : "2019-02-07 11:00",
+                "endDate"   : "2019-02-07 12:00"
+            }
+        ]
+    },
+    "floors"     : {
+        "rows" : [
+            {
+                "id"   : 3,
+                "text" : "Floor #3"
+            },
+            {
+                "id"   : 7,
+                "text" : "Floor #7"
+            },
+            {
+                "id"   : 9,
+                "text" : "Floor #9"
+            }
+        ]
+    },
+    "rooms"      : {
+        "rows" : [
+            {
+                "id"      : 303,
+                "text"    : "Room #303",
+                "floorId" : 3
+            },
+            {
+                "id"      : 305,
+                "text"    : "Room #305",
+                "floorId" : 3
+            },
+            {
+                "id"      : 307,
+                "text"    : "Room #307",
+                "floorId" : 3
+            },
+            {
+                "id"      : 702,
+                "text"    : "Room #702",
+                "floorId" : 7
+            },
+            {
+                "id"      : 704,
+                "text"    : "Room #704",
+                "floorId" : 7
+            },
+            {
+                "id"      : 706,
+                "text"    : "Room #706",
+                "floorId" : 7
+            },
+            {
+                "id"      : 901,
+                "text"    : "Room #901",
+                "floorId" : 9
+            },
+            {
+                "id"      : 908,
+                "text"    : "Room #908",
+                "floorId" : 9
+            },
+            {
+                "id"      : 909,
+                "text"    : "Room #909",
+                "floorId" : 9
+            }
+        ]
+    }
+}

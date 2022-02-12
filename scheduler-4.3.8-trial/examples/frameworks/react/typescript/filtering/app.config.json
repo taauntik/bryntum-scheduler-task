@@ -1,0 +1,4 @@
+{
+  "title": "React + TypeScript filtering demo",
+  "description": "This shows how to use Bryntum Scheduler and Widgets to take user input and filter or highlight the scheduler tasks in React + TypeScript."
+}

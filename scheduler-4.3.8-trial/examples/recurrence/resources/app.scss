@@ -1,0 +1,30 @@
+.b-sch-label.custom {
+    position      : absolute;
+    top           : calc(100% + 10px);
+    background    : #666;
+    padding       : .5em;
+    color         : #fff;
+}
+
+.b-sch-label.custom::before {
+    content: '';
+    height: 12px;
+    border-right: 1px solid #666;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+}
+
+.b-sch-event {
+    border-right: 1px solid #fff !important;
+}
+
+.b-sch-event-wrap .thinevent.b-sch-event {
+    padding-left: 0.4em;
+    font-size: 0.2em;
+}
+
+// Hide occurrence labels
+.hidelabel.b-occurrence ~ label {
+    opacity: 0;
+}

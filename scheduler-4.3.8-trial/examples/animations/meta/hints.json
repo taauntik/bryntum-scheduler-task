@@ -1,0 +1,11 @@
+{
+    ".b-sch-event": {
+        "title": "Animated changes",
+        "content": "Changes to the events are animated - try resizing or moving one either using the mouse or the event editor"
+    },
+
+    ".b-toolbar .b-button": {
+        "title": "Mass update",
+        "content": "Click to change multiple events in a single go. Changes will be animated"
+    }
+}

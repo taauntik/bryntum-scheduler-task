@@ -1,0 +1,68 @@
+.b-sch-event-wrap.b-drag-invalid .b-sch-event {
+    background-color : red !important;
+}
+
+.b-sch-range {
+    background : #d6d6d6;
+    color      : #333;
+}
+
+.b-theme-classic-dark {
+    .b-sch-range {
+        background : #777;
+    }
+}
+
+.b-timeline-subgrid .b-grid-row.unavailable {
+    background : repeating-linear-gradient(-55deg, rgba(230, 50, 50, 0.7), rgba(230, 50, 50, 0.7) 5px, rgba(240, 50, 50, 0.4) 5px, rgba(240, 50, 50, 0.4) 10px);
+}
+
+.b-sch-event.unavailable {
+    background-color : red !important;
+    opacity          : 1;
+}
+
+.b-sch-event-content {
+    display     : flex;
+    align-items : center;
+}
+
+.b-sch-event-header {
+    font-size : .8em;
+}
+
+.b-sch-event-footer {
+    font-weight : 400;
+}
+
+.b-sch-tip-invalid .b-sch-tip-message:not(:empty) {
+    &:before {
+        margin-right            : 0.5em;
+        font-family             : "Font Awesome 5 Free";
+        font-weight             : 900;
+        content                 : "\F071";
+        -moz-osx-font-smoothing : grayscale;
+        -webkit-font-smoothing  : antialiased;
+        display                 : inline-block;
+        font-style              : normal;
+        font-variant            : normal;
+        text-rendering          : auto;
+        line-height             : 1;
+    }
+
+    color : red;
+}
+
+.restriction-title {
+    padding : 10px 0 0 0;
+}
+
+.restriction-list {
+    padding : 0 0 0 25px;
+    margin  : 0;
+
+    > li {
+        margin  : .3em 0 0 0;
+        padding : 0 0 0 4px;
+    }
+}

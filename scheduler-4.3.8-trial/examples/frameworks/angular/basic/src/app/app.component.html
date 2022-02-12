@@ -1,0 +1,32 @@
+<bryntum-demo-header
+    link  = "../../../../../#example-frameworks-angular-basic"
+></bryntum-demo-header>
+<div class="demo-toolbar align-right">
+    <bryntum-checkbox
+        label="Stripe Feature"
+        checked="false"
+        (onAction)="handleToggle($event, 'stripe')"
+    ></bryntum-checkbox>
+    <bryntum-checkbox
+        label="Column Lines Feature"
+        checked="true"
+        (onAction)="handleToggle($event, 'columnLines')"
+    ></bryntum-checkbox>
+</div>
+<bryntum-scheduler
+    #scheduler
+    [barMargin]                 = "schedulerConfig.barMargin"
+    [columns]                   = "schedulerConfig.columns"
+    [endDate]                   = "schedulerConfig.endDate"
+    [events]                    = "schedulerConfig.events"
+    [mode]                      = "schedulerConfig.mode"
+    [resourceImagePath]         = "schedulerConfig.resourceImagePath"
+    [resources]                 = "schedulerConfig.resources"
+    [resourceTimeRanges]        = "schedulerConfig.resourceTimeRanges"
+    [resourceTimeRangesFeature] = "schedulerConfig.resourceTimeRangesFeature"
+    [rowHeight]                 = "schedulerConfig.rowHeight"
+    [startDate]                 = "schedulerConfig.startDate"
+    [viewPreset]                = "schedulerConfig.viewPreset"
+    [stripeFeature]             = "stripe"
+    [columnLinesFeature]        = "columnLines"
+></bryntum-scheduler>

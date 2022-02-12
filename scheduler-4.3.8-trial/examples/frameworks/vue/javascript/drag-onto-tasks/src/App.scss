@@ -1,0 +1,160 @@
+/**
+ * Application global styles
+ */
+
+@import '~@bryntum/scheduler/scheduler.stockholm.css';
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.b-sch-event {
+    border-radius: 3px;
+    font-weight: 300;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    align-items: flex-start;
+
+    &.lubrication {
+        background: repeating-linear-gradient(
+            -45deg,
+            #01baef,
+            #01baef 7px,
+            white 7px,
+            white 14px
+        );
+        border-color: #01baef;
+    }
+}
+
+.b-sch-line-start,
+.b-sch-line {
+    border-color: #f33;
+
+    &.special {
+        border-color: #000;
+    }
+}
+
+.b-sch-event-wrap.b-milestone-wrap {
+    .b-sch-event {
+        border-radius: 100%;
+        font-size: 50%;
+        width: 2em;
+        color: inherit;
+
+        .b-fa,
+        .b-icon {
+            color: inherit;
+        }
+    }
+
+    // The app styles the inner element, but the :before is what
+    // carries the focus outline, so keep that sized right
+    &:before {
+        background: inherit;
+        margin: 0 auto;
+        padding: 0.4em;
+        background-color: inherit;
+        transform: none;
+        left: 0;
+        height: 1em;
+        width: 1em;
+    }
+
+    label {
+        padding-left: 2.6em;
+        color: #777;
+    }
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    > * {
+        height: auto;
+    }
+
+    .b-scheduler-container {
+        flex: 1 1 0%;
+        overflow: hidden;
+    }
+
+    .grid-container {
+        width: 140px;
+        border-left: 1px solid #aaa;
+        flex: 0 0 140px;
+
+        .b-grid-cell {
+            cursor: pointer;
+        }
+
+        i {
+            margin-right: 10px;
+            color: #4887e5;
+        }
+    }
+
+    .b-grid-header-text {
+        display: none;
+    }
+}
+
+.b-equipment {
+    flex-direction: column;
+    justify-content: center;
+
+    i {
+        margin-right: 10px;
+        color: #4887e5;
+        font-size: 2em;
+        margin-bottom: 0.3em;
+    }
+
+    &.b-dragging {
+        justify-content: center;
+        background: green;
+        color: #fff;
+
+        i {
+            color: #fff;
+        }
+    }
+
+    &.b-drag-invalid {
+        background: red;
+    }
+}
+
+.b-sch-event-header,
+.b-sch-event-footer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.b-sch-event-footer {
+    padding: 0;
+    margin: 0;
+}
+
+.b-sch-event-content {
+    flex-direction: column;
+}
+
+.b-grid-header {
+    height: 57px;
+}
+
+.b-filter-bar-field {
+    margin: 0;
+}
+
+.b-aborting.b-grid-cell {
+    transition: transform 0.3s !important;
+    background: red;
+    position: absolute !important;
+    z-index: 10000;
+    pointer-events: none;
+    opacity: 0.8;
+    box-sizing: border-box;
+}

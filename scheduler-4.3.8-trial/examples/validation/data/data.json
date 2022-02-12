@@ -1,0 +1,168 @@
+{
+    "success"    : true,
+    "resources"  : {
+        "rows" : [
+            {
+                "id"        : "a",
+                "name"      : "Arcady",
+                "available" : true,
+                "role"      : "Developer"
+            },
+            {
+                "id"        : "b",
+                "name"      : "Dave",
+                "available" : true,
+                "role"      : "Sales"
+            },
+            {
+                "id"        : "c",
+                "name"      : "Henrik",
+                "available" : true,
+                "role"      : "Designer"
+            },
+            {
+                "id"        : "d",
+                "name"      : "Linda",
+                "available" : true,
+                "role"      : "Developer"
+            },
+            {
+                "id"        : "e",
+                "name"      : "Maxim",
+                "available" : true,
+                "role"      : "Developer"
+            },
+            {
+                "id"            : "f",
+                "name"          : "Mike",
+                "available"     : false,
+                "cls"           : "unavailable",
+                "statusMessage" : "18 month Swedish paternity leave",
+                "role"          : "Sales"
+            },
+            {
+                "id"        : "g",
+                "name"      : "Lee",
+                "available" : true,
+                "role"      : "CEO"
+            },
+            {
+                "id"        : "h",
+                "name"      : "Madison",
+                "available" : true,
+                "role"      : "CTO"
+            }
+        ]
+    },
+    "events"     : {
+        "rows" : [
+            {
+                "id"         : 1,
+                "resourceId" : "a",
+                "name"       : "Scrum",
+                "startDate"  : "2019-02-07 10:00",
+                "endDate"    : "2019-02-07 11:00",
+                "type"       : "Meeting",
+                "eventColor" : "orange",
+                "iconCls"    : "b-fa b-fa-users"
+            },
+            {
+                "id"         : 2,
+                "resourceId" : "a",
+                "name"       : "Cannot drag",
+                "startDate"  : "2019-02-07 12:30",
+                "endDate"    : "2019-02-07 14:00",
+                "type"       : "Meeting",
+                "eventColor" : "red",
+                "iconCls"    : "b-fa b-fa-weight-hanging",
+                "draggable"  : false
+            },
+            {
+                "id"         : 3,
+                "resourceId" : "b",
+                "name"       : "Prepare campaign",
+                "startDate"  : "2019-02-07 13:00",
+                "endDate"    : "2019-02-07 16:00",
+                "type"       : "Sales",
+                "eventColor" : "indigo",
+                "iconCls"    : "b-fa b-fa-image"
+            },
+            {
+                "id"         : 4,
+                "resourceId" : "c",
+                "name"       : "Marketing meeting",
+                "startDate"  : "2019-02-07 13:00",
+                "endDate"    : "2019-02-07 16:00",
+                "type"       : "Marketing",
+                "cls"        : "marketing",
+                "eventColor" : "orange",
+                "iconCls"    : "b-fa b-fa-calendar"
+            },
+            {
+                "id"         : 5,
+                "resourceId" : "d",
+                "name"       : "Coding session",
+                "startDate"  : "2019-02-07 09:00",
+                "endDate"    : "2019-02-07 11:00",
+                "type"       : "Coding",
+                "cls"        : "code",
+                "eventColor" : "indigo",
+                "iconCls"    : "b-fa b-fa-code"
+            },
+            {
+                "id"         : 6,
+                "resourceId" : "e",
+                "name"       : "UX improvements",
+                "startDate"  : "2019-02-07 08:00",
+                "endDate"    : "2019-02-07 10:00",
+                "type"       : "Coding",
+                "eventColor" : "indigo",
+                "iconCls"    : "b-fa b-fa-code"
+            },
+            {
+                "id"         : 7,
+                "resourceId" : "e",
+                "name"       : "Fixed Time",
+                "startDate"  : "2019-02-07 10:00",
+                "endDate"    : "2019-02-07 11:30",
+                "type"       : "Fixed",
+                "cls"        : "lunch",
+                "eventColor" : "red",
+                "iconCls"    : "b-fa b-fa-weight-hanging",
+                "resizable"  : false
+            },
+            {
+                "id"         : 8,
+                "resourceId" : "g",
+                "name"       : "Golf",
+                "startDate"  : "2019-02-07 11:00",
+                "endDate"    : "2019-02-07 17:00",
+                "type"       : "Golf",
+                "cls"        : "golf",
+                "eventColor" : "green",
+                "iconCls"    : "b-fa b-fa-golf-ball"
+            },
+            {
+                "id"         : 9,
+                "resourceId" : "h",
+                "name"       : "Golf",
+                "startDate"  : "2019-02-07 11:00",
+                "endDate"    : "2019-02-07 17:00",
+                "type"       : "Golf",
+                "eventColor" : "green",
+                "iconCls"    : "b-fa b-fa-golf-ball"
+            }
+        ]
+    },
+    "timeRanges" : {
+        "rows" : [
+            {
+                "id"           : 1,
+                "startDate"    : "2019-02-07 11:30",
+                "duration"     : 1,
+                "durationUnit" : "h",
+                "name"         : "Lunch"
+            }
+        ]
+    }
+}

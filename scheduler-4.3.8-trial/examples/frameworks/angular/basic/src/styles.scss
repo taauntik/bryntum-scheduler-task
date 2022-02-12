@@ -1,0 +1,30 @@
+/**
+ * Application global styles
+ */
+@import "@bryntum/scheduler/scheduler.material.css";
+@import "@bryntum/demo-resources/scss/example.scss";
+
+app-root {
+    flex           : 1;
+    display        : flex;
+    flex-direction : column;
+    height         : 100vh;
+}
+
+.b-sch-event {
+    border-radius : 3px;
+}
+
+.b-sch-resourcetimerange {
+    &.custom {
+        color: #0a6fc0;
+        background : repeating-linear-gradient(-55deg,
+            rgba(200, 200, 200, 0.3),
+            rgba(200, 200, 200, 0.3) 10px,
+            rgba(240, 240, 240, 0.3) 5px,
+            rgba(240, 240, 240, 0.3) 20px);
+    }
+}
+.demo-toolbar {
+    min-height: 2.2em;
+}

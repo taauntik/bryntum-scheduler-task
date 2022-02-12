@@ -1,0 +1,15 @@
+/**
+ * Application global styles
+ */
+@import '~@bryntum/scheduler/scheduler.stockholm.css';
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.b-grid-cell .b-button {
+    width: 100%;
+
+    span {
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}

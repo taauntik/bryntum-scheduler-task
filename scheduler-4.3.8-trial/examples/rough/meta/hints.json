@@ -1,0 +1,11 @@
+{
+  "[data-event-id='e1']" : {
+    "title": "Default Rough.js style",
+    "content" : "Using schedulers default color for the hatch"
+  },
+
+  "[data-event-id='e4']" : {
+    "title": "Custom Rough.js style",
+    "content" : "Defined on the event record as roughConfig"
+  }
+}

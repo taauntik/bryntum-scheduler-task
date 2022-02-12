@@ -1,0 +1,4 @@
+{
+  "title": "Custom event styling",
+  "description": "Custom rendering of events using the <code>eventRenderer()</code> function"
+}

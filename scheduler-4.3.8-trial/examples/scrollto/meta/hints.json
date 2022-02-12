@@ -1,0 +1,10 @@
+{
+    "[data-ref=scrollToEvent]": {
+        "title": "Scroll to event",
+        "content": "Pick an event from the list to scroll to it"
+    },
+    "[data-ref=scrollToTime]": {
+        "title": "Scroll to time",
+        "content": "Pick a point in time from the list to scroll to it"
+    }
+}

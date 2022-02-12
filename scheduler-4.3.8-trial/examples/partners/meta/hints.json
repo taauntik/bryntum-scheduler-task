@@ -1,0 +1,7 @@
+{
+    ".b-virtual-scroller:nth-child(3)" : {
+        "align" : "b-t",
+        "title" : "",
+        "content" : "When this scrolls left or right, the Scheduler below stays in sync"
+    }
+}

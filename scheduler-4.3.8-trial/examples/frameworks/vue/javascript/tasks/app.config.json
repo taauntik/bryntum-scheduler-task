@@ -1,0 +1,4 @@
+{
+  "title": "Custom Tree Scheduler demo",
+  "description": "Shows how to organize the resources in the Vue Scheduler into a tree combined with per-row coloring of tasks."
+}

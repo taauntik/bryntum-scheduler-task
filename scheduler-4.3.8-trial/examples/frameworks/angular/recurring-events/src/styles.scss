@@ -1,0 +1,48 @@
+/**
+ * Application global styles
+ */
+@import "@bryntum/scheduler/scheduler.material.css";
+@import "@bryntum/demo-resources/scss/example.scss";
+
+app-root {
+    flex           : 1;
+    display        : flex;
+    flex-direction : column;
+    height         : 100vh;
+}
+
+bryntum-scheduler {
+    flex : 1;
+}
+
+.b-sch-label.custom {
+    position      : absolute;
+    top           : calc(100% + 10px);
+    background    : #666;
+    padding       : .5em;
+    color         : #fff;
+}
+
+.b-sch-label.custom::before {
+    content: '';
+    height: 12px;
+    border-right: 1px solid #666;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+}
+
+.b-sch-event {
+    border-right: 1px solid #fff !important;
+    padding-left: 7px;
+}
+
+.b-sch-event-wrap .thinevent.b-sch-event {
+    padding-left: 0.3em;
+    font-size: 0.2em;
+}
+
+// Hide occurrence labels
+.hidelabel.b-occurrence ~ label {
+    opacity: 0;
+}

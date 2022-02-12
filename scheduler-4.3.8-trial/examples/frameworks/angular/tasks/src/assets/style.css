@@ -1,0 +1,28 @@
+.info {
+  flex-direction: column;
+}
+
+.desc {
+  font-size: .8em;
+  font-weight: 300;
+}
+
+.striped {
+  background : repeating-linear-gradient(-55deg, rgba(230,230,230,0.3), rgba(230,230,230,0.3) 10px, rgba(240,240,240,0.3) 5px, rgba(240,240,240,0.3) 20px);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-family: Lato, sans-serif;
+  margin: 0;
+}
+
+scheduler > div {
+  flex : 1;
+}
+
+/* eof */

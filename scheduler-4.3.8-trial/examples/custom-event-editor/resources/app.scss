@@ -1,0 +1,41 @@
+.b-scheduler {
+    background-color : #eee;
+
+    .b-theme-classic-dark & {
+        background-color : #44444a;
+    }
+}
+
+.b-grid-row {
+    border-bottom-color : transparent;
+}
+
+.b-grid-cell[data-column="name"] {
+    font-size   : 1.1em;
+    font-weight : bold;
+}
+
+.b-sch-event {
+    border-radius    : 5px;
+    background-color : #fff;
+    color            : #333;
+    margin           : .5em;
+    width            : calc(100% - 1em);
+    box-shadow       : 0 5px 10px rgba(0, 0, 0, .1);
+
+    .b-sch-event-content {
+        display     : flex;
+        align-items : center;
+        font-size   : 15px;
+    }
+
+    i {
+        font-size : 1.5em;
+    }
+}
+
+.time,
+.arena {
+    font-size : .8em;
+    color     : #888;
+}

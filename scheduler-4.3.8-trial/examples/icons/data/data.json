@@ -1,0 +1,44 @@
+{
+    "success"  : true,
+    "events"   : {
+        "rows": [
+            { "id" : 1, "resourceId": "r1", "name": "Task 1", "startDate": "2017-06-02", "endDate":"2017-06-02", "cls" : "div hint"},
+            { "id" : 2, "resourceId": "r1", "name": "Task 2", "startDate": "2017-06-03", "endDate": "2017-06-03", "cls" : "div"},
+            { "id" : 3, "resourceId": "r1", "name": "Task 3", "startDate": "2017-06-04", "endDate": "2017-06-04", "cls" : "div"},
+            { "id" : 4, "resourceId": "r1", "name": "Task 4", "startDate": "2017-06-05", "endDate": "2017-06-05", "cls" : "div"},
+            { "id" : 5, "resourceId": "r1", "name": "Task 5", "startDate": "2017-06-06", "endDate": "2017-06-06", "cls" : "div"},
+            { "id" : 6, "resourceId": "r1", "name": "Task 6", "startDate": "2017-06-07", "endDate": "2017-06-07", "cls" : "div"},
+            { "id" : 7, "resourceId": "r1", "name": "Task 7", "startDate": "2017-06-08", "endDate": "2017-06-08", "cls" : "div"},
+            { "id" : 8, "resourceId": "r1", "name": "Task 8", "startDate": "2017-06-09", "endDate": "2017-06-09", "cls" : "div"},
+            { "id" : 9, "resourceId": "r1", "name": "Task 9", "startDate": "2017-06-10", "endDate": "2017-06-10", "cls" : "div"},
+
+            { "id" : 10, "resourceId": "r2", "name": "Task 1", "startDate": "2017-06-02", "endDate":"2017-06-02", "cls" : "svg"},
+            { "id" : 11, "resourceId": "r2", "name": "Task 2", "startDate": "2017-06-03", "endDate": "2017-06-03", "cls" : "svg"},
+            { "id" : 12, "resourceId": "r2", "name": "Task 3", "startDate": "2017-06-04", "endDate": "2017-06-04", "cls" : "svg"},
+            { "id" : 13, "resourceId": "r2", "name": "Task 4", "startDate": "2017-06-05", "endDate": "2017-06-05", "cls" : "svg hint"},
+            { "id" : 14, "resourceId": "r2", "name": "Task 5", "startDate": "2017-06-06", "endDate": "2017-06-06", "cls" : "svg"},
+            { "id" : 15, "resourceId": "r2", "name": "Task 6", "startDate": "2017-06-07", "endDate": "2017-06-07", "cls" : "svg"},
+            { "id" : 16, "resourceId": "r2", "name": "Task 7", "startDate": "2017-06-08", "endDate": "2017-06-08", "cls" : "svg"},
+            { "id" : 17, "resourceId": "r2", "name": "Task 8", "startDate": "2017-06-09", "endDate": "2017-06-09", "cls" : "svg"},
+            { "id" : 18, "resourceId": "r2", "name": "Task 9", "startDate": "2017-06-10", "endDate": "2017-06-10", "cls" : "svg"},
+
+            { "id" : 19, "resourceId": "r3", "name": "Task 1", "startDate": "2017-06-02", "endDate":"2017-06-02", "iconCls" : "b-fa b-fa-cog"},
+            { "id" : 20, "resourceId": "r3", "name": "Task 2", "startDate": "2017-06-03", "endDate": "2017-06-03", "iconCls" : "b-fa b-fa-gem"},
+            { "id" : 21, "resourceId": "r3", "name": "Task 3", "startDate": "2017-06-04", "endDate": "2017-06-04", "iconCls" : "b-fa b-fa-anchor"},
+            { "id" : 22, "resourceId": "r3", "name": "Task 4", "startDate": "2017-06-05", "endDate": "2017-06-05", "iconCls" : "b-fa b-fa-bolt"},
+            { "id" : 23, "resourceId": "r3", "name": "Task 5", "startDate": "2017-06-06", "endDate": "2017-06-06", "iconCls" : "b-fa b-fa-chart-line"},
+            { "id" : 24, "resourceId": "r3", "name": "Task 6", "startDate": "2017-06-07", "endDate": "2017-06-07", "iconCls" : "b-fa b-fa-file"},
+            { "id" : 25, "resourceId": "r3", "name": "Task 7", "startDate": "2017-06-08", "endDate": "2017-06-08", "iconCls" : "b-fa b-fa-bullseye"},
+            { "id" : 26, "resourceId": "r3", "name": "Task 8", "startDate": "2017-06-09", "endDate": "2017-06-09", "iconCls" : "b-fa b-fa-chart-pie"},
+            { "id" : 27, "resourceId": "r3", "name": "Task 9", "startDate": "2017-06-10", "endDate": "2017-06-10", "iconCls" : "b-fa b-fa-coffee"}
+        ]
+    },
+    "resources": {
+        "rows": [
+            {"id": "r1", "name": "Basic DIVs"},
+            {"id": "r2", "name": "SVG icons"},
+            {"id": "r3", "name": "Font Awesome"}
+        ]
+    }
+}
+

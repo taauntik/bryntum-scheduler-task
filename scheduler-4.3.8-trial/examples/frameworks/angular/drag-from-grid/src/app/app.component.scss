@@ -1,0 +1,13 @@
+/**
+ * App component scss file
+ */
+
+
+#content {
+    flex           : 1;
+    display        : flex;
+}
+
+bryntum-scheduler {
+    overflow        : hidden;
+}

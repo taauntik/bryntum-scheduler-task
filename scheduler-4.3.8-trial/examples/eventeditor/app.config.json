@@ -1,0 +1,4 @@
+{
+  "title": "Event Editor demo",
+  "description": "The Event Editor feature displays a popup where you can edit the fields for your events. Double click an event to show the editor. Hover over an event to show a tooltip with information."
+}

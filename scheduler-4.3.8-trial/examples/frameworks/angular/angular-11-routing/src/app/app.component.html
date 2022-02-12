@@ -1,0 +1,17 @@
+<bryntum-demo-header
+    link = "../../../../../#example-frameworks-angular-angular-11-routing"
+></bryntum-demo-header>
+<div class = "demo-toolbar">
+  <button
+      class = "b-button b-grey"
+      routerLinkActive = "b-pressed"
+      [routerLink] = "['/home']"
+  >Home</button>
+  <button
+      class = "b-button b-grey"
+      routerLinkActive = "b-pressed"
+      [routerLink] = "['/scheduler']"
+  >Scheduler</button>
+</div>
+
+<router-outlet></router-outlet>

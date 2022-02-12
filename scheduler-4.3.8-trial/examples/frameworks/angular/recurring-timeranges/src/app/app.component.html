@@ -1,0 +1,55 @@
+<bryntum-demo-header
+    link = "../../../../../#example-frameworks-angular-recurring-timeranges"
+>
+</bryntum-demo-header>
+
+<div class = "demo-toolbar">
+    <bryntum-button
+        #coffeeButton
+        ref = 'coffeeButton'
+        text = "More coffee"
+        icon = 'b-fa-coffee'
+        tooltip = 'Click to add morning coffee to Thursdays too'
+        (onClick) = "onCoffeeClick()"
+    ></bryntum-button>
+    <div class = "spacer"></div>
+    <bryntum-button
+        ref = 'prevButton'
+        icon = 'b-fa-angle-left'
+        tooltip = 'View previous day'
+        (onClick) = "onPrevClick()"
+    ></bryntum-button>
+    <bryntum-button
+        ref = 'todayButton'
+        text = 'Today'
+        tooltip = 'View today, to see the current time line'
+        (onClick) = "onTodayClick()"
+    ></bryntum-button>
+    <bryntum-button
+        ref = 'nextButton'
+        icon = 'b-fa-angle-right'
+        tooltip = 'View next day'
+        (onClick) = "onNextClick()"
+    ></bryntum-button>
+    <bryntum-button
+        ref = 'startButton'
+        text = 'Start'
+        tooltip = 'Return to initial view'
+        (onClick) = "onStartClick()"
+    ></bryntum-button>
+</div>
+
+<bryntum-scheduler
+    #scheduler
+    [barMargin] = "schedulerConfig.barMargin"
+    [eventStyle] = "schedulerConfig.eventStyle"
+    [resourceImagePath] = "schedulerConfig.resourceImagePath"
+    [timeRangesFeature] = "schedulerConfig.features.timeRanges"
+    [columns] = "schedulerConfig.columns"
+    [project] = "schedulerConfig.project"
+    [crudManager] = "schedulerConfig.crudManager"
+    [startDate] = "schedulerConfig.startDate"
+    [endDate] = "schedulerConfig.endDate"
+    [viewPreset] = "schedulerConfig.viewPreset"
+></bryntum-scheduler>
+

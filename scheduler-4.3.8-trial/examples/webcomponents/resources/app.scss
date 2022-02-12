@@ -1,0 +1,13 @@
+html, body {
+    height : 100%;
+    margin : 0;
+}
+
+bryntum-scheduler {
+    width  : 100%;
+    flex: 1;
+
+    > * {
+        display : none;
+    }
+}

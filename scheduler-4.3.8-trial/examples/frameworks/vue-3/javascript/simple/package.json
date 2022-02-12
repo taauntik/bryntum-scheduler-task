@@ -1,0 +1,61 @@
+{
+  "name": "simple",
+  "description": "Vue 3 Scheduler Integration demo",
+  "version": "4.3.8",
+  "author": {
+    "name": "Bryntum",
+    "url": "https://bryntum.com",
+    "email": "info@bryntum.com"
+  },
+  "license": "commercial",
+  "homepage": "https://bryntum.com",
+  "scripts": {
+    "serve": "cross-env NODE_OPTIONS='--max-old-space-size=8192' vue-cli-service serve --mode=development",
+    "build": "cross-env NODE_OPTIONS='--max-old-space-size=8192' vue-cli-service build --mode=production",
+    "start": "npm run serve",
+    "lint": "vue-cli-service lint",
+    "postinstall": "postinstall"
+  },
+  "postinstall": {
+    "node_modules/@bryntum/demo-resources/images/users/*": "copy public/users/",
+    "node_modules/@bryntum/demo-resources/images/favicon.png": "copy public/favicon.png"
+  },
+  "dependencies": {
+    "@bryntum/demo-resources": "1.1.0",
+    "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@4.3.8",
+    "@bryntum/scheduler-vue-3": "4.3.8",
+    "vue": "~3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "~3.0.0",
+    "babel-eslint": "~10.1.0",
+    "cross-env": "~7.0.3",
+    "eslint": "~6.7.2",
+    "eslint-plugin-vue": "~7.0.0-0",
+    "postinstall": "~0.7.0",
+    "sass": "~1.42.0",
+    "sass-loader": "~8.0.2",
+    "vue-loader-v16": "npm:vue-loader@~16.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}

@@ -1,0 +1,10 @@
+{
+    ".b-sch-event" : {
+        "title": "Fills tick width",
+        "content": "This events duration is only 2 hours, but since grid is configured with <code>fillTicks: true</code>, it is stretched to fill the entire tick width"
+    },
+    ".b-checkbox" : {
+        "title" : "Toggle fillTicks",
+        "content" : "Check or uncheck to toggle fillTicks. The change reflects on the scheduler immediately"
+    }
+}

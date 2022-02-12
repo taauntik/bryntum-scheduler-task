@@ -1,0 +1,12 @@
+{
+    ".b-tree-icon.b-icon.b-icon-circle": {
+        "title": "Expand/collapse",
+        "content": "By clicking on the small arrow icons in the tree or by using the keyboard ([SPACE] or [SHIFT] + arrow keys)",
+        "align": "t2-b0"
+    },
+    ".b-grid-cell[data-column=\"capacity\"]": {
+        "title": "Aggregation Column",
+        "content": "Branch nodes draw the value from an aggregation of the values of their children",
+        "align": "l-r"
+    }
+}

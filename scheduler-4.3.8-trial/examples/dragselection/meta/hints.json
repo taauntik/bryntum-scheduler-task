@@ -1,0 +1,13 @@
+{
+    "[data-index='1'] .b-grid-cell": {
+        "title": "Drag selection",
+        "content": "Click and drag to select events",
+        "align": "l0-r0"
+    },
+
+    ".b-checkbox": {
+        "title": "Unified drag",
+        "content": "Check to drag events as a block to one resource/tick cell",
+        "align": "t-b"
+    }
+}

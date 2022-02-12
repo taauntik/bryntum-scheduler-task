@@ -1,0 +1,10 @@
+{
+    ".b-combo": {
+        "title": "Pick milestone layout",
+        "content": "It affects how a milestone takes part in the event layout process"
+    },
+    "[data-ref=alignCenter]": {
+        "title": "Pick alignment",
+        "content": "Align to start date, center or end date"
+    }
+}

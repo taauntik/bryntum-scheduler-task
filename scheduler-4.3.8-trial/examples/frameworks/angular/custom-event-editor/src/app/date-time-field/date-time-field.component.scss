@@ -1,0 +1,14 @@
+/**
+ * Stylings for date-time field
+ */
+ .field-datetime-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.field-date, .field-time {
+    flex: 1;
+}
+.field-date {
+    margin-right: 10px;
+}

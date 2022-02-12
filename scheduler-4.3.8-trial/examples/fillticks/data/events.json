@@ -1,0 +1,103 @@
+{
+    "success": true,
+    "data"   : [
+        {
+            "resourceId"  : 1,
+            "startDate"   : "2018-05-14 10:00",
+            "duration"    : 2,
+            "durationUnit": "hour",
+            "name"        : "Meeting"
+        },
+        {
+            "id"          : "hint-event",
+            "resourceId"  : 1,
+            "startDate"   : "2018-05-14 13:00",
+            "duration"    : 2,
+            "durationUnit": "hour",
+            "name"        : "Meeting",
+            "eventColor"  : "indigo"
+        },
+        {
+            "resourceId"  : 1,
+            "startDate"   : "2018-05-18 08:00",
+            "duration"    : 4,
+            "durationUnit": "hour",
+            "name"        : "Another meeting"
+        },
+        {
+            "resourceId"  : 1,
+            "startDate"   : "2018-05-15 08:00",
+            "duration"    : 2,
+            "durationUnit": "days",
+            "name"        : "Out of office",
+            "eventColor"  : "red",
+            "eventStyle"  : "dashed"
+        },
+        {
+            "resourceId"  : 2,
+            "startDate"   : "2018-05-14 08:00",
+            "duration"    : 9,
+            "durationUnit": "hour",
+            "name"        : "Conference"
+        },
+        {
+            "resourceId"  : 2,
+            "startDate"   : "2018-05-16 08:00",
+            "duration"    : 4,
+            "durationUnit": "hour",
+            "name"        : "Internal project"
+        },
+        {
+            "resourceId"  : 2,
+            "startDate"   : "2018-05-16 12:00",
+            "duration"    : 4,
+            "durationUnit": "hour",
+            "name"        : "Important meeting",
+            "eventColor"  : "red"
+        },
+        {
+            "resourceId"  : 3,
+            "startDate"   : "2018-05-15 08:00",
+            "duration"    : 6,
+            "durationUnit": "hour",
+            "name"        : "Meeting"
+        },
+        {
+            "resourceId"  : 3,
+            "startDate"   : "2018-05-16 08:00",
+            "duration"    : 4,
+            "durationUnit": "hour",
+            "name"        : "Internal project"
+        },
+        {
+            "resourceId"  : 3,
+            "startDate"   : "2018-05-16 12:00",
+            "duration"    : 4,
+            "durationUnit": "hour",
+            "name"        : "Important meeting",
+            "eventColor"  : "red"
+        },
+        {
+            "resourceId"  : 4,
+            "startDate"   : "2018-05-17 08:00",
+            "duration"    : 1,
+            "durationUnit": "hour",
+            "name"        : "Morning meeting"
+        },
+        {
+            "resourceId"  : 4,
+            "startDate"   : "2018-05-17 9:00",
+            "duration"    : 4,
+            "durationUnit": "hour",
+            "name"        : "Brainstorming"
+        },
+        {
+            "resourceId"  : 4,
+            "startDate"   : "2018-05-17 13:00",
+            "duration"    : 2,
+            "durationUnit": "hour",
+            "name"        : "Brainstorming",
+            "eventColor"  : "indigo"
+        }
+    ]
+}

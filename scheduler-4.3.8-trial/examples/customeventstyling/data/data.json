@@ -1,0 +1,192 @@
+{
+    "success"   : true,
+    "events"    : {
+        "rows" : [
+            {
+                "id"         : "e10",
+                "resourceId" : "r1",
+                "name"       : "Deal negotiation",
+                "startDate"  : "2017-06-04",
+                "endDate"    : "2017-06-08"
+            },
+            {
+                "id"         : "e11",
+                "resourceId" : "r1",
+                "name"       : "First contact",
+                "startDate"  : "2017-06-04",
+                "endDate"    : "2017-06-04"
+            },
+            {
+                "id"         : "e31",
+                "resourceId" : "r1",
+                "name"       : "Close deal",
+                "startDate"  : "2017-06-08",
+                "endDate"    : "2017-06-08"
+            },
+            {
+                "id"            : "e22",
+                "resourceId"    : "r2",
+                "name"          : "Attend software conference",
+                "startDate"     : "2017-06-03",
+                "endDate"       : "2017-06-08",
+                "endInfo"       : "Save collected business cards",
+                "endInfoIcon"   : "b-fa b-fa-square",
+                "startInfo"     : "Bring suitcase with money",
+                "startInfoIcon" : "b-fa b-fa-info-circle"
+            },
+            {
+                "id"         : "e32",
+                "resourceId" : "r2",
+                "name"       : "Presentation",
+                "startDate"  : "2017-06-04",
+                "endDate"    : "2017-06-04"
+            },
+            {
+                "id"         : "e33",
+                "resourceId" : "r2",
+                "name"       : "Go home",
+                "startDate"  : "2017-06-08",
+                "endDate"    : "2017-06-08"
+            },
+            {
+                "id"          : "e43",
+                "resourceId"  : "r3",
+                "name"        : "Visit customer",
+                "startDate"   : "2017-06-04",
+                "endDate"     : "2017-06-06",
+                "endInfo"     : "Bring presentation",
+                "endInfoIcon" : "b-fa b-fa-circle"
+            },
+            {
+                "id"         : "e53",
+                "resourceId" : "r3",
+                "name"       : "Prepare demo",
+                "startDate"  : "2017-06-03",
+                "endDate"    : "2017-06-03"
+            },
+            {
+                "id"         : "e54",
+                "resourceId" : "r3",
+                "name"       : "Follow up",
+                "startDate"  : "2017-06-07",
+                "endDate"    : "2017-06-07"
+            },
+            {
+                "id"         : "e210",
+                "resourceId" : "r4",
+                "name"       : "Exhibition",
+                "startDate"  : "2017-06-04",
+                "endDate"    : "2017-06-08"
+            },
+            {
+                "id"         : "e211",
+                "resourceId" : "r4",
+                "name"       : "Prepare demo material",
+                "startDate"  : "2017-06-02",
+                "endDate"    : "2017-06-02"
+            },
+            {
+                "id"         : "e231",
+                "resourceId" : "r4",
+                "name"       : "Follow up with leads",
+                "startDate"  : "2017-06-08",
+                "endDate"    : "2017-06-08"
+            },
+            {
+                "id"         : "e222",
+                "resourceId" : "r5",
+                "name"       : "Meet customer X",
+                "startDate"  : "2017-06-03",
+                "endDate"    : "2017-06-04"
+            },
+            {
+                "id"         : "e232",
+                "resourceId" : "r5",
+                "name"       : "Schedule call",
+                "startDate"  : "2017-06-02",
+                "endDate"    : "2017-06-02"
+            },
+            {
+                "id"         : "e233",
+                "resourceId" : "r5",
+                "name"       : "Return to office",
+                "startDate"  : "2017-06-04",
+                "endDate"    : "2017-06-04"
+            },
+            {
+                "id"         : "e243",
+                "resourceId" : "r6",
+                "name"       : "Prepare case studies",
+                "startDate"  : "2017-06-04",
+                "endDate"    : "2017-06-06"
+            },
+            {
+                "id"         : "e253",
+                "resourceId" : "r6",
+                "name"       : "Gather material",
+                "startDate"  : "2017-06-03",
+                "endDate"    : "2017-06-03"
+            },
+            {
+                "id"         : "e254",
+                "resourceId" : "r6",
+                "name"       : "Deliver to boss",
+                "startDate"  : "2017-06-06",
+                "endDate"    : "2017-06-06"
+            }
+        ]
+    },
+    "resources" : {
+        "rows" : [
+            {
+                "id"         : "r1",
+                "name"       : "Mike Anderson",
+                "image"      : "rob",
+                "role"       : "Consultant",
+                "type"       : "Full time",
+                "eventColor" : "red"
+            },
+            {
+                "id"         : "r2",
+                "name"       : "Donna Larson",
+                "image"      : "kate",
+                "role"       : "Developer",
+                "type"       : "Full time",
+                "eventColor" : "violet"
+            },
+            {
+                "id"         : "r3",
+                "name"       : "Brett Hornbach",
+                "image"      : "arnold",
+                "role"       : "Sales",
+                "type"       : "Full time",
+                "eventColor" : "indigo"
+            },
+            {
+                "id"         : "r4",
+                "name"       : "Emma Davis",
+                "image"      : "lola",
+                "role"       : "Marketing",
+                "type"       : "Full time",
+                "eventColor" : "cyan"
+            },
+            {
+                "id"         : "r5",
+                "name"       : "Jack Larson",
+                "image"      : "mark",
+                "role"       : "Consultant",
+                "type"       : "Full time",
+                "eventColor" : "green"
+            },
+            {
+                "id"         : "r6",
+                "name"       : "Madison King",
+                "image"      : "madison",
+                "role"       : "Researcher",
+                "type"       : "Full time",
+                "eventColor" : "yellow"
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,29 @@
+/**
+ * App global scss file
+ */
+@import "@bryntum/scheduler/scheduler.material.css";
+@import "@bryntum/demo-resources/scss/example.scss";
+
+app-root {
+    flex           : 1;
+    display        : flex;
+    flex-direction : column;
+    height         : 100vh;
+}
+
+bryntum-scheduler {
+    flex : 1;
+}
+
+.b-sch-event {
+    border-radius : 3px;
+}
+i.flag-icon {
+    background-size : cover;
+}
+.b-menu-with-icon .b-menuitem-icon {
+    width        : 1.33333333em;
+    height       : 1em;
+    margin-top   : auto;
+    margin-right : 0.5em;
+}

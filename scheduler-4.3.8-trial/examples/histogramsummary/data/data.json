@@ -1,0 +1,202 @@
+{
+    "success"  : true,
+    "resources": {
+        "rows": [
+            {
+                "id"    : 1,
+                "rating": 5,
+                "name"  : "Mike"
+            },
+            {
+                "id"    : 2,
+                "rating": 4.5,
+                "name"  : "Dan"
+            },
+            {
+                "id"    : 3,
+                "rating": 5,
+                "name"  : "Gloria"
+            },
+            {
+                "id"    : 4,
+                "rating": 2,
+                "name"  : "Rob"
+            },
+            {
+                "id"    : 5,
+                "rating": 3,
+                "name"  : "Emilia"
+            },
+            {
+                "id"    : 6,
+                "rating": 4,
+                "name"  : "Kate"
+            },
+            {
+                "id"    : 7,
+                "rating": 5,
+                "name"  : "Madison"
+            },
+            {
+                "id"    : 8,
+                "rating": 3,
+                "name"  : "Amit"
+            }
+        ]
+    },
+    "events"   : {
+        "rows": [
+            {
+                "id"        : "e10",
+                "resourceId": 1,
+                "name"      : "ABC101",
+                "cls"       : "forge",
+                "startDate" : "2017-12-01T01:00:00.000",
+                "endDate"   : "2017-12-01T02:00:00.000",
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "e101",
+                "resourceId": 1,
+                "name"      : "ABC102",
+                "startDate" : "2017-12-02T15:00:00.000",
+                "endDate"   : "2017-12-02T18:00:00.000",
+                "cls"       : "",
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "g1",
+                "resourceId": 3,
+                "name"      : "Do thing",
+                "startDate" : "2017-12-01T04:00:00.000",
+                "endDate"   : "2017-12-01T05:00:00.000",
+                "cls"       : "",
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "z1",
+                "resourceId": 1,
+                "name"      : "A task",
+                "startDate" : "2017-12-01T05:00:00.000",
+                "endDate"   : "2017-12-01T06:00:00.000",
+                "cls"       : "",
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "h2",
+                "resourceId": 2,
+                "name"      : "ABC103",
+                "startDate" : "2017-12-01T03:00:00.000",
+                "endDate"   : "2017-12-01T05:00:00.000",
+                "cls"       : "",
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "g4",
+                "resourceId": 4,
+                "name"      : "ABC102",
+                "startDate" : "2017-12-02T04:00:00.000",
+                "endDate"   : "2017-12-02T06:00:00.000",
+                "cls"       : "",
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "e11",
+                "resourceId": 2,
+                "name"      : "ABC103",
+                "startDate" : "2017-12-01T09:00:00.000",
+                "endDate"   : "2017-12-01T11:00:00.000",
+                "cls"       : "",
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "e21",
+                "resourceId": 3,
+                "name"      : "CCD321",
+                "startDate" : "2017-12-01T09:00:00.000",
+                "endDate"   : "2017-12-01T10:00:00.000",
+                "cls"       : "",
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "e22",
+                "resourceId": 4,
+                "name"      : "CCD325",
+                "startDate" : "2017-12-01T09:00:00.000",
+                "endDate"   : "2017-12-01T12:00:00.000",
+                "cls"       : "Special",
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "e22222",
+                "resourceId": 5,
+                "name"      : "CCD329",
+                "startDate" : "2017-12-01T09:00:00.000",
+                "endDate"   : "2017-12-01T09:00:00.000"
+            },
+            {
+                "id"        : "2",
+                "startDate" : "2017-12-01T02:00:00.000",
+                "endDate"   : "2017-12-01T07:00:00.000",
+                "cls"       : "",
+                "name"      : "GFK359",
+                "resourceId": 6,
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "3",
+                "startDate" : "2017-12-01T08:00:00.000",
+                "endDate"   : "2017-12-01T13:00:00.000",
+                "cls"       : "",
+                "name"      : "HGH767",
+                "resourceId": 6,
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "4",
+                "startDate" : "2017-12-01T14:00:00.000",
+                "endDate"   : "2017-12-01T19:00:00.000",
+                "cls"       : "",
+                "name"      : "LOP22",
+                "resourceId": 6,
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "5",
+                "startDate" : "2017-12-01T10:00:00.000",
+                "endDate"   : "2017-12-01T12:00:00.000",
+                "cls"       : "",
+                "name"      : "NPO879",
+                "resourceId": 7,
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "6",
+                "startDate" : "2017-12-01T13:00:00.000",
+                "endDate"   : "2017-12-01T15:00:00.000",
+                "cls"       : "",
+                "name"      : "VBM234",
+                "resourceId": 7,
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "7",
+                "startDate" : "2017-12-01T16:00:00.000",
+                "endDate"   : "2017-12-01T18:00:00.000",
+                "cls"       : "",
+                "name"      : "ASR231",
+                "resourceId": 7,
+                "iconCls"   : "b-fa b-fa-cog"
+            },
+            {
+                "id"        : "8",
+                "startDate" : "2017-12-01T19:00:00.000",
+                "endDate"   : "2017-12-01T23:00:00.000",
+                "cls"       : "lubrication",
+                "name"      : "TTY221",
+                "resourceId": 8,
+                "iconCls"   : "b-fa b-fa-cog"
+            }
+        ]
+    }
+}

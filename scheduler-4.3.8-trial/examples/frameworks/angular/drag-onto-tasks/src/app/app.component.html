@@ -1,0 +1,32 @@
+<bryntum-demo-header
+    link  = "../../../../../#example-frameworks-angular-drag-onto-tasks"
+></bryntum-demo-header>
+
+<div id="content">
+    <bryntum-scheduler
+        #scheduler
+        [barMargin]         = "schedulerConfig.barMargin"
+        [columns]           = "schedulerConfig.columns"
+        [crudManager]       = "schedulerConfig.crudManager"
+        [endDate]           = "schedulerConfig.endDate"
+        [eventBodyTemplate] = "schedulerConfig.eventBodyTemplate"
+        [eventColor]        = "schedulerConfig.eventColor"
+        [eventEditFeature]  = "schedulerConfig.eventEditFeature"
+        [eventMenuFeature]  = "schedulerConfig.eventMenuFeature"
+        [eventRenderer]     = "schedulerConfig.eventRenderer"
+        [resourceImagePath] = "schedulerConfig.resourceImagePath"
+        [rowHeight]         = "schedulerConfig.rowHeight"
+        [startDate]         = "schedulerConfig.startDate"
+        [timeRangesFeature] = "schedulerConfig.timeRangesFeature"
+        [viewPreset]        = "schedulerConfig.viewPreset"
+    ></bryntum-scheduler>
+    <div class="equipment-grid">
+        <bryntum-grid
+             #grid
+             [columns]          = "gridConfig.columns"
+             [cellEditFeature]  = "gridConfig.cellEditFeature"
+             [filterBarFeature] = "gridConfig.filterBarFeature"
+             [rowHeight]        = "gridConfig.rowHeight"
+         ></bryntum-grid>
+    </div>
+</div>

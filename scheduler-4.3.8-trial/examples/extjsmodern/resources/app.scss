@@ -1,0 +1,99 @@
+.b-scheduler {
+    font-size : 14px;
+}
+
+.b-grid-cell {
+    font-weight : 400;
+}
+
+.b-grid-header {
+    color       : #000;
+    font-weight : 600;
+    font-size   : 13px;
+}
+
+.b-sch-header-timeaxis-cell {
+    color : #000;
+}
+
+.b-sch-header-row-main {
+    .b-sch-header-timeaxis-cell {
+        color : #555;
+    }
+}
+
+.b-grid-header-container {
+    box-shadow       : none;
+    border-bottom    : 1px solid #e2e2e2;
+    background-color : #f5f5f5;
+
+    .b-sch-timeaxiscolumn {
+        background-color : #f5f5f5;
+    }
+}
+
+.b-grid-header {
+    background-color : #f5f5f5;
+}
+
+.b-sch-event {
+    font-size     : .35em;
+    font-weight   : 800;
+    border-left   : 5px solid rgba(255, 255, 255, 0.5);
+    border-radius : 2px;
+    opacity       : 0.8;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.b-grid-body-container .b-sch-range {
+    background : repeating-linear-gradient(-55deg, #ddd, #ddd 10px, #eee 5px, #eee 20px);
+    opacity    : 0.7;
+
+    label {
+        background-color : #e4d2d2;
+        color            : #4c2727;
+    }
+}
+
+.b-grid-splitter {
+    box-shadow : none;
+}
+
+#main-view > .x-panelheader {
+    background-color : darken(#2667C8, 20%);
+}
+
+.ext-list .x-paneltitle .x-text-el {
+    background      : url(sencha-logo.png) no-repeat left center;
+    background-size : contain;
+    padding-left    : 35px;
+}
+
+.bryntum-scheduler .x-panelheader .x-field {
+    .x-label-el {
+        color     : #fff;
+        font-size : 16px;
+    }
+
+    .x-input-wrap-el {
+        color : #fff;
+    }
+
+    .x-trigger .x-icon-el {
+        color : #fff;
+    }
+}
+
+.bryntum-scheduler .x-paneltitle .x-text-el {
+    background      : url(bryntum-logo.png) no-repeat left center;
+    background-size : contain;
+    padding-left    : 35px;
+}
+
+.title-link a {
+    color           : #fff;
+    text-decoration : none;
+}

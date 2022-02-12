@@ -1,0 +1,6 @@
+{
+    ".normalEvent.r3": {
+        "title"  : "Manual event sizing",
+        "content": "This demo lets the height and vertical position of events be controlled using CSS by having <code>managedEventSizing</code> turned off and <code>eventLayout</code> set to 'none'."
+    }
+}

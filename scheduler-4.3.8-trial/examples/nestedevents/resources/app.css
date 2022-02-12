@@ -1,0 +1,30 @@
+.nested {
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  bottom: 0;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.5em;
+}
+
+.b-sch-event {
+  padding-left: 0;
+  background-image: repeating-linear-gradient(45deg, #ddd, #ddd 10px, #eee 10px, #eee 20px);
+  border-radius: 5px;
+}
+.b-sch-event.b-sch-event-resizing, .b-sch-event.b-sch-event-selected, .b-sch-event:hover {
+  background-image: repeating-linear-gradient(45deg, #ccc, #ccc 10px, #ddd 10px, #ddd 20px) !important;
+}
+
+.b-sch-event-content {
+  background-color: inherit;
+}
+
+.b-resize-handle:before, .b-resize-handle:before {
+  z-index: 10;
+}
+
+/*# sourceMappingURL=app.css.map */

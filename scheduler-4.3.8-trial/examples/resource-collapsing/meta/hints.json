@@ -1,0 +1,6 @@
+{
+    ".b-grid-row[data-index=\"1\"] .b-resourcecollapse-cell .b-icon" : {
+        "title"   : "Collapse / Expand",
+        "content" : "Click to expand or collapse the resource"
+    }
+}

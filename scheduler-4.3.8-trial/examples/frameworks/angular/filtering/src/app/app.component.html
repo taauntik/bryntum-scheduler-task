@@ -1,0 +1,56 @@
+<bryntum-demo-header
+    link = "../../../../../#example-frameworks-angular-filtering"
+></bryntum-demo-header>
+
+<div class = "demo-toolbar">
+    <bryntum-button
+        text = "Add event"
+        icon = "b-fa b-fa-plus"
+        cls = "b-green"
+        (onClick) = "onAddEventClick()"
+    ></bryntum-button>
+    <bryntum-button
+        text = "Remove event"
+        icon = "b-fa b-fa-trash"
+        cls = "b-red"
+        (onClick) = "onRemoveEventClick()"
+        [disabled] = "selectedEventName === ''"
+    ></bryntum-button>
+    <div class = "spacer"></div>
+    <bryntum-text-field
+        label = "Filter events by name"
+        clearable = true
+        (onInput) = "filterEvents($event)"
+    ></bryntum-text-field>
+    <bryntum-text-field
+        label = "Highlight events by name"
+        clearable = true
+        (onInput) = "highlightEvents($event)"
+    ></bryntum-text-field>
+    <bryntum-date-field
+        label = "Select date"
+        [value] = "pickerDate"
+        (onChange) = "onDatePickerChange($event)"
+    ></bryntum-date-field>
+</div>
+
+<bryntum-scheduler
+    #scheduler
+    [barMargin] = "barMargin"
+    [columns] = "columns"
+    [endDate] = "endDate"
+    [eventEditFeature] = "eventEditFeature"
+    [eventRenderer] = "eventRenderer"
+    [events] = "events"
+    [eventStore] = "eventStore"
+    [filterBarFeature] = "filterBarFeature"
+    [resourceImagePath] = "resourceImagePath"
+    [resources] = "resources"
+    [rowHeight] = "rowHeight"
+    [startDate] = "startDate"
+    [timeRanges] = "timeRanges"
+    [viewPreset] = "viewPreset"
+    (onEventSelectionChange) = "onEventSelectionChange()"
+    (onReleaseEvent) = "onReleaseEvent()"
+></bryntum-scheduler>
+

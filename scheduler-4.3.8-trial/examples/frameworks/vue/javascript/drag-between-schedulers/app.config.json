@@ -1,0 +1,4 @@
+{
+  "title": "Drag Between Vue Schedulers demo",
+  "description": "Shows how to implement dragging events between two Vue Scheduler instances."
+}

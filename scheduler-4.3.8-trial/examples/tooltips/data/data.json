@@ -1,0 +1,132 @@
+{
+    "success"   : true,
+    "resources" : {
+        "rows" : [
+            {
+                "id"    : "r1",
+                "name"  : "Mike",
+                "image" : "mike.jpg"
+            },
+            {
+                "id"    : "r2",
+                "name"  : "Celia",
+                "image" : "celia.jpg"
+            },
+            {
+                "id"    : "r3",
+                "name"  : "Lee",
+                "image" : "lee.jpg"
+            },
+            {
+                "id"    : "r4",
+                "name"  : "Emilia",
+                "image" : "emilia.jpg"
+            },
+            {
+                "id"    : "r5",
+                "name"  : "Dan",
+                "image" : "dan.jpg"
+            },
+            {
+                "id"    : "r6",
+                "name"  : "Mark",
+                "image" : "mark.jpg"
+            },
+            {
+                "id"    : "r7",
+                "name"  : "Rob",
+                "image" : "rob.jpg"
+            },
+            {
+                "id"    : "r8",
+                "name"  : "Steve",
+                "image" : "steve.jpg"
+            },
+            {
+                "id"    : "r9",
+                "name"  : "Malik",
+                "image" : "malik.jpg"
+            },
+            {
+                "id"    : "r10",
+                "name"  : "Georg",
+                "image" : "George.jpg"
+            }
+        ]
+    },
+    "events"    : {
+        "rows" : [
+            {
+                "resourceId"   : "r1",
+                "startDate"    : "2017-01-01 10:00",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "name"         : "Review website",
+                "note"         : "<a href='//www.google.com' target='_blank'>Link to website</a>",
+                "iconCls"      : "b-fa b-fa-mouse-pointer"
+            },
+            {
+                "resourceId"   : "r2",
+                "startDate"    : "2017-01-01 12:00",
+                "duration"     : 1.5,
+                "durationUnit" : "h",
+                "name"         : "Bryntum onsite meeting",
+                "note"         : "<a href='https://www.google.se/maps/place/Bryntum/@59.3340293,18.0662579,15z/data=!4m2!3m1!1s0x0:0xc76e8fef322e5c57?ved=2ahUKEwiche7e0aveAhXRh6YKHUoLDvcQ_BIwDXoECAcQCw' target='_blank'><i style='margin-right:5px' class='b-fa b-fa-globe'></i>Map link</a>",
+                "iconCls"      : "b-fa b-fa-arrows-alt"
+            },
+            {
+                "resourceId"   : "r3",
+                "startDate"    : "2017-01-01 14:00",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "name"         : "Walk the dog",
+                "note"         : "Don't forget to bring waste bags. Or the dog.",
+                "image"        : "resources/dog.jpg",
+                "eventColor"   : "purple",
+                "iconCls"      : "b-fa b-fa-dog"
+            },
+            {
+                "resourceId"   : "r4",
+                "startDate"    : "2017-01-01 08:00",
+                "duration"     : 3,
+                "durationUnit" : "h",
+                "name"         : "Go for cold swim",
+                "image"        : "resources/lake.jpg",
+                "iconCls"      : "b-fa b-fa-swimmer"
+            },
+            {
+                "resourceId"   : "r5",
+                "startDate"    : "2017-01-01 15:00",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "name"         : "Dentist appointment",
+                "iconCls"      : "b-fa b-fa-arrows-alt-h"
+            },
+            {
+                "resourceId"   : "r6",
+                "startDate"    : "2017-01-01 16:00",
+                "duration"     : 3,
+                "durationUnit" : "h",
+                "name"         : "Important meeting",
+                "iconCls"      : "b-fa b-fa-exclamation-triangle",
+                "eventColor"   : "red"
+            },
+            {
+                "resourceId"   : "r6",
+                "startDate"    : "2017-01-01 06:00",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "name"         : "Pick up client from airport",
+                "iconCls"      : "b-fa b-fa-plane"
+            },
+            {
+                "resourceId"   : "r7",
+                "startDate"    : "2017-01-01 09:00",
+                "duration"     : 2,
+                "durationUnit" : "h",
+                "name"         : "Dad's birthday",
+                "iconCls"      : "b-fa b-fa-birthday-cake"
+            }
+        ]
+    }
+}

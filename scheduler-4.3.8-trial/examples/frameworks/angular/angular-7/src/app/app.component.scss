@@ -1,0 +1,13 @@
+:host ::ng-deep bryntum-button,
+:host ::ng-deep bryntum-date-field {
+    margin-left : 0.5em;
+}
+
+.sel-event {
+    line-height : 4em;
+
+    span {
+        font-weight : bold;
+        margin-left : 1em;
+    }
+}

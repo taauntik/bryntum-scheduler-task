@@ -1,0 +1,59 @@
+{
+  "name": "vertical",
+  "description": "React Scheduler in vertical mode",
+  "version": "4.3.8",
+  "author": {
+    "name": "Bryntum",
+    "url": "https://bryntum.com",
+    "email": "info@bryntum.com"
+  },
+  "license": "commercial",
+  "homepage": "./",
+  "scripts": {
+    "start": "cross-env NODE_OPTIONS='--max-old-space-size=8192' react-scripts start",
+    "build": "cross-env NODE_OPTIONS='--max-old-space-size=8192' react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "postinstall"
+  },
+  "postinstall": {
+    "node_modules/@bryntum/demo-resources/images/users/*": "copy public/users/",
+    "node_modules/@bryntum/demo-resources/images/favicon.png": "copy public/",
+    "node_modules/@bryntum/scheduler/*.css": "copy public/themes/",
+    "node_modules/@bryntum/scheduler/fonts/*": "copy public/themes/fonts/"
+  },
+  "dependencies": {
+    "@bryntum/demo-resources": "1.1.0",
+    "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@4.3.8",
+    "@bryntum/scheduler-react": "4.3.8",
+    "@testing-library/jest-dom": "~5.11.4",
+    "@testing-library/react": "~11.1.0",
+    "@testing-library/user-event": "~12.1.10",
+    "react": "~17.0.1",
+    "react-dom": "~17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "~0.2.4"
+  },
+  "devDependencies": {
+    "cross-env": "~7.0.3",
+    "postinstall": "~0.7.0",
+    "sass": "~1.32.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  }
+}

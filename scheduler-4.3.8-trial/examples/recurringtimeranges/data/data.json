@@ -1,0 +1,94 @@
+{
+    "success"    : true,
+    "resources"  : {
+        "rows" : [
+            {
+                "id"         : "a",
+                "name"       : "Rob",
+                "type"       : "Sales",
+                "eventColor" : "green"
+            },
+            {
+                "id"         : "b",
+                "name"       : "Mike",
+                "type"       : "Sales",
+                "eventColor" : "green"
+            },
+            {
+                "id"         : "c",
+                "name"       : "Kate",
+                "type"       : "Sales",
+                "eventColor" : "orange"
+            },
+            {
+                "id"         : "d",
+                "name"       : "Lisa",
+                "type"       : "Developer",
+                "eventColor" : "orange"
+            },
+            {
+                "id"         : "e",
+                "name"       : "Dave",
+                "type"       : "Developer",
+                "eventColor" : "blue"
+            },
+            {
+                "id"         : "f",
+                "name"       : "Arnold",
+                "type"       : "Developer",
+                "eventColor" : "blue"
+            },
+            {
+                "id"         : "g",
+                "name"       : "Lee",
+                "type"       : "Marketing",
+                "eventColor" : "violet"
+            },
+            {
+                "id"         : "h",
+                "name"       : "Jong",
+                "type"       : "Marketing",
+                "eventColor" : "violet"
+            }
+        ]
+    },
+    "events"     : {
+        "rows" : [
+            {
+                "id"         : 1,
+                "resourceId" : "d",
+                "name"       : "Client Meeting",
+                "startDate"  : "2019-02-11",
+                "endDate"    : "2019-02-13",
+                "location"   : "Some office",
+                "eventType"  : "Meeting"
+            },
+            {
+                "id"         : 2,
+                "resourceId" : "b",
+                "name"       : "Company outing",
+                "startDate"  : "2019-02-18",
+                "endDate"    : "2019-02-22",
+                "location"   : "Home office",
+                "eventType"  : "Meeting"
+            }
+        ]
+    },
+    "timeRanges" : {
+        "rows" : [
+            {
+                "id"             : 1,
+                "name"           : "Morning coffee",
+                "recurrenceRule" : "FREQ=WEEKLY;BYDAY=MO;",
+                "startDate"      : "2019-02-07 08:00"
+            },
+            {
+                "id"             : 2,
+                "name"           : "Friday, yay",
+                "recurrenceRule" : "FREQ=WEEKLY;BYDAY=FR;",
+                "startDate"      : "2019-02-07 00:00",
+                "endDate"        : "2019-02-08 00:00"
+            }
+        ]
+    }
+}

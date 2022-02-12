@@ -1,0 +1,4 @@
+{
+  "title": "Big data set demo",
+  "description": "Demonstrates that the scheduler performs well even with many many rows."
+}

@@ -1,0 +1,4 @@
+{
+  "title": "Non-continuous time axis demo",
+  "description": "Shows how you can customize the TimeAxis class, which is used to generate the date ticks in the timeline header."
+}

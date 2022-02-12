@@ -1,0 +1,4 @@
+{
+  "title": "Working time demo",
+  "description": "This demo shows how to configure Scheduler to only show working hours and working days, stretching events to fill the gaps that would otherwise be seen"
+}

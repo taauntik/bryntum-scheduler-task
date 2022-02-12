@@ -1,0 +1,16 @@
+{
+    ".b-grid-subgrid-left" : {
+        "title": "Left region",
+        "content": "Columns configured with <code>region: 'left'</code> are displayed in this SubGrid"
+    },
+
+    ".b-grid-subgrid-normal" : {
+        "title": "Scheduler",
+        "content": "Scheduler occupies the entire middle SubGrid (it has <code>region : 'normal'</code> by default"
+    },
+
+    ".b-grid-subgrid-right" : {
+        "title": "Right region",
+        "content": "Columns configured with <code>region: 'right'</code> are displayed in this SubGrid"
+    }
+}

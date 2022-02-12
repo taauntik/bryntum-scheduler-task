@@ -1,0 +1,179 @@
+{
+    "success"   : true,
+    "resources" : {
+        "rows": [
+            {
+                "id"        : 1,
+                "name"      : "Rob",
+                "type"      : "Sales",
+                "eventColor": "orange"
+            },
+            {
+                "id"        : 2,
+                "name"      : "Mike",
+                "type"      : "Sales",
+                "eventColor": "orange"
+            },
+            {
+                "id"        : 3,
+                "name"      : "Kate",
+                "type"      : "Sales",
+                "eventColor": "orange"
+            },
+            {
+                "id"        : 4,
+                "name"      : "Lisa",
+                "type"      : "Developer",
+                "eventColor": "blue"
+            },
+            {
+                "id"        : 5,
+                "name"      : "Dave",
+                "type"      : "Developer",
+                "eventColor": "blue"
+            },
+            {
+                "id"        : 6,
+                "name"      : "Arnold",
+                "type"      : "Developer",
+                "eventColor": "blue"
+            },
+            {
+                "id"        : 7,
+                "name"      : "Lee",
+                "type"      : "Marketing",
+                "eventColor": "green"
+            },
+            {
+                "id"        : 8,
+                "name"      : "Jong",
+                "type"      : "Marketing",
+                "eventColor": "green"
+            }
+        ]
+    },
+    "events"    : {
+        "rows": [
+            {
+                "id"           : 1,
+                "resourceId"   : 1,
+                "name"         : "Important Meeting",
+                "startDate"    : "2017-02-07 09:00",
+                "endDate"      : "2017-02-07 11:00",
+                "durationUnit" : "h",
+                "eventType"    : "Meeting",
+                "iconCls"      : "b-fa b-fa-exclamation-circle"
+            },
+            {
+                "id"           : 2,
+                "resourceId"   : 2,
+                "name"         : "Team Meeting",
+                "startDate"    : "2017-02-07 14:30",
+                "endDate"      : "2017-02-07 16:30",
+                "durationUnit" : "h",
+                "eventType"    : "Meeting",
+                "iconCls"      : "b-fa b-fa-calendar"
+
+            },
+            {
+                "id"           : 3,
+                "resourceId"   : 3,
+                "name"         : "Take cat to vet",
+                "startDate"    : "2017-02-07 10:00",
+                "endDate"      : "2017-02-07 12:00",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment",
+                "iconCls"      : "b-fa b-fa-cat"
+            },
+            {
+                "id"           : 4,
+                "resourceId"   : 3,
+                "name"         : "Reminder!",
+                "startDate"    : "2017-02-07 09:00",
+                "endDate"      : "2017-02-07 09:00",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment"
+            },
+            {
+                "id"           : 5,
+                "resourceId"   : 4,
+                "name"         : "Sales demo",
+                "startDate"    : "2017-02-07 15:00",
+                "endDate"      : "2017-02-07 18:00",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment",
+                "iconCls"      : "b-fa b-fa-clock"
+            },
+            {
+                "id"           : 6,
+                "resourceId"   : 4,
+                "name"         : "Daily Scrum",
+                "startDate"    : "2017-02-07 11:00",
+                "endDate"      : "2017-02-07 12:00",
+                "durationUnit" : "h",
+                "eventType"    : "Meeting",
+                "iconCls"      : "b-fa b-fa-calendar"
+            },
+            {
+                "id"           : 7,
+                "resourceId"   : 5,
+                "name"         : "Sales Forecast Meeting",
+                "startDate"    : "2017-02-07 13:00",
+                "endDate"      : "2017-02-07 16:00",
+                "durationUnit" : "h",
+                "eventType"    : "Meeting",
+                "iconCls"      : "b-fa b-fa-calendar"
+            },
+            {
+                "id"           : 8,
+                "resourceId"   : 5,
+                "name"         : "Get car repaired",
+                "startDate"    : "2017-02-07 09:30",
+                "endDate"      : "2017-02-07 11:30",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment",
+                "iconCls"      : "b-fa b-fa-car"
+            },
+            {
+                "id"           : 9,
+                "resourceId"   : 6,
+                "name"         : "Dentist Appointment",
+                "startDate"    : "2017-02-07 11:00",
+                "endDate"      : "2017-02-07 13:00",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment",
+                "iconCls"      : "b-fa b-fa-clock"
+            },
+            {
+                "id"           : 10,
+                "resourceId"   : 7,
+                "name"         : "Presentation",
+                "startDate"    : "2017-02-07 14:00",
+                "endDate"      : "2017-02-07 17:00",
+                "durationUnit" : "h",
+                "eventType"    : "Appointment",
+                "iconCls"      : "b-fa b-fa-video"
+            },
+            {
+                "id"           : 11,
+                "resourceId"   : 7,
+                "name"         : "Customer Meeting",
+                "startDate"    : "2017-02-07 10:00",
+                "endDate"      : "2017-02-07 11:30",
+                "durationUnit" : "h",
+                "eventType"    : "Meeting",
+                "iconCls"      : "b-fa b-fa-calendar-alt"
+            }
+        ]
+    },
+    "timeRanges": {
+        "rows": [
+            {
+                "id"        : "lunch",
+                "startDate" : "2017-02-07 12:00",
+                "endDate"   : "2017-02-07 13:00",
+                "name"      : "Lunch"
+            }
+        ]
+    }
+}

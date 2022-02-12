@@ -1,0 +1,16 @@
+@import "../vuestic-theme/vuestic-sass/vuestic-styles";
+
+#title > h1 {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0.5em;
+}
+
+.profile-dropdown__avatar-container img.profile-img {
+    padding: 0.5em;
+}
+
+.profile-dropdown__avatar-container {
+    background-color: unset !important;
+    border: none !important;
+}

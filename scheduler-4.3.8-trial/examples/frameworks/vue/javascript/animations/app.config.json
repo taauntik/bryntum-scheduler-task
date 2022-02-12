@@ -1,0 +1,4 @@
+{
+  "title": "Vue Scheduler animations demo",
+  "description": "Shows how to configure event animations in the Vue Scheduler component. You can also disable animations completely."
+}

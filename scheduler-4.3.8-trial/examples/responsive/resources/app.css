@@ -1,0 +1,34 @@
+.b-resource-info dl {
+  margin: 0;
+}
+
+.b-responsive-small .b-sch-style-border.b-sch-event {
+  font-size: 10px;
+  font-weight: 300;
+}
+.b-responsive-small .b-resource-info {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.b-responsive-small .b-resource-info dd {
+  display: none;
+}
+.b-responsive-small .b-resource-info img {
+  margin-right: 0;
+}
+.b-responsive-small .b-grid-header {
+  font-size: 0.8em;
+}
+
+#container {
+  justify-content: center;
+  background: #ccc;
+}
+
+.b-scheduler {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  align-self: center !important;
+  width: 100%;
+}
+
+/*# sourceMappingURL=app.css.map */
